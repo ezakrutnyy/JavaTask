@@ -19,6 +19,5 @@ public class ArrayToArrayList {
         List<String> list2 = new ArrayList<String>();
         Collections.addAll(list2,arr);
         System.out.println(list2);
-
     }
 }
