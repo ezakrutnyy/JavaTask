@@ -1,5 +1,4 @@
 package common;
-
 /**
  * Created by Евгений on 24.07.2017.
  */
