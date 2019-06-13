@@ -17,14 +17,21 @@ import java.util.stream.Stream;
 public class StreamExample {
 
     public static void main(String[] args) {
+
+
         List<String> lists = Lists.newArrayList("молоко","киш", "крот", "лес","воротник","шило", "мыло", "частота");
 
-        /**
-         * [EXAMPLE 1]
-         * посчитать количество слов, чья длина больше 6 букв
-         * */
+
+        /*
+        * 1.  Примеры использования filter, findFirst, findAny, skip, limit и count
+        * */
+        System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования filter, findFirst, findAny, skip, limit и count");
+        System.out.println("**************************************************************************");
+
+
         long length = lists.parallelStream().filter(word -> word.length()> 6).count();
-        System.out.println("length: "+length);
+        System.out.println("count(): "+length);
 
         /**
          * [EXAMPLE 2]
@@ -32,10 +39,29 @@ public class StreamExample {
          *  - limit - берет первые два элемента потока
          *  - вывести на экран
          * */
+        System.out.println("limit()");
         lists.stream().filter(predicateFilter1)
                 .map(String::toUpperCase)
                 .limit(2)
                 .forEach(printConsumer);
+
+
+
+
+
+
+
+
+
+        System.out.println("**************************************************************************");
+
+
+
+
+
+
+
+
 
         /**
          * [EXAMPLE 3]

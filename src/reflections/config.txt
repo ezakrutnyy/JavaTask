@@ -1,0 +1,3 @@
+allowedList: 12,34,12,10
+host:localhost
+port:9080

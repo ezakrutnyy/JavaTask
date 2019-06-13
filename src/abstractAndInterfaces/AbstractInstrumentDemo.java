@@ -22,7 +22,7 @@ public class AbstractInstrumentDemo {
     }
 }
 
-abstract class Instrument {
+abstract class Instrument  {
     Instrument() {
         printInt();
     }
@@ -36,7 +36,7 @@ abstract class Instrument {
     abstract int printInt();
 }
 
-class Accordion extends  Instrument {
+class Accordion extends  Instrument{
 
     final int i = 0;
 

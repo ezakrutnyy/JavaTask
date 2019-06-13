@@ -32,6 +32,7 @@ public class CollectionsClassBrowseMethod {
 
         System.out.println("------------------------swap---------------------");
         // 5. swap - перестановка элементов в коллекции по индексам
+        System.out.println("before swap collections: "+lst1);
         Collections.swap(lst1, 0, lst1.size()-1);
         System.out.println(lst1);
 
@@ -59,6 +60,7 @@ public class CollectionsClassBrowseMethod {
 
         // 10. rotate - смещение каждого элемента на кол-во шагов в коллекции
         System.out.println("----------------------rotate---------------------");
+        System.out.println("Before rotate: "+lst1);
         Collections.rotate(lst1, 2);
         System.out.println(lst1);
 
