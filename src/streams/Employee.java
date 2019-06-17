@@ -2,6 +2,8 @@ package streams;
 
 import com.google.common.base.MoreObjects;
 
+import java.util.Objects;
+
 public class Employee {
     private String name;
     private String city;
@@ -35,6 +37,21 @@ public class Employee {
     }
 
     public void setOld(Integer old) { this.old = old; }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Objects.equals(name, employee.name) &&
+                Objects.equals(city, employee.city) &&
+                Objects.equals(old, employee.old);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, city, old);
+    }
 
     @Override
     public String toString() {

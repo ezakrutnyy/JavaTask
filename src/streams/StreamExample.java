@@ -19,70 +19,119 @@ public class StreamExample {
     public static void main(String[] args) {
 
 
-        List<String> lists = Lists.newArrayList("молоко","киш", "крот", "лес","воротник","шило", "мыло", "частота");
+        List<Employee> employees = Lists.newArrayList(
+                new Employee("Alex", "Moscow", 22),
+                new Employee("Max", "Kursk", 55),
+                new Employee("Tom", "Moscow", 10),
+                new Employee("Carl", "Moscow", 44),
+                new Employee("Sam", "Voronezh", 26),
+                new Employee("Fox", "Yaroslavl",27),
+                new Employee("Ronald", "Moscow",19),
+                new Employee("Mike", "Yaroslavl",23),
+                new Employee("Alex", "Moscow", 22)
+        );
 
-
-        /*
-        * 1.  Примеры использования filter, findFirst, findAny, skip, limit и count
-        * */
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования filter, findFirst, findAny, skip, limit и count");
         System.out.println("**************************************************************************");
 
 
-        long length = lists.parallelStream().filter(word -> word.length()> 6).count();
-        System.out.println("count(): "+length);
+        long length = employees.parallelStream().filter(predicateFilter1).count();
+        System.out.println("count()"+length);
 
-        /**
-         * [EXAMPLE 2]
-         *  - переведем все буквы в верхний регистр  = 3 буквам
-         *  - limit - берет первые два элемента потока
-         *  - вывести на экран
-         * */
+
         System.out.println("limit()");
-        lists.stream().filter(predicateFilter1)
-                .map(String::toUpperCase)
+        employees.stream()
+                .filter(predicateFilter1)
+                .map(Employee::getName)
                 .limit(2)
                 .forEach(printConsumer);
 
+        System.out.println("skip()");
+        employees.stream()
+                .skip(2)
+                .map(funcTreeWord)
+                .forEach(printConsumer);
 
 
+        System.out.println("findAny()");
+        String nameAny = employees.stream().filter(predicateFilter1).findAny().map(Employee::getName).orElse("mister n");
+        System.out.println(nameAny);
 
-
-
-
-
+        System.out.println("findFirst()");
+        String nameFirst = employees.stream().filter(predicateFilter1).findFirst().map(Employee::getName).orElse("mister n");
+        System.out.println(nameFirst);
 
         System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования Match функций (anyMatch, allMatch, noneMatch)");
+        System.out.println("**************************************************************************");
 
+        boolean flag = false;
 
+        System.out.println("anyMatch()");
+        flag = employees.stream().anyMatch(predicateFilter1);
+        System.out.println(flag);
 
+        System.out.println("allMatch()");
+        flag = employees.stream().allMatch(predicateFilter1);
+        System.out.println(flag);
 
+        System.out.println("noneMatch()");
+        flag = employees.stream().noneMatch(predicateFilter1);
+        System.out.println(flag);
 
+        System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования Map функций (map, mapToInt, mapToDouble, mapToLong, " +
+                "FlatMap, ,FlatMapToInt)");
+        System.out.println("**************************************************************************");
 
-
-
-
-        /**
-         * [EXAMPLE 3]
-         *  - skip - отбрасывает первые два элемента потока
-         * */
-        lists.stream().skip(2).map(funcTreeWord).forEach(printConsumer);
-
-        /**
-         * [EXAMPLE 4]
-         * flatMap() склеивает  массивы масссивов в одну строку
-         * */
         List<List<String>> deepLists = Lists.newArrayList(
                 Lists.newArrayList("zak","mak"),
                 Lists.newArrayList("rak","dac"),
                 Lists.newArrayList("mirror","bolk")
         );
 
+        System.out.println("flatMap()");
         String strDep = deepLists.stream().flatMap(str -> str.stream()).collect(Collectors.joining());
         List<String> listDep = deepLists.stream().flatMap(list -> list.stream()).collect(Collectors.toList());
         System.out.println(strDep);
         System.out.println(listDep);
+
+        System.out.println("flatMap()");
+        Collection<String> collection = Arrays.asList("1,2,0", "4,5");
+        String[] number = collection.stream()
+                .flatMap(p -> Arrays.asList(p.split(",")).stream())
+                .toArray(String[]::new);
+
+        System.out.println(Arrays.toString(number));
+
+        System.out.println("flatMapToInt()");
+        int sum = collection.stream()
+                .flatMapToInt(p -> Arrays.asList(p.split(",")).stream()
+                .mapToInt(Integer::parseInt)).sum();
+        System.out.println(sum);
+
+        System.out.println("map()");
+        employees.stream().filter(predicateFilter1).map(Employee::getName).forEach(printConsumer);
+
+        /*
+        * Объект IntStream, после применения результатирующей функции, вохвращает примитив int
+        * */
+        System.out.println("intStream: sum: "+employees.stream().mapToInt(Employee::getOld).sum());
+        System.out.println("intStream: average: "+employees.stream().mapToInt(Employee::getOld).average());
+        System.out.println("intStream: max element: "+employees.stream().mapToInt(Employee::getOld).max());
+        System.out.println("intStream: min element: "+employees.stream().mapToInt(Employee::getOld).min());
+        System.out.println("mapToInt is int[] :"+Arrays.toString(employees.stream().mapToInt(Employee::getOld).toArray()));
+
+        System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования distinct()");
+        System.out.println("**************************************************************************");
+
+        employees.stream().distinct().map(Employee::getName).forEach(printConsumer);
+
+
+
+
 
         /**
          * [EXAMPLE 5]
@@ -147,21 +196,7 @@ public class StreamExample {
         Double amounts2 = lst.stream().filter(amount -> amount > 0).collect(Collectors.summingDouble(Double::valueOf));
         System.out.println(amounts2);
 
-        /**
-         * [EXAMPLE 12]
-         * Накопление в отображении
-         * Collectors.toMap();
-         * */
-        List<Employee> employees = Lists.newArrayList(
-                new Employee("Alex", "Moscow", 22),
-                new Employee("Max", "Kursk", 55),
-                new Employee("Tom", "Moscow", 10),
-                new Employee("Carl", "Moscow", 44),
-                new Employee("Sam", "Voronezh", 26),
-                new Employee("Fox", "Yaroslavl",27),
-                new Employee("Ronald", "Moscow",19),
-                new Employee("Mike", "Yaroslavl",23)
-        );
+
 
 
         Map<String, Set<Employee>> maps = employees.stream()
@@ -237,6 +272,7 @@ public class StreamExample {
                         Collectors.mapping(Employee::getName, Collectors.maxBy(Comparator.comparing(String::length)))));
         System.out.println("mapMinOld: "+mapMapping);
 
+
         /**
          * [EXAMPLE 20]
          * - mapping min By old
@@ -289,15 +325,6 @@ public class StreamExample {
         System.out.println("totalcount: "+totalcount);
 
         /**
-         *  [EXAMPLE 26]
-         * Потоки примитивных данных IntStream, LongStream, DoubleStream
-         * */
-//        Supplier<Stream<Integer>> streamSupplierInt
-//                = () -> Stream.of(3, 2, 1, 10);
-        System.out.println("intStream: sum: "+listInts.stream().mapToInt(Integer::intValue).sum());
-        System.out.println("intStream: average: "+listInts.stream().mapToInt(Integer::intValue).average());
-
-        /**
          * [EXAMPLE 27]
          * многоразовый вызов терминальных функция для stream
          * */
@@ -310,7 +337,7 @@ public class StreamExample {
 
     }
 
-    public static Predicate<String> predicateFilter1 = s -> s.length() == 4;
+    public static Predicate<Employee> predicateFilter1 = empl -> empl.getCity().equals("Yaroslavl");
 
     public static Predicate<String> predicateFilter2 = new Predicate<String>() {
         @Override
@@ -326,10 +353,10 @@ public class StreamExample {
         }
     };
 
-    public static Function<String, String> funcTreeWord = new Function<String, String>() {
+    public static Function<Employee, String> funcTreeWord = new Function<Employee, String>() {
         @Override
-        public String apply(String s) {
-            return s.substring(0,3);
+        public String apply(Employee e) {
+            return e.getCity().substring(0,3);
         }
     };
 
