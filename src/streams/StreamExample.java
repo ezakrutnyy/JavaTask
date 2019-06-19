@@ -3,6 +3,7 @@ package streams;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
+import org.apache.commons.lang3.RandomUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
@@ -11,7 +12,6 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamExample {
@@ -129,211 +129,196 @@ public class StreamExample {
 
         employees.stream().distinct().map(Employee::getName).forEach(printConsumer);
 
+        System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования Sorted()");
+        System.out.println("**************************************************************************");
+
+        List<Employee> sortedEmployeeList = employees.stream()
+                .sorted(new ComparatorEmployeeByOld())
+                .collect(Collectors.toList());
+
+        System.out.println("sortedEmployeeList by old: "+sortedEmployeeList);
+
+        sortedEmployeeList = employees.stream()
+                .sorted(Comparator.comparing(Employee::getCity))
+                .collect(Collectors.toList());
+
+        System.out.println("sortedEmployeeList by city: "+sortedEmployeeList);
 
 
+        System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования Max и Min функций");
+        System.out.println("**************************************************************************");
+
+        Integer minOld = employees.stream()
+                .map(Employee::getOld)
+                .min(Integer::compareTo)
+                .orElse(0);
+        System.out.println("Min old: " +minOld);
+
+        String maxCity = employees.stream()
+                .map(Employee::getCity)
+                .max(String::compareTo)
+                .orElse("");
+        System.out.println("Max City: " +maxCity);
+
+        System.out.println("**************************************************************************");
+        System.out.println(" Примеры использования ForEach и Peek функций");
+        System.out.println("**************************************************************************");
+
+        System.out.println("ForEach");
+        employees.stream().forEach(emp -> emp.setOld(99));
+        System.out.println(employees);
+
+        System.out.println("Peak");
+        employees = employees.stream().peek(emp -> emp.setOld(RandomUtils.nextInt(0, 100))).collect(Collectors.toList());
+        System.out.println(employees);
+
+        System.out.println("**************************************************************************");
+        System.out.println("Примеры использования Reduce функции");
+        System.out.println("**************************************************************************");
 
 
-        /**
-         * [EXAMPLE 5]
+        Optional<Integer> reduceSumm = employees.stream()
+                .map(Employee::getOld)
+                .reduce((o1,o2) -> o1+o2);
+        System.out.println("reduceSum old: "+reduceSumm.orElse(0));
+
+
+        Integer reduceSummInteger = employees.stream()
+                .map(Employee::getOld)
+                .reduce(0, (o1,o2) -> o1+o2);
+        System.out.println("reduceSum old or 0: "+reduceSummInteger);
+
+        int totalcount = employees.stream()
+                .map(Employee::getOld)
+                .reduce(0, (cnt, o1) -> cnt += o1);
+        System.out.println("totalcount: "+totalcount);
+
+
+        System.out.println("**************************************************************************");
+        System.out.println("Примеры использования toArray и collect функции");
+        System.out.println("**************************************************************************");
+
+        /*
+         * Collectors.joining(",")
+         */
+        String resJoinWithSeparator = employees.stream()
+                .map(Employee::getCity)
+                .distinct()
+                .collect(Collectors.joining(","));
+        System.out.println("Collectors.joining: "+resJoinWithSeparator);
+
+        /*
          * - toArray(String[]::new)
          * - Возврат результата в виде []
-         * */
+         */
         List<String> list = ImmutableList.of("aaa","","", "ddddd");
-        String[] mas = list.stream().filter(StringUtils::isNoneBlank).toArray(String[]::new);
-        System.out.println("One step: "+Arrays.toString(mas));
+        String[] names = employees.stream().map(Employee::getName).toArray(String[]::new);
+        System.out.println("toArray(String[]::new): "+Arrays.toString(names));
 
-        /**
-         * [EXAMPLE 6]
-         * - collect(Collectors.toList())
-         * */
-        List<Integer> listFrom = Lists.newArrayList(3, 6, 11, 2, 6,-10, 5, 8, 22, 45, 10, 1);
-        List<Integer> listTo = listFrom.stream().sorted(comp).filter(n -> n > 6).collect(Collectors.toList());
-        System.out.println(listTo);
-
-        /**
-         * [EXAMPLE 7]
-         * - collect(Collectors.toSet())
-         * */
-        Set<Integer> setTo = listFrom.stream().collect(Collectors.toSet());
-        System.out.println(setTo);
-
-        /**
-         * [EXAMPLE 8]
-         * - collect() конкретная разновидность коллекции, например дерево
-         * */
-        Set<Integer> treeSetTo = listFrom.stream().collect(Collectors.toCollection(TreeSet::new));
-        System.out.println(treeSetTo);
-
-        /**
-         * [EXAMPLE 9]
-         * - collect() joining в строку
-         * */
-        String resJoin = listFrom.stream().map(String::valueOf).collect(Collectors.joining());
-        System.out.println(resJoin);
-
-        /**
-         * [EXAMPLE 10]
-         * - collect() joining  с разбивкой
-         * */
-        String resJoinWithSeparator = listFrom.stream().map(Object::toString).collect(Collectors.joining(","));
-        System.out.println(resJoinWithSeparator);
-
-        /**
-         * [EXAMPLE 11]
+        /*
          * если результат нужно свести к результатирующей функции max,min, average, amount
          * Collectors.summarizingInt
          * Collectors.summarizingDouble
          * Collectors.summingDouble - отдельный метод для сохранения сумм
-         * */
-        List<Double> lst = Lists.newArrayList(-10.00,20.00,-2.00,100.00,30.00,50.00);
-        DoubleSummaryStatistics amounts = lst.stream().filter(amount -> amount > 0).collect(Collectors.summarizingDouble(Double::new));
+         */
+        IntSummaryStatistics amounts = employees.stream()
+                .map(Employee::getOld)
+                .filter(amount -> amount > 0)
+                .collect(Collectors.summarizingInt(Integer::new));
+        System.out.println("Collectors.summarizingInt()");
         System.out.println("Sum: "+amounts.getSum());
         System.out.println("Average: "+amounts.getAverage());
         System.out.println("Min: "+amounts.getMin());
         System.out.println("Max: "+amounts.getMax());
         System.out.println("Count: "+amounts.getCount());
 
-        Double amounts2 = lst.stream().filter(amount -> amount > 0).collect(Collectors.summingDouble(Double::valueOf));
-        System.out.println(amounts2);
-
-
-
-
-        Map<String, Set<Employee>> maps = employees.stream()
-                .collect(Collectors.toMap(
-                        Employee::getCity,
-                        Collections::singleton,
-                        (emp1, emp2) -> {
-                            Set<Employee> union = Sets.newHashSet(emp1);
-                            union.addAll(emp2);
-                            return  union;
-                        }));
-
-        System.out.println("toMap: "+maps);
-
-        /**
-         * [EXAMPLE 13]
-         * - Группирование и разделение
+        /*
          * - Collectors.groupingBy();
-         * */
-        Map<String, List<Employee>> mapsByGrouping = employees.stream().collect(Collectors.groupingBy(Employee::getCity));
-        System.out.println("groupingBy: "+mapsByGrouping);
+         */
+        Map<String, List<Employee>> mapsByGrouping =
+                employees.stream().collect(Collectors.groupingBy(Employee::getCity));
+        System.out.println("Collectors.groupingBy() for Elements: "+mapsByGrouping);
 
-        /**
-         * [EXAMPLE 14]
-         * Группирование и разделение
-         * Predicate выражение разделяыет на 2 листа, для true -> возвращает лист подходящий под условие
-         *  и  false лист содержащий остальные значения
-         * Collectors.partitioningBy();
-         * */
-        Map<Boolean, List<Employee>> mapsByPartitioning =
-                employees.stream().collect(Collectors.partitioningBy(emp -> emp.getCity().equals("Moscow")));
-        System.out.println("partitioningBy: "+mapsByPartitioning.get(false));
 
-        /**
-         * [EXAMPLE 15]
-         * Нисходящие коллекторы
-         * Дополнительная обработка сгрупированных списков
-         * toSet()
-         * */
-        Map<String, Set<Employee>> mapToSet = employees.stream().collect(Collectors.groupingBy(Employee::getCity, Collectors.toSet()));
-        System.out.println("MapToSet: "+mapToSet);
+        Map<String, List<String>> mapsByGroupingForCity =
+                employees.stream()
+                        .collect(Collectors.groupingBy(Employee::getCity,
+                                Collectors.mapping(Employee::getName, Collectors.toList())));
+        System.out.println("Collectors.groupingBy() for City: "+mapsByGroupingForCity);
 
-        /**
-         * [EXAMPLE 16]
-         * - counting()
-         * */
-        Map<String, Long> mapCounting = employees.stream().collect(Collectors.groupingBy(Employee::getCity, Collectors.counting()));
-        System.out.println("MapCounting: "+mapCounting);
+        Map<String, IntSummaryStatistics> mapAverageGroupingByCity =
+                employees.stream()
+                        .collect(Collectors.groupingBy(Employee::getCity,
+                                Collectors.summarizingInt(Employee::getOld)));
 
-        /**
-         * [EXAMPLE 17]
+        System.out.println("Collectors.groupingBy() Average Grouping By City: "+mapAverageGroupingByCity);
+
+        /*
+        * Нисходящие функции
+        * */
+
+        /*
          * - summing()
-         * */
-        Map<String, Integer> mapSumming = employees.stream().collect(Collectors.groupingBy(Employee::getCity, Collectors.summingInt(Employee::getOld)));
+         */
+        Map<String, Integer> mapSumming =
+                employees.stream()
+                        .collect(Collectors.groupingBy(Employee::getCity, Collectors.summingInt(Employee::getOld)));
         System.out.println("mapSumming: "+mapSumming);
 
-        /**
-         * [EXAMPLE 18]
+        /*
+         * - average()
+         */
+        Map<String, Double> mapAverage =
+                employees.stream()
+                        .collect(Collectors.groupingBy(Employee::getCity, Collectors.averagingInt(Employee::getOld)));
+        System.out.println("mapAverage: "+mapAverage);
+
+        /*
          * - maxBy()
-         * */
+         */
         Map<String, Optional<Employee>> mapMaxOld = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity,
                         Collectors.maxBy(Comparator.comparing(Employee::getOld))));
-        System.out.println("mapMaxOld: "+mapMaxOld);
+        System.out.println("Map older employee in City: "+mapMaxOld);
 
-        /**
-         * [EXAMPLE 19]
+        /*
          * - mapping()
          * - получить какие то новые данные из Employee
-         * */
+         */
         Map<String, Optional<String>> mapMapping = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity,
                         Collectors.mapping(Employee::getName, Collectors.maxBy(Comparator.comparing(String::length)))));
-        System.out.println("mapMinOld: "+mapMapping);
+        System.out.println("Map longer string length in name employee in City: "+mapMapping);
 
-
-        /**
-         * [EXAMPLE 20]
+        /*
          * - mapping min By old
-         * */
+         */
         Map<String, Optional<Integer>> mapMinOld = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity,
-                        Collectors.mapping(Employee::getOld, Collectors.minBy(Comparator.comparing(Integer::valueOf)))));
+                        Collectors.mapping(Employee::getOld, Collectors.minBy(Comparator.comparing(Integer::new)))));
+        System.out.println("Min old  employee in City: "+mapMinOld);
 
-        /**
-         * [EXAMPLE 21]
+        /*
          * - grouping and summarizing = summaryStatics
-         * */
+         */
         Map<String, IntSummaryStatistics> summaryStatics = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity, Collectors.summarizingInt(Employee::getOld)));
         System.out.println("summaryStatics: "+summaryStatics);
 
-        /**
-         * [EXAMPLE 22]
-         * grouping and filtering list
-         * 9 JAVA
-         * */
-//        Map<String, Set<Employee>> mapWithFilters = employees.stream()
-//                .collect(Collectors.groupingBy(Employee::getCity, Collectors.filtering(empl -> empl.getOld() > 30, toSet)));
-//        System.out.println("mapWithFilters: "+mapWithFilters);
-
-        /**
-         * [EXAMPLE 23]
-         * подсчет суммы n-го количества, умножения, деления, остатка...
-         * так же можно применить любые операции к двоичной функции
-         * reduce()
-         * */
-        List<Integer> listInts = Lists.newArrayList(3,1,-4,2,9);
-        Optional<Integer> reduceSumm = listInts.stream()
-                .reduce((o1,o2) -> o1+o2);
-        System.out.println("reduceSumm: "+reduceSumm.orElse(0));
-
-        /**
-         * [EXAMPLE 24]
-         * reduce() сразу  получаем Integer
+        /*
+         * Группирование и разделение
+         * Predicate выражение разделяыет на 2 листа, для true -> возвращает лист подходящий под условие
+         *  и  false лист содержащий остальные значения
+         * Collectors.partitioningBy();
          */
-        Integer reduceSummInteger = listInts.stream()
-                .reduce(0, (o1,o2) -> o1+o2);
-        System.out.println("reduceSummInteger: "+reduceSumm);
+        Map<Boolean, List<Employee>> mapsByPartitioning =
+                employees.stream()
+                        .collect(Collectors.partitioningBy(emp -> emp.getCity().equals("Moscow")));
+        System.out.println("Collectors.partitioningBy() from is Moscow false: "+mapsByPartitioning.get(false));
+        System.out.println("Collectors.partitioningBy() from is Moscow true: "+mapsByPartitioning.get(true));
 
-        /**
-         * [EXAMPLE 25]
-         * reduce() с результатом накопления
-         */
-        int totalcount = listInts.stream().reduce(0, (cnt, o1) -> cnt += o1);
-        System.out.println("totalcount: "+totalcount);
-
-        /**
-         * [EXAMPLE 27]
-         * многоразовый вызов терминальных функция для stream
-         * */
-        Supplier<Stream<String>> streamSupplierStr
-                = () -> Stream.of("A", "B", "C", "D");
-        Optional<String> result1 = streamSupplierStr.get().findAny();
-        System.out.println(result1.get());
-        Optional<String> result2 = streamSupplierStr.get().findFirst();
-        System.out.println(result2.get());
 
     }
 
@@ -364,6 +349,13 @@ public class StreamExample {
         @Override
         public int compare(Integer o1, Integer o2) {
             return o2.compareTo(o1);
+        }
+    };
+
+    public static class ComparatorEmployeeByOld implements Comparator<Employee> {
+        @Override
+        public int compare(Employee o1, Employee o2) {
+            return  o1.getOld().compareTo(o2.getOld());
         }
     };
 

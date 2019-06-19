@@ -136,6 +136,22 @@ public class DescriptionStream {
      *
      * sequential
      * Вернуть последовательный стрим, если стрим уже последовательный, то может вернуть самого себя
-
-     * */
+     *
+     *
+     * ******************************************************************************************************************
+     *
+     * Давайте рассмотрим статические методы из Collectors:
+     * Метод	Описание
+     *
+     * toList, toCollection, toSet	                                представляют стрим в виде списка, коллекции или множества
+     * toConcurrentMap, toMap	                                    позволяют преобразовать стрим в map
+     * averagingInt, averagingDouble, averagingLong	                возвращают среднее значение
+     * summingInt, summingDouble, summingLong	                    возвращает сумму
+     * summarizingInt, summarizingDouble, summarizingLong	        возвращают SummaryStatistics с разными агрегатными значениями
+     * partitioningBy	                                            разделяет коллекцию на две части по соответствию условию и
+     *                                                              возвращает их как Map<Boolean, List>
+     * groupingBy	                                                разделяет коллекцию на несколько частей и возвращает Map<N, List<T>>
+     * mapping	                                                    дополнительные преобразования значений для сложных Collector'ов
+     *
+     * * */
 }
