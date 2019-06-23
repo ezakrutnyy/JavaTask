@@ -72,9 +72,6 @@ public class OptionalDemo {
         Optional<Double> optFlatMap = Optional.of(16.0).flatMap(OptionalDemo::inverse).flatMap(OptionalDemo::sqrt);
         System.out.println(optFlatMap.orElse(new Double(666.00)));
 
-
-
-
     }
 
     public static Optional<String> getStr() {

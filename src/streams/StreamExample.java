@@ -1,18 +1,17 @@
 package streams;
 
+import abstractAndInterfaces.functional.ComparatorDemo;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
 import org.apache.commons.lang3.RandomUtils;
-import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import static abstractAndInterfaces.functional.ComparatorDemo.compInterfaceEmployeOld;
+import static abstractAndInterfaces.functional.ConsumerDemo.printName;
+import static abstractAndInterfaces.functional.FunctionDemo.funcTreeChars;
+import static abstractAndInterfaces.functional.PredicateDemo.*;
 
 public class StreamExample {
 
@@ -36,30 +35,36 @@ public class StreamExample {
         System.out.println("**************************************************************************");
 
 
-        long length = employees.parallelStream().filter(predicateFilter1).count();
+        long length = employees.parallelStream().filter(predicateYar).count();
         System.out.println("count()"+length);
 
 
         System.out.println("limit()");
         employees.stream()
-                .filter(predicateFilter1)
+                .filter(predicateNameSrartWithA)
                 .map(Employee::getName)
                 .limit(2)
-                .forEach(printConsumer);
+                .forEach(printName);
 
         System.out.println("skip()");
         employees.stream()
                 .skip(2)
-                .map(funcTreeWord)
-                .forEach(printConsumer);
+                .map(funcTreeChars)
+                .forEach(printName);
 
 
         System.out.println("findAny()");
-        String nameAny = employees.stream().filter(predicateFilter1).findAny().map(Employee::getName).orElse("mister n");
+        String nameAny = employees.stream().filter(predicateNameSrartWithA)
+                .findAny()
+                .map(Employee::getName)
+                .orElse("mister n");
         System.out.println(nameAny);
 
         System.out.println("findFirst()");
-        String nameFirst = employees.stream().filter(predicateFilter1).findFirst().map(Employee::getName).orElse("mister n");
+        String nameFirst = employees.stream().filter(predicateNameSrartWithA)
+                .findFirst()
+                .map(Employee::getName)
+                .orElse("mister n");
         System.out.println(nameFirst);
 
         System.out.println("**************************************************************************");
@@ -69,15 +74,15 @@ public class StreamExample {
         boolean flag = false;
 
         System.out.println("anyMatch()");
-        flag = employees.stream().anyMatch(predicateFilter1);
+        flag = employees.stream().anyMatch(predicateOld);
         System.out.println(flag);
 
         System.out.println("allMatch()");
-        flag = employees.stream().allMatch(predicateFilter1);
+        flag = employees.stream().allMatch(predicateOld);
         System.out.println(flag);
 
         System.out.println("noneMatch()");
-        flag = employees.stream().noneMatch(predicateFilter1);
+        flag = employees.stream().noneMatch(predicateOld);
         System.out.println(flag);
 
         System.out.println("**************************************************************************");
@@ -112,7 +117,7 @@ public class StreamExample {
         System.out.println(sum);
 
         System.out.println("map()");
-        employees.stream().filter(predicateFilter1).map(Employee::getName).forEach(printConsumer);
+        employees.stream().filter(predicateYar).map(Employee::getName).forEach(printName);
 
         /*
         * Объект IntStream, после применения результатирующей функции, вохвращает примитив int
@@ -127,14 +132,14 @@ public class StreamExample {
         System.out.println(" Примеры использования distinct()");
         System.out.println("**************************************************************************");
 
-        employees.stream().distinct().map(Employee::getName).forEach(printConsumer);
+        employees.stream().distinct().map(Employee::getName).forEach(printName);
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования Sorted()");
         System.out.println("**************************************************************************");
 
         List<Employee> sortedEmployeeList = employees.stream()
-                .sorted(new ComparatorEmployeeByOld())
+                .sorted(compInterfaceEmployeOld)
                 .collect(Collectors.toList());
 
         System.out.println("sortedEmployeeList by old: "+sortedEmployeeList);
@@ -248,13 +253,6 @@ public class StreamExample {
                                 Collectors.mapping(Employee::getName, Collectors.toList())));
         System.out.println("Collectors.groupingBy() for City: "+mapsByGroupingForCity);
 
-        Map<String, IntSummaryStatistics> mapAverageGroupingByCity =
-                employees.stream()
-                        .collect(Collectors.groupingBy(Employee::getCity,
-                                Collectors.summarizingInt(Employee::getOld)));
-
-        System.out.println("Collectors.groupingBy() Average Grouping By City: "+mapAverageGroupingByCity);
-
         /*
         * Нисходящие функции
         * */
@@ -319,44 +317,6 @@ public class StreamExample {
         System.out.println("Collectors.partitioningBy() from is Moscow false: "+mapsByPartitioning.get(false));
         System.out.println("Collectors.partitioningBy() from is Moscow true: "+mapsByPartitioning.get(true));
 
-
     }
-
-    public static Predicate<Employee> predicateFilter1 = empl -> empl.getCity().equals("Yaroslavl");
-
-    public static Predicate<String> predicateFilter2 = new Predicate<String>() {
-        @Override
-        public boolean test(String s) {
-            return s.length() == 3;
-        }
-    };
-
-
-    public static Consumer<String> printConsumer = new Consumer<String>() {
-        public void accept(String name) {
-            System.out.println(name);
-        }
-    };
-
-    public static Function<Employee, String> funcTreeWord = new Function<Employee, String>() {
-        @Override
-        public String apply(Employee e) {
-            return e.getCity().substring(0,3);
-        }
-    };
-
-    public static Comparator<Integer> comp = new Comparator<Integer>() {
-        @Override
-        public int compare(Integer o1, Integer o2) {
-            return o2.compareTo(o1);
-        }
-    };
-
-    public static class ComparatorEmployeeByOld implements Comparator<Employee> {
-        @Override
-        public int compare(Employee o1, Employee o2) {
-            return  o1.getOld().compareTo(o2.getOld());
-        }
-    };
 
 }
