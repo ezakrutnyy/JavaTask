@@ -47,8 +47,8 @@ public class Annotations{
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @interface  UseCase {
-    public int id();
-    public String  description();
+    int id();
+    String  description();
 
 }
  class Annotations2 {

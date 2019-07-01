@@ -24,8 +24,7 @@ public class ExceptionDemo {
             throw new RuntimeException("Ошибка в Catch");
         } finally {
             System.err.println("Перешли в finally");
-            RuntimeException e = new RuntimeException("Ошибка в Finale");
-            e.initCause(new ArithmeticException("Ошибка деления на ноль"));
+            RuntimeException e = new RuntimeException("Ошибка в Finale", new ArithmeticException("Ошибка деления на ноль"));
             throw e;
         }
     }

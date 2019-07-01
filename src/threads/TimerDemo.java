@@ -8,7 +8,7 @@ import java.util.TimerTask;
  */
 public class TimerDemo {
 
-    public static void main(String args[]) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         Timer timer = new Timer();
 

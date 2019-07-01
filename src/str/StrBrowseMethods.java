@@ -24,13 +24,13 @@ public class StrBrowseMethods {
         System.out.println(st1==st2);
 
         System.out.println("========part2==========");
-        String st3 = new String("Hello");
+        String st3 = "Hello";
         String st4 = "Hello";
         System.out.println(st3.equals(st4));
         System.out.println(st3==st4);
 
         System.out.println("=====part3=====execute intern()==========");
-        String st5 = new String("Hello");
+        String st5 = "Hello";
         String st6 = "Hello";
         st5 = st5.intern();
         System.out.println(st5.equals(st6));
@@ -89,7 +89,7 @@ public class StrBrowseMethods {
         System.out.println(str.contentEquals("milk"));
 
         System.out.println("--------------------------------valueOf()");
-        System.out.println(str.valueOf(13));
+        System.out.println(13);
 
     }
 }

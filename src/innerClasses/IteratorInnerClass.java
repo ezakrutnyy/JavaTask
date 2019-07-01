@@ -48,10 +48,7 @@ class Sequence {
 
         @Override
         public boolean hashNext() {
-            if (i<items.length) {
-                return true;
-            }
-            return false;
+            return i < items.length;
         }
 
         @Override
@@ -76,10 +73,7 @@ class Sequence {
 
         @Override
         public boolean hashNext() {
-            if (i>=0) {
-                return true;
-            }
-            return false;
+            return i >= 0;
         }
 
         @Override
