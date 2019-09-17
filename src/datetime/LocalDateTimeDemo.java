@@ -36,7 +36,7 @@ public class LocalDateTimeDemo {
 
         System.out.println("********************Second and Nano Of Day***************************");
         System.out.println("SecondOfDay: "+localTimeDefine.toSecondOfDay());
-        System.out.println("NanoOfDay: "+localTimeDefine.toNanoOfDay());
+        System.out.println("NanoOfDay:    "+localTimeDefine.toNanoOfDay());
 
         System.out.println("********************Local Date Time***************************");
         LocalDate date = LocalDate.of(1988, 7, 9);
