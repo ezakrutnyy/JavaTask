@@ -4,7 +4,6 @@ import com.google.common.collect.Sets;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Set;
-import java.util.logging.Logger;
 
 public class TikaParser {
 
