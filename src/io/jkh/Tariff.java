@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Tariff {
 
-    Date date;
+    String monthYear;
 
     BigDecimal coldWater;
 
@@ -14,14 +14,6 @@ public class Tariff {
     BigDecimal drainageSystem;
 
     BigDecimal electricity;
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
 
     public BigDecimal getColdWater() {
         return coldWater;
@@ -55,10 +47,18 @@ public class Tariff {
         this.electricity = electricity;
     }
 
+    public String getMonthYear() {
+        return monthYear;
+    }
+
+    public void setMonthYear(String monthYear) {
+        this.monthYear = monthYear;
+    }
+
     @Override
     public String toString() {
         return "Tariff{" +
-                "date=" + date +
+                "monthYear='" + monthYear + '\'' +
                 ", coldWater=" + coldWater +
                 ", hotWater=" + hotWater +
                 ", drainageSystem=" + drainageSystem +

@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Account {
 
-    Date date;
+    String monthYear;
 
     Integer coldWater;
 
@@ -12,13 +12,7 @@ public class Account {
 
     Integer electricity;
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
+    Integer drainageSystem;
 
     public Integer getColdWater() {
         return coldWater;
@@ -42,5 +36,32 @@ public class Account {
 
     public void setElectricity(Integer electricity) {
         this.electricity = electricity;
+    }
+
+    public Integer getDrainageSystem() {
+        return drainageSystem;
+    }
+
+    public void setDrainageSystem(Integer drainageSystem) {
+        this.drainageSystem = drainageSystem;
+    }
+
+    public String getMonthYear() {
+        return monthYear;
+    }
+
+    public void setMonthYear(String monthYear) {
+        this.monthYear = monthYear;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "monthYear='" + monthYear + '\'' +
+                ", coldWater=" + coldWater +
+                ", hotWater=" + hotWater +
+                ", electricity=" + electricity +
+                ", drainageSystem=" + drainageSystem +
+                '}';
     }
 }
