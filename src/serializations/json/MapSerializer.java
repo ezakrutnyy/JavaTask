@@ -1,4 +1,4 @@
-package json;
+package serializations.json;
 
 import org.json.JSONObject;
 
