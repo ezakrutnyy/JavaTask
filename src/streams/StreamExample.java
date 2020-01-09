@@ -3,10 +3,13 @@ package streams;
 import abstractAndInterfaces.functional.ComparatorDemo;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
 import org.apache.commons.lang3.RandomUtils;
+import sorted.Transaction;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static abstractAndInterfaces.functional.ComparatorDemo.compInterfaceEmployeOld;
 import static abstractAndInterfaces.functional.ConsumerDemo.printName;
@@ -317,6 +320,20 @@ public class StreamExample {
         System.out.println("Collectors.partitioningBy() from is Moscow false: "+mapsByPartitioning.get(false));
         System.out.println("Collectors.partitioningBy() from is Moscow true: "+mapsByPartitioning.get(true));
 
+        /**
+         * Compress  map
+         * Получение из List<Map<String, List<Element>>> , Map <String, List<Element>>
+         */
+        List<Map<String, List<Transaction>>> transactions = Lists.newArrayList();
+
+    }
+
+    public static <T, S> Map<T, List<S>> splitMap(List<Map<T, List<S>>> list) {
+        Map<T, List<S>> result = list.stream().flatMap(map -> map.entrySet().stream())
+                .collect(Collectors.toMap(Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (l1, l2) -> Stream.concat(l1.stream(), l2.stream()).collect(Collectors.toList())));
+        return result;
     }
 
 }

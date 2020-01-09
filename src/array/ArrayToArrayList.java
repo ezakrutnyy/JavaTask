@@ -13,11 +13,13 @@ public class ArrayToArrayList {
     public static void main(String[] args) {
         String[] arr = {"Orange","Banana","Apple","Watermelon"};
         // 1 способ
-        List<String> list1 = new ArrayList<String>(Arrays.asList(arr));
+        List<String> list1 = new ArrayList<>(Arrays.asList(arr));
         System.out.println(list1);
+
         // 2 способ
-        List<String> list2 = new ArrayList<String>();
+        List<String> list2 = new ArrayList<>();
         Collections.addAll(list2,arr);
         System.out.println(list2);
+
     }
 }
