@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/JsonElement.class" description="public abstract com.google.gson.JsonElement deepCo..." line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="stream example Collect.toMap()">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/files_move/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/files_move/server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/tmp/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsoup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsoup/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/treemodel/gson/GsonTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesJsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/treemodel/jackson/JacksonTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/value/BankRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/value/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serializations/value/TicketAirlineData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaTask.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/AbstractInstrumentDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Accordion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/BandsPass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Bicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/BicycleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/ClonableClassDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Cycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/CycleAbstractMethodInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/CycleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Drams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/FilterAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Filters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Guitar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/HighPass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Instrument.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/InstrumentInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/InterfaceInstrumentDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/InterfacesTimerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/LowPass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/LowerCaseProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Piano.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/ProcessorInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/SberBank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/SplitCaseProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/StringProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/TimerPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Tricycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/TricycleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/Unicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/UnicycleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/UpperCaseProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/WaveForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/BinaryOperatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/ComparatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/ConsumerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/FunctionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/PredicateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/SupplierDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractAndInterfaces/functional/UnaryOperatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/annotations/Annotations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/annotations/Annotations2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/annotations/UseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/array/ArrayListToArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/array/ArrayMainMethodsClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/array/ArrayToArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bigdecimal/BigDecimalDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/CollectionsClassBrowseMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/HashMapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/IterationsClass$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/IterationsClass$Pets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/IterationsClass$PetsNameComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/IterationsClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/PriorityQueueExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/PropertiesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/QueueExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/collections/StackExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datetime/CalendarDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datetime/DateTimeFormatterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datetime/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datetime/InstantDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datetime/LocalDateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datetime/LocalDateTimeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/Chapter1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exceptions/AutoCloseableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exceptions/ExceptionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exceptions/MyError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exceptions/MyExceptionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenericDemoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generics/MyGeneric.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/CacheDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/CacheDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/ComparatorAge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/ComparatorCity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/ComparatorName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/ComparisonChainDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/ForwardingCollectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/ImmutableCollectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/JoinerAndSplitterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/MoreObjectsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/MultiSetAndMultiMapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/OptionalDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/OrderingDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/PredictionsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/RangeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/guava/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/ArrayAlgNestedClass$Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/ArrayAlgNestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountAnonimClass$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountAnonimClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountAnonimClassDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountInnerClass$InterestAdder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountInnerClassDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountLocalInnerClass$1InterestAdder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountLocalInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/BankAccountLocalInnerClassDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Bicycle$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Bicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/ComparatorTest$1Sorting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/ComparatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Cycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/CycleAbstractMethodInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/CycleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/InnerInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/IteratorInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/MomentoInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/MomentoNestedDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/OuterSimple$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/OuterSimple$1InnerClassMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/OuterSimple$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/OuterSimple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Selector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Sequence$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Sequence$ReverseSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Sequence$SequenceSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Sequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Speedometer$SpeedometerMemento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Speedometer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Speedometer2$SpeedometerMemento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Speedometer2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Tricycle$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Tricycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Unicycle$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/innerClasses/Unicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/BufferedInputFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/BufferedInputFileWithCharset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/BufferedOutputFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/DataInputAndOutputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/FilesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/IODemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/IOStreamDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/MemoryStringInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/UsingRandomAccessFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/files_move/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/files_move/server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/jkh/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/jkh/JCHDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/jkh/Tariff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/jkh/resources/accounts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/jkh/resources/tariffs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/jkh/resources/Профсоюзная.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/tmp/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jsoup/JSoupGetDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jsoup/JSoupSetDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jsoup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jsoup/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/memory/memory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mock/PasswordEnconder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mock/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mock/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mock/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mock/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/blockinit/BlockInit$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/blockinit/BlockInit$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/blockinit/BlockInit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/blockinit/BlockInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/blockinit/BlockInitDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/blockinit/InitEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/constructor/ManyConstructorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/objects/constructor/ManyConstructorEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parsers/Dates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parsers/DecimalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parsers/Decimals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reflections/ReflectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reflections/ReflectionEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reflections/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/fastjson/BankRatesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/genson/BankRatesDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/genson/BankRatesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/gson/BankRatesDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/gson/BankRatesDemo$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/gson/BankRatesDemo$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/gson/BankRatesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/jackson/BankRatesDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/databind/jackson/BankRatesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/json/MapSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/treemodel/gson/BankRatesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/treemodel/jackson/BankRatesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/treemodel/jackson/BankRatesDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/treemodel/jackson/BankRatesJsonParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/treemodel/jackson/BankRatesSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/value/BankRates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/value/CreatorRates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/serializations/value/Rate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/GroupBySorter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/GroupBySorterMulti.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/SortTestDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/SortTestDemo$SortedByDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/SortTestDemo$SortedByMids.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/SortTestDemo$SortedByTids.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/SortTestDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sorted/TransactionComparable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/str/MutableString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/str/PatternJavaDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/str/RegularExpressionsStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/str/StrBrowseMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/CreateStreamExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/DescriptionStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/OptionalDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/StreamExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/streams/TransactionStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/DeamonTread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/EvenChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/EvenGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/ExecutorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/ExecutorTryAndCatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/GreetingThreadNew.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/HelloRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/HelloThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/IntGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/Joining.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/JoiningDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/MyRunnableClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/MyThreadCauseFabric.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/MyThreadClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/MyThreadException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/MyThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/Sleeping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/thread/ThreadForTryAndCatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/CalculationRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/GreetingRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/GreetingTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/GreetingThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/GreetingThreadDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/InterruptingIdiom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/JoiningDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/NeedsCleanup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/PrioritiesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/PriorityGreetingThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/SingleThreadExecutorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/ThreadRunnableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/ThreadStateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/threads/TimerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tika/1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tika/2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tika/InputTikaDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tika/TikaParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javatask-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/StreamExample.java" afterDir="false" />
+    </list>
+    <ignored path="JavaTask.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaTask$BigDecimalDemo.coverage" NAME="BigDecimalDemo Coverage Results" MODIFIED="1504947448513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bigdecimal.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaTask" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Url</find>
+      <find>Writer</find>
+      <find>&quot;body &gt; div.b-fix-wrapper &gt; div &gt; div:nth-child(1) &gt; div &gt; div &gt; div.mos-oiv-layout__wrapper &gt; div &gt; div.mos-oiv-layout__main-content &gt; div &gt; div.content-institutions-one-id.ng-scope.ng-isolate-scope &gt; div &gt; div &gt; div:nth-child(4) &gt; table &gt; tbody &gt; tr:nth-child(9) &gt; td:nth-child(3) &gt; p &gt; span &gt; span &gt; span&quot;</find>
+      <find>REPLACE_EXISTING</find>
+      <find>url</find>
+      <find>new new File()</find>
+      <find>cha</find>
+      <find>select</find>
+      <find>plus</find>
+      <find>Tika</find>
+      <find>LOGGER.info</find>
+      <find>tika</find>
+      <find>1.14</find>
+      <find>BufferedReader</find>
+      <find>Charset</find>
+      <find>4434</find>
+      <find>newBufferedWriter</find>
+      <find>files_move</find>
+      <find>Workbook</find>
+      <find>poi</find>
+      <find>ju</find>
+      <find>Date</find>
+      <find>accounts</find>
+      <find>sortByGroupBySorter</find>
+      <find>jso</find>
+      <find>ObjectMapper</find>
+      <find>getAsString</find>
+      <find>toMap</find>
+      <find>Collectors.toMap</find>
+      <find>BankRatesDeserializer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ezakrutnyy" />
+        <option value="zakrutnyi@gmail.com" />
+        <option value="eza" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/json/MapSerializer.java" />
+        <option value="$PROJECT_DIR$/src/io/input2.txt" />
+        <option value="$PROJECT_DIR$/src/io/file.txt" />
+        <option value="$PROJECT_DIR$/src/io/UsingRandomAccessFile.java" />
+        <option value="$PROJECT_DIR$/src/io/jkh/pokaz.txt" />
+        <option value="$PROJECT_DIR$/src/io/r1/1.txt" />
+        <option value="$PROJECT_DIR$/src/io/r1/2.txt" />
+        <option value="$PROJECT_DIR$/src/io/Test.java" />
+        <option value="$PROJECT_DIR$/src/io/FilesDemo.java" />
+        <option value="$PROJECT_DIR$/src/parsers/Decimals.java" />
+        <option value="$PROJECT_DIR$/src/parsers/DecimalTest.java" />
+        <option value="$PROJECT_DIR$/src/parsers/Dates.java" />
+        <option value="$PROJECT_DIR$/src/io/jkh/Tariff.java" />
+        <option value="$PROJECT_DIR$/src/io/jkh/Account.java" />
+        <option value="$PROJECT_DIR$/src/io/jkh/JCHDemo.java" />
+        <option value="$PROJECT_DIR$/src/sorted/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/sorted/TransactionComparable.java" />
+        <option value="$PROJECT_DIR$/src/sorted/GroupBySorterMulti.java" />
+        <option value="$PROJECT_DIR$/src/sorted/GroupBySorter.java" />
+        <option value="$PROJECT_DIR$/src/sorted/SortTestDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/BankRates.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/BankRatesDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/BankRatesJsonParser.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/BankRatesSerializer.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/Rate.java" />
+        <option value="$PROJECT_DIR$/src/serializations/doc" />
+        <option value="$PROJECT_DIR$/src/serializations/value/CreatorRates.java" />
+        <option value="$PROJECT_DIR$/src/serializations/value/Human.java" />
+        <option value="$PROJECT_DIR$/src/serializations/value/Place.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/fastjson/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/gson/databind/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/fastjson/databind/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/jackson/databind/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/databind/jackson/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/databind/fastjson/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/serializations/databind/genson/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/mock/PasswordEnconder.java" />
+        <option value="$PROJECT_DIR$/src/mock/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/mock/User.java" />
+        <option value="$PROJECT_DIR$/src/mock/UserService.java" />
+        <option value="$PROJECT_DIR$/src/mock/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/serializations/treemodel/gson/BankRatesDemo.java" />
+        <option value="$PROJECT_DIR$/src/bitoper/BitOperationDemo.java" />
+        <option value="$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java" />
+        <option value="$PROJECT_DIR$/src/array/ArrayToArrayList.java" />
+        <option value="$PROJECT_DIR$/src/streams/StreamExample.java" />
+        <option value="$PROJECT_DIR$/src/serializations/value/TicketAirlineData.java" />
+        <option value="$PROJECT_DIR$/src/serializations/treemodel/jackson/JacksonTree.java" />
+        <option value="$PROJECT_DIR$/src/serializations/treemodel/gson/GsonTree.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="javatask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="javatask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Since15</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/io/jkh" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2045977" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.splitter.proportion" value="0.23425196" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh" />
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\tika" />
+      <recent name="C:\Users\Евгений\IdeaProjects\JavaTask\src\innerClasses" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\memory" />
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh\resources" />
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\tika" />
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BankRatesDemo (1)">
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayToArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayToArrayList" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankRatesDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serializations.databind.gson.BankRatesDemo" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serializations.databind.gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankRatesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serializations.databind.jackson.BankRatesDemo" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serializations.databind.jackson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClonableClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractAndInterfaces.ClonableClassDemo" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractAndInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamExample" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BankRatesDemo" />
+      <item itemvalue="Application.ArrayToArrayList" />
+      <item itemvalue="Application.ClonableClassDemo" />
+      <item itemvalue="Application.StreamExample" />
+      <item itemvalue="Application.BankRatesDemo (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankRatesDemo (1)" />
+        <item itemvalue="Application.BankRatesDemo" />
+        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.ClonableClassDemo" />
+        <item itemvalue="Application.ArrayToArrayList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="" />
+      <created>1497393058491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497393058491</updated>
+      <workItem from="1558385307090" duration="526000" />
+      <workItem from="1558386821695" duration="438000" />
+      <workItem from="1558389117946" duration="5795000" />
+      <workItem from="1558648180077" duration="7261000" />
+      <workItem from="1558907141537" duration="4828000" />
+      <workItem from="1558989429838" duration="653000" />
+      <workItem from="1559262804012" duration="1474000" />
+      <workItem from="1559386359068" duration="7493000" />
+      <workItem from="1559424507152" duration="2679000" />
+      <workItem from="1559427239059" duration="311000" />
+      <workItem from="1559427600518" duration="722000" />
+      <workItem from="1559680164632" duration="2723000" />
+      <workItem from="1559989471657" duration="34000" />
+      <workItem from="1559989564724" duration="29000" />
+      <workItem from="1559989628628" duration="511000" />
+      <workItem from="1559990254644" duration="5000" />
+      <workItem from="1559990351310" duration="2585000" />
+      <workItem from="1560113470884" duration="3303000" />
+      <workItem from="1560203837970" duration="1546000" />
+      <workItem from="1560400558781" duration="2599000" />
+      <workItem from="1560465052383" duration="4407000" />
+      <workItem from="1560755295600" duration="496000" />
+      <workItem from="1560889222313" duration="6597000" />
+      <workItem from="1560924836367" duration="3236000" />
+      <workItem from="1561048527079" duration="1176000" />
+      <workItem from="1561104994803" duration="8775000" />
+      <workItem from="1561153233149" duration="1595000" />
+      <workItem from="1561285962362" duration="9397000" />
+      <workItem from="1561314586499" duration="5124000" />
+      <workItem from="1561331221491" duration="43000" />
+      <workItem from="1561331357430" duration="451000" />
+      <workItem from="1561389362727" duration="6696000" />
+      <workItem from="1561494604615" duration="5633000" />
+      <workItem from="1561554153126" duration="19673000" />
+      <workItem from="1561634675590" duration="7062000" />
+      <workItem from="1561748820514" duration="12593000" />
+      <workItem from="1563821748955" duration="1098000" />
+      <workItem from="1563856796998" duration="1737000" />
+      <workItem from="1563858590176" duration="542000" />
+      <workItem from="1564087563682" duration="1735000" />
+      <workItem from="1564089471328" duration="1998000" />
+      <workItem from="1565213597713" duration="57000" />
+      <workItem from="1567717354945" duration="1617000" />
+      <workItem from="1567980809632" duration="1157000" />
+      <workItem from="1567982062157" duration="5083000" />
+      <workItem from="1568753623811" duration="2909000" />
+      <workItem from="1569269510373" duration="1311000" />
+      <workItem from="1570833717996" duration="3096000" />
+      <workItem from="1570889015931" duration="22909000" />
+      <workItem from="1571205286462" duration="202000" />
+      <workItem from="1571346795365" duration="6514000" />
+      <workItem from="1571550684040" duration="13945000" />
+      <workItem from="1572772169643" duration="344000" />
+      <workItem from="1573413514176" duration="3571000" />
+      <workItem from="1574036647679" duration="1687000" />
+      <workItem from="1574038407322" duration="792000" />
+      <workItem from="1574796433700" duration="260000" />
+      <workItem from="1574796833430" duration="8566000" />
+      <workItem from="1574833266506" duration="3794000" />
+      <workItem from="1575402942731" duration="1334000" />
+      <workItem from="1576003668387" duration="654000" />
+      <workItem from="1576430219545" duration="660000" />
+      <workItem from="1578251894500" duration="93000" />
+      <workItem from="1578252975553" duration="1188000" />
+      <workItem from="1578297020084" duration="4401000" />
+      <workItem from="1578516542706" duration="1108000" />
+      <workItem from="1578520686162" duration="1045000" />
+      <workItem from="1578601557018" duration="577000" />
+      <workItem from="1578602429108" duration="7000" />
+      <workItem from="1578602461919" duration="88000" />
+      <workItem from="1578949615950" duration="1681000" />
+    </task>
+    <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
+      <created>1500800947832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500800947833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="17.09.2017 Лекция 2">
+      <created>1505665865555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505665865555</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Collections rename">
+      <created>1525189127491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525189127491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed 01.06.2019">
+      <created>1559426876131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559426876132</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed 01.06.2019">
+      <created>1559427900781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559427900781</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed 13.06.2019&#10;add StreamDescription + Streams Example">
+      <created>1560405902916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560405902916</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed 17.06.2019&#10;add StreamDescription + Streams Example">
+      <created>1560755753129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560755753129</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed 19.06.2019&#10;add StreamDescription + Streams Example">
+      <created>1560928040468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560928040468</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed 23.06.2019&#10;streams and functional Interface final!">
+      <created>1561311869719</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561311869719</updated>
+    </task>
+    <task id="LOCAL-00010" summary="jsoup 1.07">
+      <created>1561964011004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561964011004</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add instant time  23.07">
+      <created>1563859125321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563859125321</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add LocalDate   25.07">
+      <created>1564088467554</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564088467554</updated>
+    </task>
+    <task id="LOCAL-00013" summary="tika and json">
+      <created>1568757348485</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568757348485</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tika and json">
+      <created>1569270720845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569270720845</updated>
+    </task>
+    <task id="LOCAL-00015" summary="jkh project">
+      <created>1571205496801</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571205496801</updated>
+    </task>
+    <task id="LOCAL-00016" summary="jkh project step 2">
+      <created>1571576468920</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571576468920</updated>
+    </task>
+    <task id="LOCAL-00017" summary="other cases sorted collections">
+      <created>1573417043375</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573417043375</updated>
+    </task>
+    <task id="LOCAL-00018" summary="json description">
+      <created>1574837039560</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574837039564</updated>
+    </task>
+    <task id="LOCAL-00019" summary="stream example Collect.toMap()">
+      <created>1578552659749</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578552659749</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DecimalTest - 2019.10.20 at 12h 31m 49s.xml">
+      <configuration name="DecimalTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="236229000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
+      <window_info id="Structure" order="1" weight="0.24962178" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.62356794" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.3878887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3535188" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4969743" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.45008183" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="REST Client" order="14" weight="0.5139116" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" x="92" y="92" width="1182" height="544" id="Documentation" order="7" type="FLOATING" />
+      <window_info anchor="right" id="Ant Build" internal_type="SLIDING" order="8" type="SLIDING" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Database" order="11" weight="0.32980332" />
+      <window_info anchor="right" id="JSON Viewer" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="23.07.2017 - внутренние уклассы" />
+    <MESSAGE value="213233 23.07.2017 - внутренние уклассы" />
+    <MESSAGE value="213233 23.07.2017 -лекция 2" />
+    <MESSAGE value="17.09.2017 Лекция 2" />
+    <MESSAGE value="Collections rename" />
+    <MESSAGE value="fixed 01.06.2019" />
+    <MESSAGE value="fixed 13.06.2019&#10;add StreamDescription + Streams Example" />
+    <MESSAGE value="fixed 17.06.2019&#10;add StreamDescription + Streams Example" />
+    <MESSAGE value="fixed 19.06.2019&#10;add StreamDescription + Streams Example" />
+    <MESSAGE value="fixed 23.06.2019&#10;streams and functional Interface final!" />
+    <MESSAGE value="jsoup 1.07" />
+    <MESSAGE value="add instant time  23.07" />
+    <MESSAGE value="add LocalDate   25.07" />
+    <MESSAGE value="tika and json" />
+    <MESSAGE value="jkh project" />
+    <MESSAGE value="jkh project step 2" />
+    <MESSAGE value="other cases sorted collections" />
+    <MESSAGE value="json description" />
+    <MESSAGE value="stream example Collect.toMap()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream example Collect.toMap()" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/str/StrBrowseMethods.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/str/StrBrowseMethods.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/innerClasses/IteratorInnerClass.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/annotations/Annotations.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.0-jre/guava-27.0-jre-sources.jar!/com/google/common/base/Objects.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/InputTikaDemo.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/InputTikaDemo.java</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/TikaParser.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/TikaParser.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/InputTikaDemo.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/InputTikaDemo.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/InputTikaDemo.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/TikaParser.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tika/TikaParser.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="JavaTask" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="JavaTask" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/JsonObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/JsonElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1248" column="19" selection-start-line="1248" selection-start-column="19" selection-end-line="1248" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/JsonParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/JsonArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/PasswordEnconder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/databind/fastjson/BankRatesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/memory.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bitoper/BitOperationDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/sorted/GroupBySorterMulti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorted/SortTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorted/GroupBySorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorted/TransactionComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ArrayListToArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+          <folding>
+            <element signature="e#10659#10660#0" expanded="true" />
+            <element signature="e#10730#10731#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ArrayToArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/ClonableClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bigdecimal/BigDecimalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/blockinit/BlockInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/constructor/ManyConstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1073" column="32" selection-start-line="1073" selection-start-column="32" selection-end-line="1073" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/DescriptionStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2174">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorted/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/StreamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="349" column="5" lean-forward="true" selection-start-line="349" selection-start-column="5" selection-end-line="349" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reflections/config.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/GenericDemoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/AutoCloseableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/json/MapSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/value/BankRates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/value/Rate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/gson/BankRatesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/value/TicketAirlineData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/databind/gson/BankRatesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/gson/GsonTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesJsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/doc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/databind/jackson/BankRatesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/JacksonTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaTask:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2045977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2045977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2045977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2045977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2045977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2045977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

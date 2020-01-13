@@ -7,6 +7,7 @@ import com.google.common.collect.Maps;
 import org.apache.commons.lang3.RandomUtils;
 import sorted.Transaction;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -324,11 +325,31 @@ public class StreamExample {
          * Compress  map
          * Получение из List<Map<String, List<Element>>> , Map <String, List<Element>>
          */
-        List<Map<String, List<Transaction>>> transactions = Lists.newArrayList();
+        List<Map<String, List<TransactionStream>>> transactions = Lists.newArrayList();
+
+        Map<String,List<TransactionStream>> maps = Maps.newHashMap();
+        maps.put("99", Lists.newArrayList(new TransactionStream(1L, new BigDecimal(100))));
+        maps.put("22", Lists.newArrayList(new TransactionStream(2L, new BigDecimal(344))));
+        maps.put("55", Lists.newArrayList(new TransactionStream(3L, new BigDecimal(150))));
+        transactions.add(maps);
+
+        Map<String,List<TransactionStream>> maps2 = Maps.newHashMap();
+        maps2.put("99", Lists.newArrayList(new TransactionStream(5L, new BigDecimal(666))));
+        maps2.put("22", Lists.newArrayList(new TransactionStream(23L, new BigDecimal(777))));
+        transactions.add(maps2);
+
+        Map<String,List<TransactionStream>> maps3 = Maps.newHashMap();
+        maps3.put("22", Lists.newArrayList(new TransactionStream(100L, new BigDecimal(90))));
+        maps3.put("55", Lists.newArrayList(new TransactionStream(300L, new BigDecimal(26))));
+
+        transactions.add(maps3);
+
+        Map<String, List<TransactionStream>> res = collapseFlatMap(transactions);
+        System.out.println("CollapseFlatMap:"+res);
 
     }
 
-    public static <T, S> Map<T, List<S>> splitMap(List<Map<T, List<S>>> list) {
+    public static <T, S> Map<T, List<S>> collapseFlatMap(List<Map<T, List<S>>> list) {
         Map<T, List<S>> result = list.stream().flatMap(map -> map.entrySet().stream())
                 .collect(Collectors.toMap(Map.Entry::getKey,
                         Map.Entry::getValue,
@@ -336,4 +357,24 @@ public class StreamExample {
         return result;
     }
 
+}
+
+class TransactionStream {
+
+    private Long id;
+
+    private BigDecimal amount;
+
+    public TransactionStream(Long id, BigDecimal amount) {
+        this.id = id;
+        this.amount = amount;
+    }
+
+    @Override
+    public String toString() {
+        return "TransactionStream{" +
+                "id=" + id +
+                ", amount=" + amount +
+                '}';
+    }
 }
