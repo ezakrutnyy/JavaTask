@@ -10,6 +10,8 @@ public class InterfaceInstrumentDemo {
         for (InstrumentInterface elem : arr) {
             elem.settings();
             elem.play();
+            elem.interfaceMethodElement();
+            InstrumentInterface.interfaceMethodStatic();
         }
     }
 }
@@ -19,6 +21,14 @@ interface InstrumentInterface {
     String consts = "Константа";
     void play();
     void settings();
+
+     static void interfaceMethodStatic() {
+         System.out.println("interfaceMethodStatic"+consts);
+     }
+
+     default void interfaceMethodElement() {
+         System.out.println("interfaceMethodElement"+consts);
+     }
 
 }
 

@@ -1,4 +1,4 @@
-package innerClasses;
+package innerClasses.innerClasses;
 
 import java.awt.event.ActionEvent;
 import javax.swing.*;

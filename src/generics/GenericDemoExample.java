@@ -3,9 +3,7 @@ package generics;
 import com.google.common.collect.Lists;
 import streams.Employee;
 import streams.Manager;
-
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

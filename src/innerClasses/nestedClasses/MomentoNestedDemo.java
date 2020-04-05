@@ -1,4 +1,4 @@
-package innerClasses;
+package innerClasses.nestedClasses;
 
 /**
  * Created by Евгений on 05.05.2018.

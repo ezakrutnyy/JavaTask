@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/JsonElement.class" description="public abstract com.google.gson.JsonElement deepCo..." line="0" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="Regex new realization">
-      <change afterPath="$PROJECT_DIR$/src/memory/MemoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/generator/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/generator/ReportGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/generator/TrxReportGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/ReportBlockSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/ReportSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/aero/AeroflotSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/formatter/AbstractValueFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/formatter/StringFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/formatter/ValueFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/AbstractMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/ComputableMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/ConstantMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/Mappers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/TransactionFieldMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/ValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/strategy/PlainTextAccumulationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/strategy/ReportData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/strategy/ReportingDataAccumulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportservice/value/AeroflotTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/GarageGenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/TypeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/TypeVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/WildCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractAndInterfaces/InterfaceInstrumentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractAndInterfaces/InterfaceInstrumentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/GenericDemoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericDemoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/ArrayAlgNestedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/nestedClasses/ArrayAlgNestedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/BankAccountAnonimClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/anonimusClasses/BankAccountAnonimClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/BankAccountInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/innerClasses/BankAccountInnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/BankAccountLocalInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/localClasses/BankAccountLocalInnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/ComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/localClasses/ComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/CycleAbstractMethodInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/IteratorInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/innerClasses/IteratorInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/MomentoInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/innerClasses/MomentoInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/MomentoNestedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/nestedClasses/MomentoNestedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/OuterSimple.java" beforeDir="false" />
     </list>
     <ignored path="JavaTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,39 +59,12 @@
     <favorites_list name="JavaTask" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reportservice/ReportService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reportservice/generator/TrxReportGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/reportservice/generator/Generator.java">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/nestedClasses/MomentoNestedDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -116,15 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Url</find>
-      <find>Writer</find>
-      <find>&quot;body &gt; div.b-fix-wrapper &gt; div &gt; div:nth-child(1) &gt; div &gt; div &gt; div.mos-oiv-layout__wrapper &gt; div &gt; div.mos-oiv-layout__main-content &gt; div &gt; div.content-institutions-one-id.ng-scope.ng-isolate-scope &gt; div &gt; div &gt; div:nth-child(4) &gt; table &gt; tbody &gt; tr:nth-child(9) &gt; td:nth-child(3) &gt; p &gt; span &gt; span &gt; span&quot;</find>
-      <find>REPLACE_EXISTING</find>
-      <find>url</find>
-      <find>new new File()</find>
-      <find>cha</find>
-      <find>select</find>
-      <find>plus</find>
       <find>Tika</find>
       <find>LOGGER.info</find>
       <find>tika</find>
@@ -146,6 +102,15 @@
       <find>toMap</find>
       <find>Collectors.toMap</find>
       <find>BankRatesDeserializer</find>
+      <find>extends String</find>
+      <find>Container</find>
+      <find>printName</find>
+      <find>funcTreeChars</find>
+      <find>apply</find>
+      <find>map</find>
+      <find>fill</find>
+      <find>Inner1</find>
+      <find>compInterfaceEmployeOld</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,24 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/serializations/jackson/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/fastjson/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/gson/databind/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/fastjson/databind/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/jackson/databind/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/databind/jackson/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/databind/fastjson/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/serializations/databind/genson/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/mock/PasswordEnconder.java" />
-        <option value="$PROJECT_DIR$/src/mock/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/mock/User.java" />
-        <option value="$PROJECT_DIR$/src/mock/UserService.java" />
-        <option value="$PROJECT_DIR$/src/mock/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/serializations/treemodel/gson/BankRatesDemo.java" />
-        <option value="$PROJECT_DIR$/src/bitoper/BitOperationDemo.java" />
-        <option value="$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java" />
-        <option value="$PROJECT_DIR$/src/array/ArrayToArrayList.java" />
         <option value="$PROJECT_DIR$/src/streams/StreamExample.java" />
         <option value="$PROJECT_DIR$/src/serializations/value/TicketAirlineData.java" />
         <option value="$PROJECT_DIR$/src/serializations/treemodel/jackson/JacksonTree.java" />
@@ -212,6 +159,24 @@
         <option value="$PROJECT_DIR$/src/reportservice/specification/mappers/ValueMapper.java" />
         <option value="$PROJECT_DIR$/src/reportservice/specification/mappers/TransactionFieldMapper.java" />
         <option value="$PROJECT_DIR$/src/reportservice/specification/mappers/ConstantMapper.java" />
+        <option value="$PROJECT_DIR$/src/generics/GenericDemoExample.java" />
+        <option value="$PROJECT_DIR$/src/generics/TypeVariable.java" />
+        <option value="$PROJECT_DIR$/src/generics/TypeClass.java" />
+        <option value="$PROJECT_DIR$/src/generics/WildCard.java" />
+        <option value="$PROJECT_DIR$/src/generics/Garage.java" />
+        <option value="$PROJECT_DIR$/src/abstractAndInterfaces/functional/SupplierDemo.java" />
+        <option value="$PROJECT_DIR$/src/abstractAndInterfaces/functional/BinaryOperatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/str/MutableString.java" />
+        <option value="$PROJECT_DIR$/src/generics/GarageGenericDemo.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/abstractAndInterfaces/InterfaceInstrumentDemo.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/inner/ArrayAlgNestedClass.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/ComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/BankAccountAnonimClassDemo.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/BankAccountInnerClassDemo.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/anonimusClasses/BankAccountAnonimClassDemo.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/inner/BankAccountInnerClassDemo.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/OuterSimple.java" />
       </list>
     </option>
   </component>
@@ -240,10 +205,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,19 +251,6 @@
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reportservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reportservice" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -325,16 +277,16 @@
     <property name="settings.editor.splitter.proportion" value="0.23425196" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh" />
-      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\tika" />
-      <recent name="C:\Users\Евгений\IdeaProjects\JavaTask\src\innerClasses" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\memory" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh\resources" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\tika" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh" />
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\tika" />
+      <recent name="C:\Users\Евгений\IdeaProjects\JavaTask\src\innerClasses" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReportService">
+  <component name="RunManager" selected="Application.OuterSimple">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -460,13 +412,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IpAddressRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.IpAddressRegex" />
+    <configuration name="BankAccountAnonimClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerClasses.anonimusClasses.BankAccountAnonimClassDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regex.*" />
+          <option name="PATTERN" value="innerClasses.anonimusClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,13 +426,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.RegexDemo" />
+    <configuration name="GarageGenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GarageGenericDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regex.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -488,13 +440,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexReplacer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.RegexReplacer" />
+    <configuration name="InterfaceInstrumentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractAndInterfaces.InterfaceInstrumentDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regex.*" />
+          <option name="PATTERN" value="abstractAndInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -502,13 +454,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.RegexSplitter" />
+    <configuration name="OuterSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerClasses.OuterSimple" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regex.*" />
+          <option name="PATTERN" value="innerClasses.innerClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,16 +468,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reportservice.ReportService" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reportservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -596,19 +542,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IpAddressRegex" />
-      <item itemvalue="Application.RegexDemo" />
-      <item itemvalue="Application.RegexSplitter" />
-      <item itemvalue="Application.RegexReplacer" />
-      <item itemvalue="Application.ReportService" />
+      <item itemvalue="Application.GarageGenericDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.InterfaceInstrumentDemo" />
+      <item itemvalue="Application.BankAccountAnonimClassDemo" />
+      <item itemvalue="Application.OuterSimple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReportService" />
-        <item itemvalue="Application.RegexReplacer" />
-        <item itemvalue="Application.RegexSplitter" />
-        <item itemvalue="Application.RegexDemo" />
-        <item itemvalue="Application.IpAddressRegex" />
+        <item itemvalue="Application.OuterSimple" />
+        <item itemvalue="Application.BankAccountAnonimClassDemo" />
+        <item itemvalue="Application.InterfaceInstrumentDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.GarageGenericDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -697,6 +643,18 @@
       <workItem from="1579498187737" duration="2185000" />
       <workItem from="1579640187965" duration="4403000" />
       <workItem from="1579649179075" duration="3727000" />
+      <workItem from="1585520211699" duration="374000" />
+      <workItem from="1585520624579" duration="117000" />
+      <workItem from="1585572473326" duration="19567000" />
+      <workItem from="1585776768726" duration="8082000" />
+      <workItem from="1585858185361" duration="4109000" />
+      <workItem from="1585905326275" duration="5391000" />
+      <workItem from="1585998295024" duration="9000" />
+      <workItem from="1586007912798" duration="3504000" />
+      <workItem from="1586013923057" duration="8245000" />
+      <workItem from="1586052505802" duration="64000" />
+      <workItem from="1586052815504" duration="347000" />
+      <workItem from="1586081847268" duration="4934000" />
     </task>
     <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
       <created>1500800947832</created>
@@ -861,7 +819,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248707000" />
+    <option name="totallyTimeSpent" value="303450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,16 +833,16 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
-      <window_info id="Structure" order="1" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.2193646" />
+      <window_info id="Structure" order="1" sideWeight="0.49887133" weight="0.25340393" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="4" sideWeight="0.5011287" side_tool="true" weight="0.24962178" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.62356794" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.3878887" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.2749591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1027,7 +985,7 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/innerClasses/IteratorInnerClass.java</url>
+          <url>file://$PROJECT_DIR$/src/innerClasses/innerClasses/IteratorInnerClass.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="35" />
@@ -1118,491 +1076,394 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/streams/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/generics/TypeClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflections/config.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericDemoExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/AutoCloseableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/json/MapSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/value/BankRates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/value/Rate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/gson/BankRatesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/value/TicketAirlineData.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="212">
+          <caret line="2502" column="28" selection-start-line="2502" selection-start-column="28" selection-end-line="2502" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#5709#5710#0" expanded="true" />
+            <element signature="e#5740#5741#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/databind/gson/BankRatesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/gson/GsonTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/BankRatesJsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/doc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/databind/jackson/BankRatesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializations/treemodel/jackson/JacksonTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams/StreamExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="349" column="5" lean-forward="true" selection-start-line="349" selection-start-column="5" selection-end-line="349" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/TimeRegex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/IpAddressRegex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/EmailRegex.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/TimSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="277" column="62" selection-start-line="277" selection-start-column="61" selection-end-line="277" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/DateRegex.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="314">
+          <caret line="1437" column="26" lean-forward="true" selection-start-line="1437" selection-start-column="26" selection-end-line="1437" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/RegexFinder.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/function/UnaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+          <folding>
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/function/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/str/MutableString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/MemoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/memory.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/str/StrBrowseMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="235" column="25" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/Byte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/RegexSplitter.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/InterfacesTimerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/InterfaceInstrumentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/ClonableClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/AbstractInstrumentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/BinaryOperatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/RegexReplacer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="139">
+          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/StreamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="145" column="47" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/ComparatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5117">
-          <caret line="145" column="33" lean-forward="true" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/MemoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/value/AeroflotTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/generator/ReportGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/formater.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/ConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/formatter/ValueFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/formatter/AbstractValueFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/formatter/StringFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/FunctionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/mappers/TransactionFieldMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/PredicateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/mappers/ConstantMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/SupplierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-13">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/mappers/AbstractMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractAndInterfaces/functional/UnaryOperatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/strategy/ReportData.java">
+    <entry file="file://$PROJECT_DIR$/src/annotations/Annotations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/WildCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/strategy/ReportingDataAccumulation.java">
+    <entry file="file://$PROJECT_DIR$/src/generics/TypeVariable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/aero/AeroflotSpecification.java">
+    <entry file="file://$PROJECT_DIR$/src/generics/GenericDemoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/GarageGenericDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/blockinit/BlockInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/blockinit/BlockInitDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/constructor/ManyConstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/localClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/localClasses/BankAccountLocalInnerClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/localClasses/ComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="9" selection-start-line="27" selection-start-column="66" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/nestedClasses/ArrayAlgNestedClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/innerClasses/IteratorInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/innerClasses/BankAccountInnerClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/anonimusClasses/BankAccountAnonimClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="38" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/mappers/ComputableMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/CycleAbstractMethodInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="-168">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/OuterSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="49" column="9" selection-start-line="42" selection-start-column="57" selection-end-line="49" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/mappers/ValueMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/innerClasses/MomentoInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="187">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/mappers/Mappers.java">
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/nestedClasses/MomentoNestedDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/strategy/PlainTextAccumulationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/ReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/generator/TrxReportGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/ReportBlockSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/specification/ReportSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportservice/generator/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>

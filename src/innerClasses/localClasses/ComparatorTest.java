@@ -1,4 +1,4 @@
-package innerClasses;
+package innerClasses.localClasses;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class ComparatorTest {
         mp3.put("Family","Took");
         list.add(mp3);
 
-         class Sorting implements Comparator<Map<String,Object>>   {
+        class Sorting implements Comparator<Map<String,Object>>   {
 
             public int compare(Map<String, Object> o1, Map<String, Object> o2) {
                 String s1 = (String) o1.get("Family");

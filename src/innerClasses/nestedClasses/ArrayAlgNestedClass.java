@@ -1,9 +1,10 @@
-package innerClasses;
+package innerClasses.nestedClasses;
 
 /**
  * Created by Евгений on 23.07.2017.
  */
 public class ArrayAlgNestedClass {
+    
     public static class Pair {
 
         public Pair(int first, int second) {
