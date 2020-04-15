@@ -1,6 +1,7 @@
 package array;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * Created by Евгений on 23.07.2017.
@@ -22,5 +23,10 @@ public class ArrayMainMethodsClass {
 
         String[] fruit = {"Orange", "Banana", "Apple"};
         System.out.println(Arrays.toString(fruit));
+
+
+        Arrays.sort(fruit, Comparator.reverseOrder());
+        System.out.println(Arrays.toString(fruit));
+
     }
 }

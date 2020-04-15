@@ -1,4 +1,4 @@
-package collections;
+package collections.queue;
 
 import java.util.LinkedList;
 
@@ -27,7 +27,7 @@ public class QueueExample{
 
 class Queue<T> {
 
-    private LinkedList<T> stack = new LinkedList<T>();
+    private LinkedList<T> stack = new LinkedList<>();
 
     public void push(T elem) {
         stack.offer(elem);

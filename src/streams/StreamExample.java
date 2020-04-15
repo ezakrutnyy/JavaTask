@@ -1,11 +1,9 @@
 package streams;
 
-import abstractAndInterfaces.functional.ComparatorDemo;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.lang3.RandomUtils;
-import sorted.Transaction;
 
 import java.math.BigDecimal;
 import java.util.*;

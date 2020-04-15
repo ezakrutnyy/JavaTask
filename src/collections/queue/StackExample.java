@@ -1,7 +1,5 @@
-package collections;
+package collections.queue;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 
 /**

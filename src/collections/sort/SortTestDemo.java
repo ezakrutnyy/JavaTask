@@ -1,4 +1,4 @@
-package sorted;
+package collections.sort;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang3.builder.CompareToBuilder;
@@ -14,9 +14,10 @@ public class SortTestDemo {
     private static SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
 
     public static void main(String[] args) throws ParseException {
+
         // sorting  by comparable, support Comparison Chain
         System.out.println("************************sortWithComparibleChain()*****************************");
-        sortWithComparibleChain();
+        sortWithComparableChain();
         System.out.println("*******************************************************************************");
 
         // sorting  by comparator, support Java 8
@@ -82,7 +83,7 @@ public class SortTestDemo {
         lists.forEach(System.out::println);
     }
 
-    private static void sortWithComparibleChain() throws ParseException {
+    private static void sortWithComparableChain() throws ParseException {
         List<TransactionComparable> lists = Lists.newArrayList();
         TransactionComparable trx1 = new TransactionComparable("100","100", dateFormat.parse("01.01.2019"));
         lists.add(trx1);

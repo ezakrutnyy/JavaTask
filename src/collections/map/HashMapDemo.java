@@ -1,4 +1,4 @@
-package collections;
+package collections.map;
 
 import com.google.common.collect.Maps;
 
@@ -14,7 +14,7 @@ public class HashMapDemo {
         System.out.println("*******************getOrDefault()*****************************");
         HashMap<String, Integer> map = Maps.newHashMap();
         map.put("bob", 12);
-        Integer val = map.getOrDefault("alice", 0);
+        Integer val = map.getOrDefault("alice", 3);
         System.out.println(val);
 
         /* merge() */
@@ -22,6 +22,24 @@ public class HashMapDemo {
         map.put("alice", 7);
         int cnt = map.merge("alice", 1, Integer::sum);
         System.out.println(cnt);
+
+        System.out.println("*******************putIfAbsent()*****************************");
+        map.putIfAbsent("bob", 6);
+        System.out.println(map);
+
+        System.out.println("*******************compute()*****************************");
+        map.compute("baron", (key, value) -> 100);
+        System.out.println(map);
+
+        System.out.println("*******************computeIfAbsent()*****************************");
+        Integer rishid = map.computeIfAbsent("roshild", key -> 200);
+        System.out.println(rishid);
+        System.out.println(map);
+
+        System.out.println("*******************computeIfPresent()*****************************");
+        Integer roshild2 = map.computeIfPresent("roshild", (key, value) -> value+500);
+        System.out.println(roshild2);
+        System.out.println(map);
 
         /* обход отображения  for() */
         System.out.println("*******************for()*****************************");

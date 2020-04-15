@@ -1,4 +1,4 @@
-package collections;
+package collections.list;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ import java.util.*;
 public class CollectionsClassBrowseMethod {
     public static void main(String[] args) {
 
-        final List<String> lst1 = new ArrayList<String>(Arrays.asList("Watermelon","Orange","Banana","Apple","Melon"));
+        final List<String> lst1 = new ArrayList<>(Arrays.asList("Watermelon","Orange","Banana","Apple","Melon"));
 
         System.out.println("------------------------sort---------------------");
         // 1. sorting - прямая сортировка

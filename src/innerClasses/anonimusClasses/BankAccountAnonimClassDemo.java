@@ -31,6 +31,7 @@ class BankAccountAnonimClass {
 
     public void start(final double rate) {
         ActionListener listen = new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
             balance += (balance*rate)/1000;
