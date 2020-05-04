@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phones>
+    <phone>
+        <name>Alias Fox</name>
+        <number order="1">8-222-21-21</number>
+    </phone>
+    <phone>
+        <name>Megan Report</name>
+        <number order="2">8-905-134-55-23</number>
+    </phone>
+    <phone>
+        <name>Oliver Twist</name>
+        <number order="3">5-2-223-12-22</number>
+    </phone>
+</phones>

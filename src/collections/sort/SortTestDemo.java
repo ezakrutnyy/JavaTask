@@ -15,30 +15,30 @@ public class SortTestDemo {
 
     public static void main(String[] args) throws ParseException {
 
-        // sorting  by comparable, support Comparison Chain
-        System.out.println("************************sortWithComparibleChain()*****************************");
-        sortWithComparableChain();
-        System.out.println("*******************************************************************************");
-
-        // sorting  by comparator, support Java 8
-        System.out.println("************************sortWithJava8()****************************************");
-        sortWithJava8();
-        System.out.println("*******************************************************************************");
+//        // sorting  by comparable, support Comparison Chain
+//        System.out.println("************************sortWithComparibleChain()*****************************");
+//        sortWithComparableChain();
+//        System.out.println("*******************************************************************************");
+//
+//        // sorting  by comparator, support Java 8
+//        System.out.println("************************sortWithJava8()****************************************");
+//        sortWithJava8();
+//        System.out.println("*******************************************************************************");
 
         // sorting  by comparator, support  commons-lang
         System.out.println("************************sortWithCommonsLang()**********************************");
         sortWithCommonsLang();
         System.out.println("*******************************************************************************");
 
-        // sorting  by list comparators, support  GroupBySorter class
-        System.out.println("************************sortByGroupBySorter()**********************************");
-        sortByGroupBySorter();
-        System.out.println("*******************************************************************************");
-
-        // sorting  by list comparators, support  GroupBySorter class
-        System.out.println("************************sortByMultiGroupBySorter()*****************************");
-        sortByMultiGroupBySorter();
-        System.out.println("*******************************************************************************");
+//        // sorting  by list comparators, support  GroupBySorter class
+//        System.out.println("************************sortByGroupBySorter()**********************************");
+//        sortByGroupBySorter();
+//        System.out.println("*******************************************************************************");
+//
+//        // sorting  by list comparators, support  GroupBySorter class
+//        System.out.println("************************sortByMultiGroupBySorter()*****************************");
+//        sortByMultiGroupBySorter();
+//        System.out.println("*******************************************************************************");
 
 
 

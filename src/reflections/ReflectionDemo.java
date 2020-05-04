@@ -9,6 +9,9 @@ import java.util.Objects;
 
 public class ReflectionDemo {
     public static void main(String[] args) throws ClassNotFoundException {
+
+        //getSuperClass , getEnclosingClass
+
         ReflectionEmployee employee = new ReflectionEmployee("test",3);
         Class ref = employee.getClass();
 

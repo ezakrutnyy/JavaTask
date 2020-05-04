@@ -2,13 +2,15 @@ package generics;
 
 import com.google.common.collect.Lists;
 
+import java.io.*;
 import java.util.*;
 import java.util.function.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class GarageGenericDemo {
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
         Garage<Car, Motorcycle> garage = new Garage<>();
         garage.setVehicle1(new Car("audi-a1"));
         garage.setVehicle2(new Motorcycle("BMW-20550"));

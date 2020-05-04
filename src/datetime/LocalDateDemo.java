@@ -33,7 +33,7 @@ public class LocalDateDemo {
          * withDayOfYear
          * withMonth()
          * */
-        LocalDate birthDayChange = birthDay.withYear(1998);
+        LocalDate birthDayChange = birthDay.withYear(1988).withMonth(7).withDayOfMonth(9);
         System.out.println("Change Birth Day: "+birthDayChange);
 
         System.out.println("********************Diff dates***************************");

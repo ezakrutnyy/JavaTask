@@ -7,11 +7,12 @@ import java.util.Objects;
 public class MyHashMapDemo {
 
     public static void main(String[] args) {
-        System.out.println(110183 & 15);
         Map<Elem,String> map = new HashMap<>();
         map.put(new Elem("aaaa"), "aaa");
         map.put(new Elem("bbb"), "aaabbb");
         map.put(new Elem("cccc"), "ssdsdsd");
+        map.put(new Elem("aaaa"), "fff");
+        System.out.println(map);
     }
 }
 
@@ -25,14 +26,11 @@ class Elem {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Elem elem = (Elem) o;
-        return Objects.equals(str, elem.str);
+        return this == o;
     }
 
     @Override
     public int hashCode() {
-        return 1;
+        return Objects.hash(str);
     }
 }

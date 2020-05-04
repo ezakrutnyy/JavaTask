@@ -18,16 +18,22 @@ public class InterfaceInstrumentDemo {
 
 
 interface InstrumentInterface {
-    String consts = "Константа";
+    String cnst = "Константа";
+
+
     void play();
     void settings();
 
      static void interfaceMethodStatic() {
-         System.out.println("interfaceMethodStatic"+consts);
+         System.out.println("interfaceMethodStatic"+cnst);
      }
 
+     static void interfaceMethodStatic2() {
+        interfaceMethodStatic();
+    }
+
      default void interfaceMethodElement() {
-         System.out.println("interfaceMethodElement"+consts);
+         System.out.println("interfaceMethodElement"+cnst);
      }
 
 }

@@ -11,7 +11,7 @@ public class IpAddressRegex {
                 + "([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\."
                 + "([01]?\\d\\d?|2[0-4]\\d|25[0-5])$");
 
-        Matcher matcher = pattern.matcher("10.233.190.255");
+        Matcher matcher = pattern.matcher("123.233.190.288");
         if (matcher.matches()) {
             System.out.println("Is a valid ip address format");
         } else {
