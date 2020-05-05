@@ -33,6 +33,8 @@ public class StaxPaser {
             writer.writeEndElement();
         writer.writeEndElement();
         writer.writeEndDocument();
+        writer.flush();
+        writer.close();
 
     }
 }

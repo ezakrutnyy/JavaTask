@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<heroes>
+    <heroy>
+        <name>Batman</name>
+        <skill>Fly</skill>
+    </heroy>
+    <heroy>
+        <name>Tor</name>
+        <skill>Hit</skill>
+    </heroy>
+</heroes>
