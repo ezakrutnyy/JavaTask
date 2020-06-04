@@ -29,6 +29,6 @@ public class CreateStreamExample {
          * */
         Stream<BigInteger> streamsInteger =
                 Stream.iterate(BigInteger.ZERO, n -> n.add(BigInteger.ONE));
-        streamsInteger.forEach(elem -> System.out.println(elem));
+        streamsInteger.forEach(System.out::println);
     }
 }

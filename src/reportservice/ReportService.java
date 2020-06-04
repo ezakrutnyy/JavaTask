@@ -14,6 +14,10 @@ import java.util.List;
 public class ReportService {
 
     public static void main(String[] args) {
+
+
+        System.out.println(String.format("%08d", Integer.parseInt("3232")));
+
         List<AeroflotTransaction> transactions = fill();
         AeroflotSpecification specification = new AeroflotSpecification();
         PlainTextAccumulationStrategy<AeroflotTransaction> strategy = new PlainTextAccumulationStrategy<>();

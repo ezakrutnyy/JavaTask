@@ -1,12 +1,13 @@
 package datetime;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.Period;
+import org.postgresql.shaded.com.ongres.scram.common.util.Preconditions;
+
+import java.time.*;
 import java.time.format.TextStyle;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
+import java.util.Date;
 import java.util.Locale;
 
 public class LocalDateDemo {
@@ -92,5 +93,21 @@ public class LocalDateDemo {
         if (beforeDate.isBefore(afterDate)) {
             System.out.println("BeforeDate before AfterDate:");
         }
+
+        System.out.println("******************** Convert Date To LocalDate ***************************");
+        // Convert Date To LocalDate
+        LocalDate convertLocalDate = convertDateToLocalDate(new Date());
+        System.out.println(convertLocalDate);
     }
+
+    public static LocalDate convertDateToLocalDate(Date date) {
+        Preconditions.checkNotNull(date, "Specified date is null!");
+        return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+    }
+
+    public static Date convertLocalDateToDate(LocalDate localDate) {
+        Preconditions.checkNotNull(localDate, "Specified date is null!");
+        return Date.from(localDate.atStartOfDay().atZone(ZoneId.systemDefault()).toInstant());
+    }
+
 }

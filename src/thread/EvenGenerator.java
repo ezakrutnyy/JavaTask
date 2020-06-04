@@ -27,11 +27,9 @@ public class EvenGenerator extends  IntGenerator {
 class EvenChecker implements Runnable {
 
     private IntGenerator generator;
-    private final int id;
 
     public EvenChecker(IntGenerator generator, int id) {
         this.generator = generator;
-        this.id = id;
     }
 
     @Override

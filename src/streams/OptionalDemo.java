@@ -10,10 +10,7 @@ public class OptionalDemo {
         /**
          * [1] ofNullable() Дает возможность вернуть методу  getStr = null ссылку
          * */
-        Optional<String> strOpt = getStr();
-        if (strOpt.isPresent()) {
-            System.out.println("ofNullable() - "+strOpt.get());
-        }
+        Optional<String> stropt = getStr();
 
         /**
          * [2] orElse() Возвращает значение по умолчанию для null указателя

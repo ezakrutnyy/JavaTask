@@ -1,0 +1,1 @@
+http://sergiomartinrubio.com/articles/java-memory-model-overview#stack-memory

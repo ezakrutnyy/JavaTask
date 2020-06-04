@@ -5,11 +5,8 @@ import reportservice.value.AeroflotTransaction;
 
 public class TransactionFieldMapper extends AbstractMapper<AeroflotTransaction> {
 
-    private String fieldName;
-
     public TransactionFieldMapper(ValueFormatter formatter, String fieldName) {
         super(formatter);
-        this.fieldName = fieldName;
     }
 
     @Override

@@ -1,5 +1,7 @@
 package datetime;
 
+import org.postgresql.shaded.com.ongres.scram.common.util.Preconditions;
+
 import java.time.*;
 import java.util.Date;
 
@@ -105,6 +107,15 @@ public class LocalDateTimeDemo {
         System.out.println("CurrentLocaleDate: "+currentLocaleDate);
         System.out.println("CurrentLocaleTime: "+currentLocaleTime);
         System.out.println("CurrentInstant: "+currentInstant);
+    }
 
+    public static LocalDateTime convertDateToLocalDateTime(Date date) {
+        Preconditions.checkNotNull(date, "Specified date is null!");
+        return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
+    }
+
+    public static Date convertLocalDateTimeToDate(LocalDateTime localDateTime) {
+        Preconditions.checkNotNull(localDateTime, "Specified date is null!");
+        return Date.from(localDateTime.atZone(ZoneId.systemDefault()).toInstant());
     }
 }
