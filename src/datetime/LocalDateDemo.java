@@ -7,6 +7,7 @@ import java.time.format.TextStyle;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -16,6 +17,9 @@ public class LocalDateDemo {
         System.out.println("********************Creation***************************");
         LocalDate localDate = LocalDate.now();
         System.out.println("CurrentDate: "+localDate);
+
+        System.out.println(
+                localDate.getMonth().getDisplayName(TextStyle.FULL_STANDALONE, new Locale("ru")) + localDate.getYear());
 
         LocalDate birthDay = LocalDate.of(1988, 7, 9);
         System.out.println("BirthDay: "+birthDay);

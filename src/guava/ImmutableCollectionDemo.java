@@ -13,6 +13,8 @@ import java.util.Set;
 public class ImmutableCollectionDemo {
     public static void main(String[] args) {
 
+        Short s = 3;
+
         Set<String> immutableSets = ImmutableSet.of(
                 "aaa",
                 "bbb",
@@ -35,6 +37,7 @@ public class ImmutableCollectionDemo {
         );
 
         System.out.println(immutableMap);
+
 
     }
 }

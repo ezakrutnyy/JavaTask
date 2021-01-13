@@ -17,15 +17,13 @@ import java.util.Set;
 public class JoinerAndSplitterDemo {
     public static void main(String[] args) {
         List<String> inputs = Lists.newArrayList("11", "14", "15", null,"55", "66","");
-        List<String> outputs = Lists.newArrayList();
         String str = Joiner.on(";").skipNulls().join(inputs);
         System.out.println(str);
-        outputs = Splitter.on(";").trimResults().omitEmptyStrings().splitToList(str);
+        List<String> outputs = Splitter.on(";").trimResults().omitEmptyStrings().splitToList(str);
         System.out.println(outputs);
 
 
         Map<String,String> mapsInput = Maps.newLinkedHashMap();
-        Map<String,String> mapsOutput = Maps.newLinkedHashMap();
         mapsInput.put("Ivanov", "11");
         mapsInput.put("Petrov", "14");
         mapsInput.put("Sidorov", "15");
@@ -34,7 +32,7 @@ public class JoinerAndSplitterDemo {
         String mapString = Joiner.on("&").withKeyValueSeparator("=").join(mapsInput);
         System.out.println(mapString);
 
-        mapsOutput = Splitter.on("&").withKeyValueSeparator("=").split(mapString);
+        Map<String,String> mapsOutput = Splitter.on("&").withKeyValueSeparator("=").split(mapString);
         System.out.println(mapsOutput);
 
     }

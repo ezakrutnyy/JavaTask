@@ -1,9 +1,11 @@
 package collections.map;
 
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 public class HashMapDemo {
@@ -59,6 +61,13 @@ public class HashMapDemo {
             System.out.println(String.format("key = %s, value = %d", entryIterator.getKey(), entryIterator.getValue()));
 
         }
+
+
+        Map<String, List<String>> maps = Maps.newHashMap();
+        maps.put("810", Lists.newArrayList("1000.00"));
+
+        maps.computeIfAbsent("840", k -> Lists.newArrayList()).add("5500");
+        System.out.println(maps);
 
     }
 }

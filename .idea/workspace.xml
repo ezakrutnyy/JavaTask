@@ -4,53 +4,70 @@
     <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/io/Serializable.java" description="public interface Serializable {" line="168" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="save io and Collections">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/BatchQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/DirtyRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/NonRepeatableRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/PhantomRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/ProductAccountingCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/SavePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/connections/ConnectionTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/dao/ProductAccountingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/entity/ProductAccountingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCTemplateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/scripts/createTable.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/scripts/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/service/ProductAccountingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/spring/jdbctemplate-developer-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/tsql/CallablePrepayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/tsql/counterProductAccounting.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memory/chapter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memory/jvm_momory_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="add jdbc and hibernate">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thedeanda_lorem_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_arnx_wmf2svg_0_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_engio_mbassador_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jexl3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_JAXB_Internal_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_core_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_openxml_objects_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_openxml_objects_pml_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_openxml_objects_sml_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_org_apache_xalan_interpretive_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_org_apache_xalan_metainf_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_org_apache_xalan_serializer_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jxls_jxls_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jxls_jxls_jexcel_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jxls_jxls_poi_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_plutext_jaxb_svg11_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/docx/contract_template.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/docx/contract_template_new.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/docx/hello.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/docx/template-poi.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/xlsx/airline.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parsers/StringFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/GeneralInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/Tasks Learning" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/learn/CachedFactorizerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/learn/ThreadLocalConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xlsx/AirlineDocxPoiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xlsx/AirlineXlsxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xlsx/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/idea_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/idea_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ArrayListToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArrayListToArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/sort/SortTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/sort/SortTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bigdecimal/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bigdecimal/BigDecimalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/map/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/map/HashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datetime/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datetime/LocalDateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datetime/LocalDateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datetime/LocalDateTimeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/memory.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportservice/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportservice/ReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportservice/specification/mappers/TransactionFieldMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportservice/specification/mappers/TransactionFieldMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/CreateStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/CreateStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/OptionalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/EvenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/EvenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/ComparisonChainDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/ForwardingCollectionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/ImmutableCollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/ImmutableCollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/JoinerAndSplitterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/JoinerAndSplitterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/StreamExample.java" afterDir="false" />
     </list>
     <ignored path="JavaTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,7 +113,7 @@
     <favorites_list name="JavaTask" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,36 +125,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>init()</find>
-      <find>put</find>
-      <find>put(</find>
-      <find>head</find>
-      <find>Retention</find>
-      <find>Retention3</find>
-      <find>MapSerializer</find>
-      <find>One</find>
-      <find>ByteArrayOutputStream</find>
-      <find>buf</find>
-      <find>BufferedInputStrea</find>
-      <find>392</find>
-      <find>68,1980</find>
-      <find>qName</find>
-      <find>FunctionalIterfaceMap</find>
-      <find>phones</find>
-      <find>.instance</find>
-      <find>partitio</find>
-      <find>sortWithComparableChain</find>
-      <find>buil</find>
-      <find>Error while connecting postgres</find>
-      <find>jdbc:oracle:thin:@192.168.0.13:1521/orcl</find>
-      <find>jdbcTemplate</find>
-      <find>IDAOFactory</find>
-      <find>hibe</find>
-      <find>HibernateDaoFactory</find>
-      <find>SessionFactory</find>
-      <find>hibernate.dialect</find>
-      <find>PRODUCTACCOUNTING</find>
-      <find>sessionFactory</find>
+      <find>dialec</find>
+      <find>phone_jaxb</find>
+      <find>jxls</find>
+      <find>createTr</find>
+      <find>getCellType</find>
+      <find>poi</find>
+      <find>airline.xlsx</find>
+      <find>MathC</find>
+      <find>Int</find>
+      <find>Threa</find>
+      <find>sum</find>
+      <find>apache.c</find>
+      <find>getC</find>
+      <find>joda</find>
+      <find>ImmutableS</find>
+      <find>printf</find>
+      <find>FlatOpc</find>
+      <find>jaxb</find>
+      <find>haveTried</find>
+      <find>prefixMapper</find>
+      <find>prefixMapper =</find>
+      <find>compr</find>
+      <find>core</find>
+      <find>jaxb-api</find>
+      <find>axb</find>
+      <find>XWPFDocument</find>
+      <find>amountTotal</find>
+      <find>split</find>
+      <find>sw</find>
+      <find>Switch</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -159,37 +176,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/collections/map/HashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/streams/CreateStreamExample.java" />
-        <option value="$PROJECT_DIR$/src/streams/OptionalDemo.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec74cc89-c219-4774-9517-a7338fbec829/console.sql" />
-        <option value="$PROJECT_DIR$/src/jdbc/connection/ConnectionOpen.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/scripts/user.sql" />
-        <option value="$PROJECT_DIR$/src/collections/sort/SortTestDemo.java" />
-        <option value="$PROJECT_DIR$/src/abstractAndInterfaces/functional/ComparatorDemo.java" />
-        <option value="$PROJECT_DIR$/src/array/ArrayToArrayList.java" />
-        <option value="$PROJECT_DIR$/src/array/ArrayListToArray.java" />
-        <option value="$PROJECT_DIR$/src/streams/StreamExample.java" />
-        <option value="$PROJECT_DIR$/src/objects/blockinit/BlockInit.java" />
-        <option value="$PROJECT_DIR$/src/objects/blockinit/BlockInitDemo.java" />
-        <option value="$PROJECT_DIR$/resources/idea_command.txt" />
-        <option value="$PROJECT_DIR$/src/mock/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/cloneable/HeroFive.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/dao/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingDao.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/dao/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingRepository.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/spring/JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/jdbc/spring/JdbcTemplateDeveloperDaoImpl.java" />
-        <option value="$PROJECT_DIR$/resources/jdbctemplate-developer-config.xml" />
-        <option value="$PROJECT_DIR$/src/jdbc/spring/Test.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/dao/ProductAccountingDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/dao/IDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/jdbc/connections/HibernateSession.java" />
         <option value="$PROJECT_DIR$/src/jdbc/connections/HibenrataConnection.java" />
         <option value="$PROJECT_DIR$/src/jdbc/connections/JdbcConnection.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java" />
         <option value="$PROJECT_DIR$/src/jdbc/connections/ConnectionTM.java" />
         <option value="$PROJECT_DIR$/src/jdbc/dao/JDBCDaoFactory.java" />
         <option value="$PROJECT_DIR$/src/jdbc/dao/HibernateDaoFactory.java" />
@@ -205,11 +195,38 @@
         <option value="$PROJECT_DIR$/src/jdbc/scripts/createTable.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d01100d2-0ece-45a0-9499-9bce176cd3df/console.sql" />
         <option value="$PROJECT_DIR$/src/jdbc/ProductAccountingCreator.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/entity/ProductAccountingEntity.java" />
         <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/service/ProductAccountingService.java" />
         <option value="$PROJECT_DIR$/src/jdbc/tsql/counterProductAccounting.sql" />
+        <option value="$PROJECT_DIR$/src/guava/JoinerAndSplitterDemo.java" />
+        <option value="$PROJECT_DIR$/src/streams/StreamExample.java" />
+        <option value="$PROJECT_DIR$/resources/idea_command.txt" />
+        <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java" />
+        <option value="$PROJECT_DIR$/src/xlsx/ProductsXlsxDemo.java" />
+        <option value="$PROJECT_DIR$/src/xlsx/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/io/IODemo.java" />
+        <option value="$PROJECT_DIR$/src/xlsx/AirlineXlsxDemo.java" />
+        <option value="$PROJECT_DIR$/src/ddd.java" />
+        <option value="$PROJECT_DIR$/src/bigdecimal/BigDecimalDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/deadlock/DeadLockInfo.java" />
+        <option value="$PROJECT_DIR$/src/thread/learn/CachedFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/thread/learn/CachedFactorizerServlet.java" />
+        <option value="$PROJECT_DIR$/src/collections/map/HashMapDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/learn/ThreadLocalConncetion.java" />
+        <option value="$PROJECT_DIR$/src/thread/learn/ThreadLocalConnection.java" />
+        <option value="$PROJECT_DIR$/src/thread/GeneralInfo" />
+        <option value="$PROJECT_DIR$/src/datetime/LocalDateTimeDemo.java" />
+        <option value="$PROJECT_DIR$/src/datetime/LocalDateDemo.java" />
+        <option value="$PROJECT_DIR$/src/guava/ImmutableCollectionDemo.java" />
+        <option value="$PROJECT_DIR$/src/parsers/StringFormatter.java" />
+        <option value="$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java" />
+        <option value="$PROJECT_DIR$/src/xlsx/AirlineDocxPoiDemo.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/str/StrBrowseMethods.java" />
       </list>
     </option>
   </component>
@@ -232,6 +249,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="javatask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="javatask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -262,99 +284,13 @@
             <path>
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-commons-annotations-5.0.3.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-commons-annotations-5.0.3.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-commons-annotations-5.0.3.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="annotationfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-commons-annotations-5.0.3.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-commons-annotations-5.0.3.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-commons-annotations-5.0.3.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.3.0.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.3.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.3.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.3.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.3.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.3.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.3.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="dialect" type="462c0819:PsiDirectoryNode" />
+              <item name="str" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,7 +312,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="01.01.2000" />
-    <property name="last_opened_file_path" value="D:/Programs/Субд/ojdbc7.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/docx" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -387,18 +323,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\resources\docx" />
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\resources\xlsx" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\resources\images\source" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\memory" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh" />
-      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\tika" />
-      <recent name="C:\Users\Евгений\IdeaProjects\JavaTask\src\innerClasses" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\thread" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\jdbc\spring" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\xml\jaxb\Phones" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\regex" />
       <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\memory" />
-      <recent name="C:\Users\zakru\IdeaProjects\JavaTask\src\io\jkh\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DirtyRead">
+  <component name="RunManager" selected="Application.StrBrowseMethods">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -524,13 +460,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallablePrepayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.tsql.CallablePrepayment" />
+    <configuration name="AirlineDocxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xlsx.AirlineDocxDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.tsql.*" />
+          <option name="PATTERN" value="xlsx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -538,13 +474,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirtyRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.DirtyRead" />
+    <configuration name="AirlineDocxPoiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xlsx.AirlineDocxPoiDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="xlsx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -552,13 +488,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductAccountingCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.ProductAccountingCreator" />
+    <configuration name="LocalDateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datetime.LocalDateDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="datetime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -566,13 +502,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductAccountingService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.service.ProductAccountingService" />
+    <configuration name="StrBrowseMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="str.StrBrowseMethods" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.service.*" />
+          <option name="PATTERN" value="str.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -580,13 +516,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.spring.Test" />
+    <configuration name="StringFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parsers.StringFormatter" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.repository.*" />
+          <option name="PATTERN" value="parsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -660,19 +596,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProductAccountingCreator" />
-      <item itemvalue="Application.ProductAccountingService" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.CallablePrepayment" />
-      <item itemvalue="Application.DirtyRead" />
+      <item itemvalue="Application.AirlineDocxDemo" />
+      <item itemvalue="Application.LocalDateDemo" />
+      <item itemvalue="Application.StringFormatter" />
+      <item itemvalue="Application.AirlineDocxPoiDemo" />
+      <item itemvalue="Application.StrBrowseMethods" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DirtyRead" />
-        <item itemvalue="Application.CallablePrepayment" />
-        <item itemvalue="Application.ProductAccountingService" />
-        <item itemvalue="Application.ProductAccountingCreator" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StrBrowseMethods" />
+        <item itemvalue="Application.AirlineDocxPoiDemo" />
+        <item itemvalue="Application.AirlineDocxDemo" />
+        <item itemvalue="Application.StringFormatter" />
+        <item itemvalue="Application.LocalDateDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -847,6 +783,75 @@
       <workItem from="1590998331184" duration="11770000" />
       <workItem from="1591121706186" duration="6748000" />
       <workItem from="1591222111254" duration="1375000" />
+      <workItem from="1591247782897" duration="250000" />
+      <workItem from="1591536426513" duration="11574000" />
+      <workItem from="1591617338552" duration="3083000" />
+      <workItem from="1591621601145" duration="574000" />
+      <workItem from="1591622224152" duration="152000" />
+      <workItem from="1591738115334" duration="1926000" />
+      <workItem from="1591817524553" duration="2676000" />
+      <workItem from="1591826944409" duration="20000" />
+      <workItem from="1591826969655" duration="35000" />
+      <workItem from="1592174312219" duration="59000" />
+      <workItem from="1592175507066" duration="870000" />
+      <workItem from="1592866418962" duration="223000" />
+      <workItem from="1593990119382" duration="173000" />
+      <workItem from="1598179939151" duration="704000" />
+      <workItem from="1598180681542" duration="918000" />
+      <workItem from="1598480752791" duration="710000" />
+      <workItem from="1599544984907" duration="127000" />
+      <workItem from="1599665899521" duration="16141000" />
+      <workItem from="1599689372429" duration="619000" />
+      <workItem from="1599812594710" duration="652000" />
+      <workItem from="1600672744015" duration="595000" />
+      <workItem from="1600791822959" duration="48000" />
+      <workItem from="1600811132523" duration="19000" />
+      <workItem from="1600813745525" duration="8000" />
+      <workItem from="1601273894391" duration="1083000" />
+      <workItem from="1601458946561" duration="40000" />
+      <workItem from="1601539883853" duration="292000" />
+      <workItem from="1601635289480" duration="590000" />
+      <workItem from="1601814986731" duration="31000" />
+      <workItem from="1601815105439" duration="623000" />
+      <workItem from="1602431889877" duration="47000" />
+      <workItem from="1603129288961" duration="2497000" />
+      <workItem from="1603440947157" duration="478000" />
+      <workItem from="1603525155822" duration="151000" />
+      <workItem from="1603967190429" duration="880000" />
+      <workItem from="1603999001763" duration="8000" />
+      <workItem from="1605111157562" duration="8704000" />
+      <workItem from="1605129967630" duration="1418000" />
+      <workItem from="1605131520112" duration="176000" />
+      <workItem from="1605131750835" duration="974000" />
+      <workItem from="1605255740806" duration="900000" />
+      <workItem from="1605274508873" duration="579000" />
+      <workItem from="1605432325670" duration="9860000" />
+      <workItem from="1605607479653" duration="19927000" />
+      <workItem from="1605792510835" duration="623000" />
+      <workItem from="1605905974715" duration="129000" />
+      <workItem from="1606295272736" duration="683000" />
+      <workItem from="1606313586962" duration="9000" />
+      <workItem from="1606315973567" duration="1552000" />
+      <workItem from="1606385543457" duration="712000" />
+      <workItem from="1606386338243" duration="8227000" />
+      <workItem from="1606414858739" duration="864000" />
+      <workItem from="1606417267335" duration="4446000" />
+      <workItem from="1606485472158" duration="153000" />
+      <workItem from="1606503093065" duration="586000" />
+      <workItem from="1606547908758" duration="108000" />
+      <workItem from="1607325687298" duration="916000" />
+      <workItem from="1607452703126" duration="61000" />
+      <workItem from="1608149031490" duration="3788000" />
+      <workItem from="1608291773489" duration="363000" />
+      <workItem from="1608292181711" duration="4859000" />
+      <workItem from="1608566679947" duration="35657000" />
+      <workItem from="1608702933723" duration="594000" />
+      <workItem from="1608805576049" duration="603000" />
+      <workItem from="1610273101868" duration="20000" />
+      <workItem from="1610273200233" duration="1305000" />
+      <workItem from="1610278946317" duration="9192000" />
+      <workItem from="1610314473845" duration="39000" />
+      <workItem from="1610553986901" duration="5371000" />
     </task>
     <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
       <created>1500800947832</created>
@@ -1016,7 +1021,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586981555709</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add jdbc and hibernate">
+      <created>1591248033120</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1591248033120</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1025,7 +1037,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591852000" />
+    <option name="totallyTimeSpent" value="764126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,7 +1051,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.23903178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.25642964" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" show_stripe_button="false" sideWeight="0.5011287" side_tool="true" weight="0.24962178" />
@@ -1047,31 +1059,31 @@
       <window_info id="Image Layers" order="5" />
       <window_info x="624" y="39" width="337" height="614" id="Structure" order="6" sideWeight="0.49887133" weight="0.21028744" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.62356794" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4924357" weight="0.58919805" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.66187596" weight="0.34697217" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4924357" visible="true" weight="0.35679215" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.66187596" weight="0.28150573" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33812407" side_tool="true" weight="0.5499182" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4054463" side_tool="true" weight="0.33224222" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.29787233" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4969743" weight="0.33224222" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.5945537" weight="0.33224222" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.45171848" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.5139116" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3289689" />
-      <window_info anchor="bottom" id="Spring" order="16" />
+      <window_info anchor="bottom" id="Spring" order="16" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.32980332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" x="92" y="92" width="1182" height="544" id="Documentation" order="7" type="FLOATING" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.22692889" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="JSON Viewer" order="10" />
       <window_info anchor="right" id="Ant Build" internal_type="SLIDING" order="11" type="SLIDING" weight="0.25" />
@@ -1190,7 +1202,8 @@
     <MESSAGE value="Regex new realization" />
     <MESSAGE value="save Generic New" />
     <MESSAGE value="save io and Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="save io and Collections" />
+    <MESSAGE value="add jdbc and hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jdbc and hibernate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1454,22 +1467,418 @@
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="148" />
+          <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="150" />
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="151" />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guava/MultiSetAndMultiMapDemo.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/streams/StreamExample.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/streams/StreamExample.java</url>
+          <line>343</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jxls/jxls-poi/2.8.1/jxls-poi-2.8.1.jar!/org/jxls/transform/poi/PoiTransformer.class</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.class</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineXlsxDemo.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jxls/jxls-poi/2.8.1/jxls-poi-2.8.1.jar!/org/jxls/transform/poi/PoiSheetData.class</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jxls/jxls-poi/2.8.1/jxls-poi-2.8.1.jar!/org/jxls/transform/poi/PoiCellData.class</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jxls/jxls-poi/2.8.1/jxls-poi-2.8.1.jar!/org/jxls/transform/poi/PoiCellData.class</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jxls/jxls-poi/2.8.1/jxls-poi-2.8.1.jar!/org/jxls/transform/poi/PoiRowData.class</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jxls/jxls-poi/2.8.1/jxls-poi-2.8.1.jar!/org/jxls/transform/poi/PoiCellData.class</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>384</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>414</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/io3/Save.class</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.5/docx4j-3.3.5.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.5/docx4j-3.3.5.jar!/org/docx4j/openpackaging/io3/stores/ZipPartStore.class</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/model/datastorage/migration/VariablePrepare.class</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/model/datastorage/migration/VariablePrepare.class</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/convert/out/flatOpcXml/FlatOpcXmlCreator.class</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/convert/out/flatOpcXml/FlatOpcXmlCreator.class</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/convert/out/flatOpcXml/FlatOpcXmlCreator.class</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/convert/out/flatOpcXml/FlatOpcXmlCreator.class</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/model/datastorage/migration/VariablePrepare.class</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/convert/out/flatOpcXml/FlatOpcXmlCreator.class</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/XmlUtils.class</url>
+          <line>459</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/contenttype/ContentTypeManager.class</url>
+          <line>519</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/io3/Load3.class</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/io3/Load3.class</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/io3/Load3.class</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/contenttype/ContentTypeManager.class</url>
+          <line>479</line>
+          <properties />
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/XmlUtils.class</url>
+          <line>374</line>
+          <properties />
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/contenttype/ContentTypeManager.class</url>
+          <line>494</line>
+          <properties />
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/OpcPackage.class</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/io3/stores/ZipPartStore.class</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxPoiDemo.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxPoiDemo.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/AirlineDocxPoiDemo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="270" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/example/EnumSetExample.java</url>
@@ -1503,386 +1912,297 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>var5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/guava/RangeDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/docx4j_version.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/README.txt" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/model/fields/FieldsPreprocessor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/model/fields/merge/MailMerger.class" />
+    <entry file="file://$PROJECT_DIR$/resources/docx/hello.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/javax/xml/bind/Unmarshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="701" column="18" selection-start-line="701" selection-start-column="18" selection-end-line="701" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/XmlUtils.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/contenttype/ContentTypeManager.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/io3/Load3.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/io3/stores/ZipPartStore.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/OpcPackage.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/contenttype/ContentTypeManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="519" selection-start-line="519" selection-end-line="519" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/io3/Load3.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/jaxb/NamespacePrefixMapperUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/io3/stores/ZipPartStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/openpackaging/packages/OpcPackage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/org/docx4j/XmlUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="459" selection-start-line="459" selection-end-line="459" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/3.3.7/docx4j-3.3.7.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/META-INF/maven/org.docx4j/docx4j/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar!/META-INF/maven/org.docx4j/docx4j/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="501" column="37" selection-start-line="501" selection-start-column="32" selection-end-line="501" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j-core/11.2.5/docx4j-core-11.2.5.jar!/org/docx4j/model/fields/merge/DataFieldName.class" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1966">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/docx4j/docx4j-core/8.0.0/docx4j-core-8.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3242" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-ReferenceImpl/8.0.0/docx4j-JAXB-ReferenceImpl-8.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="17" selection-start-line="46" selection-start-column="2" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-MOXy/8.0.0/docx4j-JAXB-MOXy-8.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-Internal/8.0.0/docx4j-JAXB-Internal-8.0.0.jar!/META-INF/maven/org.docx4j/docx4j-JAXB-Internal/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-Internal/8.0.0/docx4j-JAXB-Internal-8.0.0.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/blockinit/BlockInit.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-Internal/8.0.0/docx4j-JAXB-Internal-8.0.0.jar!/META-INF/maven/org.docx4j/docx4j-JAXB-Internal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
+        <state relative-caret-position="-1071" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cloneable/HeroFive.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-Internal/8.0.0/docx4j-JAXB-Internal-8.0.0.jar!/org/docx4j/jaxb/suninternal/NamespacePrefixMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="83">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/BufferedInputFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="663" column="54" lean-forward="true" selection-start-line="663" selection-start-column="54" selection-end-line="663" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/d01100d2-0ece-45a0-9499-9bce176cd3df.SCHEMA:TM_ORACLE">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>d01100d2-0ece-45a0-9499-9bce176cd3df.SCHEMA:TM_ORACLE</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="346.0" y="280.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/connection/ConnectionOpen.java" />
-    <entry file="file://$PROJECT_DIR$/src/jdbc/spring/JdbcTemplate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.8.RELEASE/spring-jdbc-5.0.8.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding>
-            <element signature="e#2950#2951#0" expanded="true" />
-            <element signature="e#2985#2986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.8.RELEASE/spring-jdbc-5.0.8.RELEASE.jar!/org/springframework/jdbc/support/DatabaseMetaDataCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DatabaseMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="1521" column="47" selection-start-line="1521" selection-start-column="31" selection-end-line="1521" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.197/h2-1.4.197.jar!/org/h2/jdbc/JdbcDatabaseMetaData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="1215" column="26" selection-start-line="1215" selection-start-column="26" selection-end-line="1215" selection-end-column="26" />
-          <folding>
-            <element signature="e#48019#48020#0" expanded="true" />
-            <element signature="e#48067#48068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="1404" column="8" selection-start-line="1404" selection-start-column="8" selection-end-line="1404" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.8.RELEASE/spring-jdbc-5.0.8.RELEASE.jar!/org/springframework/jdbc/support/JdbcUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/spring/Test.java" />
-    <entry file="jar://D:/Programs/Субд/ojdbc7.jar!/oracle/jdbc/driver/OracleDriver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/docx4j/docx4j-JAXB-Internal/8.0.0/docx4j-JAXB-Internal-8.0.0.jar!/org/docx4j/jaxb/suninternal/NamespacePrefixMapperRelationshipsPart.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Programs/Субд/ojdbc7.jar!/oracle/jdbc/OracleDriver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.16/poi-scratchpad-3.16.jar!/org/apache/poi/hwpf/HWPFDocument.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        <state relative-caret-position="-510">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar!/org/apache/poi/xwpf/usermodel/XWPFDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="277" column="25" selection-start-line="277" selection-start-column="16" selection-end-line="277" selection-end-column="25" />
+          <folding>
+            <element signature="e#12960#12961#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="357">
+          <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+          <folding>
+            <marker date="1608638015880" expanded="true" signature="5882:6084" ph="..." />
+            <marker date="1608638015880" expanded="true" signature="6641:6904" ph="..." />
+            <marker date="1608638015880" expanded="true" signature="9269:9481" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.0.Final/hibernate-core-5.3.0.Final.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/connections/HibernateSession.java" />
-    <entry file="file://$PROJECT_DIR$/src/jdbc/dao/IDAOFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/jdbc/dao/HibernateDaoFactory.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/Connection.java">
+    <entry file="file://$PROJECT_DIR$/src/xlsx/AirlineDocxDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/dao/JDBCDaoFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.0.Final/hibernate-core-5.3.0.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.0.Final/hibernate-core-5.3.0.Final.jar!/org/hibernate/dialect/MySQL5Dialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d01100d2-0ece-45a0-9499-9bce176cd3df/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="280" column="31" lean-forward="true" selection-start-line="280" selection-start-column="31" selection-end-line="280" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCTemplateDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="121">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/connections/ConnectionTM.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="119">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/SavePoint.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar!/org/apache/poi/POIXMLDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="542" column="7" lean-forward="true" selection-start-line="542" selection-start-column="7" selection-end-line="542" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar!/org/apache/poi/xwpf/usermodel/XWPFParagraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="949" column="19" selection-start-line="949" selection-start-column="19" selection-end-line="949" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39831">
+          <caret line="2420" column="25" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xlsx/SDPOIDocxView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xlsx/AirlineDocxPoiDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1608665998764" expanded="true" signature="873:1295" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/MemoryDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/ProductAccountingCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#88#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/str/MutableString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/idea_command.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="122">
+          <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/str/CompareStringCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-272">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/entity/ProductAccountingEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/memory/jvm_momory_model.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/chapter.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/dao/ProductAccountingDao.java">
+    <entry file="file://$PROJECT_DIR$/src/str/StrBrowseMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/scripts/createTable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/scripts/user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/spring/jdbctemplate-developer-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/tsql/counterProductAccounting.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/tsql/CallablePrepayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/BatchQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/DirtyRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/NonRepeatableRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/PhantomRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="21" column="83" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/service/ProductAccountingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-255">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1973,5 +2293,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

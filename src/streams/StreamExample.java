@@ -19,17 +19,16 @@ public class StreamExample {
 
     public static void main(String[] args) {
 
-
         List<Employee> employees = Lists.newArrayList(
                 new Employee("Alex", "Moscow", 22),
                 new Employee("Max", "Kursk", 55),
                 new Employee("Tom", "Moscow", 10),
                 new Employee("Carl", "Moscow", 44),
                 new Employee("Sam", "Voronezh", 26),
-                new Employee("Fox", "Yaroslavl",27),
-                new Employee("Ronald", "Moscow",19),
-                new Employee("Mike", "Yaroslavl",23),
-                new Employee("Alex", "Moscow", 22)
+                new Employee("Fox", "Yaroslavl", 27),
+                new Employee("Ronald", "Moscow", 19),
+                new Employee("Mike", "Yaroslavl", 23),
+                new Employee("Arche", "Tula", 23)
         );
 
         System.out.println("**************************************************************************");
@@ -38,7 +37,7 @@ public class StreamExample {
 
 
         long length = employees.parallelStream().filter(predicateYar).count();
-        System.out.println("count()"+length);
+        System.out.println("count()" + length);
 
 
         System.out.println("limit()");
@@ -93,14 +92,14 @@ public class StreamExample {
         System.out.println("**************************************************************************");
 
         List<List<String>> deepLists = Lists.newArrayList(
-                Lists.newArrayList("zak","mak"),
-                Lists.newArrayList("rak","dac"),
-                Lists.newArrayList("mirror","bolk")
+                Lists.newArrayList("zak", "mak"),
+                Lists.newArrayList("rak", "dac"),
+                Lists.newArrayList("mirror", "bolk")
         );
 
         System.out.println("flatMap()");
-        String strDep = deepLists.stream().flatMap(str -> str.stream()).collect(Collectors.joining());
-        List<String> listDep = deepLists.stream().flatMap(list -> list.stream()).collect(Collectors.toList());
+        String strDep = deepLists.stream().flatMap(Collection::stream).collect(Collectors.joining(","));
+        List<String> listDep = deepLists.stream().flatMap(Collection::stream).collect(Collectors.toList());
         System.out.println(strDep);
         System.out.println(listDep);
 
@@ -115,20 +114,20 @@ public class StreamExample {
         System.out.println("flatMapToInt()");
         int sum = collection.stream()
                 .flatMapToInt(p -> Arrays.asList(p.split(",")).stream()
-                .mapToInt(Integer::parseInt)).sum();
+                        .mapToInt(Integer::parseInt)).sum();
         System.out.println(sum);
 
         System.out.println("map()");
         employees.stream().filter(predicateYar).map(Employee::getName).forEach(printName);
 
         /*
-        * Объект IntStream, после применения результатирующей функции, вохвращает примитив int
-        * */
-        System.out.println("intStream: sum: "+employees.stream().mapToInt(Employee::getOld).sum());
-        System.out.println("intStream: average: "+employees.stream().mapToInt(Employee::getOld).average());
-        System.out.println("intStream: max element: "+employees.stream().mapToInt(Employee::getOld).max());
-        System.out.println("intStream: min element: "+employees.stream().mapToInt(Employee::getOld).min());
-        System.out.println("mapToInt is int[] :"+Arrays.toString(employees.stream().mapToInt(Employee::getOld).toArray()));
+         * Объект IntStream, после применения результатирующей функции, вохвращает примитив int
+         * */
+        System.out.println("intStream: sum: " + employees.stream().mapToInt(Employee::getOld).sum());
+        System.out.println("intStream: average: " + employees.stream().mapToInt(Employee::getOld).average());
+        System.out.println("intStream: max element: " + employees.stream().mapToInt(Employee::getOld).max());
+        System.out.println("intStream: min element: " + employees.stream().mapToInt(Employee::getOld).min());
+        System.out.println("mapToInt is int[] :" + Arrays.toString(employees.stream().mapToInt(Employee::getOld).toArray()));
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования distinct()");
@@ -144,13 +143,13 @@ public class StreamExample {
                 .sorted(compInterfaceEmployeOld)
                 .collect(Collectors.toList());
 
-        System.out.println("sortedEmployeeList by old: "+sortedEmployeeList);
+        System.out.println("sortedEmployeeList by old: " + sortedEmployeeList);
 
         sortedEmployeeList = employees.stream()
                 .sorted(Comparator.comparing(Employee::getCity))
                 .collect(Collectors.toList());
 
-        System.out.println("sortedEmployeeList by city: "+sortedEmployeeList);
+        System.out.println("sortedEmployeeList by city: " + sortedEmployeeList);
 
 
         System.out.println("**************************************************************************");
@@ -161,13 +160,13 @@ public class StreamExample {
                 .map(Employee::getOld)
                 .min(Integer::compareTo)
                 .orElse(0);
-        System.out.println("Min old: " +minOld);
+        System.out.println("Min old: " + minOld);
 
         String maxCity = employees.stream()
                 .map(Employee::getCity)
                 .max(String::compareTo)
                 .orElse("");
-        System.out.println("Max City: " +maxCity);
+        System.out.println("Max City: " + maxCity);
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования ForEach и Peek функций");
@@ -188,19 +187,19 @@ public class StreamExample {
 
         Optional<Integer> reduceSumm = employees.stream()
                 .map(Employee::getOld)
-                .reduce((o1,o2) -> o1+o2);
-        System.out.println("reduceSum old: "+reduceSumm.orElse(0));
+                .reduce((o1, o2) -> o1 + o2);
+        System.out.println("reduceSum old: " + reduceSumm.orElse(0));
 
 
         Integer reduceSummInteger = employees.stream()
                 .map(Employee::getOld)
-                .reduce(0, (o1,o2) -> o1+o2);
-        System.out.println("reduceSum old or 0: "+reduceSummInteger);
+                .reduce(0, (o1, o2) -> o1 + o2);
+        System.out.println("reduceSum old or 0: " + reduceSummInteger);
 
         int totalcount = employees.stream()
                 .map(Employee::getOld)
                 .reduce(0, (cnt, o1) -> cnt += o1);
-        System.out.println("totalcount: "+totalcount);
+        System.out.println("totalcount: " + totalcount);
 
 
         System.out.println("**************************************************************************");
@@ -214,15 +213,15 @@ public class StreamExample {
                 .map(Employee::getCity)
                 .distinct()
                 .collect(Collectors.joining(","));
-        System.out.println("Collectors.joining: "+resJoinWithSeparator);
+        System.out.println("Collectors.joining: " + resJoinWithSeparator);
 
         /*
          * - toArray(String[]::new)
          * - Возврат результата в виде []
          */
-        List<String> list = ImmutableList.of("aaa","","", "ddddd");
+        List<String> list = ImmutableList.of("aaa", "", "", "ddddd");
         String[] names = employees.stream().map(Employee::getName).toArray(String[]::new);
-        System.out.println("toArray(String[]::new): "+Arrays.toString(names));
+        System.out.println("toArray(String[]::new): " + Arrays.toString(names));
 
         /*
          * если результат нужно свести к результатирующей функции max,min, average, amount
@@ -235,29 +234,29 @@ public class StreamExample {
                 .filter(amount -> amount > 0)
                 .collect(Collectors.summarizingInt(Integer::new));
         System.out.println("Collectors.summarizingInt()");
-        System.out.println("Sum: "+amounts.getSum());
-        System.out.println("Average: "+amounts.getAverage());
-        System.out.println("Min: "+amounts.getMin());
-        System.out.println("Max: "+amounts.getMax());
-        System.out.println("Count: "+amounts.getCount());
+        System.out.println("Sum: " + amounts.getSum());
+        System.out.println("Average: " + amounts.getAverage());
+        System.out.println("Min: " + amounts.getMin());
+        System.out.println("Max: " + amounts.getMax());
+        System.out.println("Count: " + amounts.getCount());
 
         /*
          * - Collectors.groupingBy();
          */
         Map<String, List<Employee>> mapsByGrouping =
                 employees.stream().collect(Collectors.groupingBy(Employee::getCity));
-        System.out.println("Collectors.groupingBy() for Elements: "+mapsByGrouping);
+        System.out.println("Collectors.groupingBy() for Elements: " + mapsByGrouping);
 
 
         Map<String, List<String>> mapsByGroupingForCity =
                 employees.stream()
                         .collect(Collectors.groupingBy(Employee::getCity,
                                 Collectors.mapping(Employee::getName, Collectors.toList())));
-        System.out.println("Collectors.groupingBy() for City: "+mapsByGroupingForCity);
+        System.out.println("Collectors.groupingBy() for City: " + mapsByGroupingForCity);
 
         /*
-        * Нисходящие функции
-        * */
+         * Нисходящие функции
+         * */
 
         /*
          * - summing()
@@ -265,15 +264,15 @@ public class StreamExample {
         Map<String, Integer> mapSumming =
                 employees.stream()
                         .collect(Collectors.groupingBy(Employee::getCity, Collectors.summingInt(Employee::getOld)));
-        System.out.println("mapSumming: "+mapSumming);
+        System.out.println("mapSumming: " + mapSumming);
 
         /*
          * - average()
          */
         Map<String, Double> mapAverage =
-                employees.stream()
+                 employees.stream()
                         .collect(Collectors.groupingBy(Employee::getCity, Collectors.averagingInt(Employee::getOld)));
-        System.out.println("mapAverage: "+mapAverage);
+        System.out.println("mapAverage: " + mapAverage);
 
         /*
          * - maxBy()
@@ -281,7 +280,7 @@ public class StreamExample {
         Map<String, Optional<Employee>> mapMaxOld = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity,
                         Collectors.maxBy(Comparator.comparing(Employee::getOld))));
-        System.out.println("Map older employee in City: "+mapMaxOld);
+        System.out.println("Map older employee in City: " + mapMaxOld);
 
         /*
          * - mapping()
@@ -290,7 +289,7 @@ public class StreamExample {
         Map<String, Optional<String>> mapMapping = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity,
                         Collectors.mapping(Employee::getName, Collectors.maxBy(Comparator.comparing(String::length)))));
-        System.out.println("Map longer string length in name employee in City: "+mapMapping);
+        System.out.println("Map longer string length in name employee in City: " + mapMapping);
 
         /*
          * - mapping min By old
@@ -298,14 +297,14 @@ public class StreamExample {
         Map<String, Optional<Integer>> mapMinOld = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity,
                         Collectors.mapping(Employee::getOld, Collectors.minBy(Comparator.comparing(Integer::new)))));
-        System.out.println("Min old  employee in City: "+mapMinOld);
+        System.out.println("Min old  employee in City: " + mapMinOld);
 
         /*
          * - grouping and summarizing = summaryStatics
          */
         Map<String, IntSummaryStatistics> summaryStatics = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getCity, Collectors.summarizingInt(Employee::getOld)));
-        System.out.println("summaryStatics: "+summaryStatics);
+        System.out.println("summaryStatics: " + summaryStatics);
 
         /*
          * Группирование и разделение
@@ -316,8 +315,8 @@ public class StreamExample {
         Map<Boolean, List<Employee>> mapsByPartitioning =
                 employees.stream()
                         .collect(Collectors.partitioningBy(emp -> emp.getCity().equals("Moscow")));
-        System.out.println("Collectors.partitioningBy() from is Moscow false: "+mapsByPartitioning.get(false));
-        System.out.println("Collectors.partitioningBy() from is Moscow true: "+mapsByPartitioning.get(true));
+        System.out.println("Collectors.partitioningBy() from is Moscow false: " + mapsByPartitioning.get(false));
+        System.out.println("Collectors.partitioningBy() from is Moscow true: " + mapsByPartitioning.get(true));
 
         /**
          * Compress  map
@@ -325,25 +324,56 @@ public class StreamExample {
          */
         List<Map<String, List<TransactionStream>>> transactions = Lists.newArrayList();
 
-        Map<String,List<TransactionStream>> maps = Maps.newHashMap();
+        Map<String, List<TransactionStream>> maps = Maps.newHashMap();
         maps.put("99", Lists.newArrayList(new TransactionStream(1L, new BigDecimal(100))));
         maps.put("22", Lists.newArrayList(new TransactionStream(2L, new BigDecimal(344))));
         maps.put("55", Lists.newArrayList(new TransactionStream(3L, new BigDecimal(150))));
         transactions.add(maps);
 
-        Map<String,List<TransactionStream>> maps2 = Maps.newHashMap();
+        Map<String, List<TransactionStream>> maps2 = Maps.newHashMap();
         maps2.put("99", Lists.newArrayList(new TransactionStream(5L, new BigDecimal(666))));
         maps2.put("22", Lists.newArrayList(new TransactionStream(23L, new BigDecimal(777))));
         transactions.add(maps2);
 
-        Map<String,List<TransactionStream>> maps3 = Maps.newHashMap();
+        Map<String, List<TransactionStream>> maps3 = Maps.newHashMap();
         maps3.put("22", Lists.newArrayList(new TransactionStream(100L, new BigDecimal(90))));
         maps3.put("55", Lists.newArrayList(new TransactionStream(300L, new BigDecimal(26))));
 
         transactions.add(maps3);
 
         Map<String, List<TransactionStream>> res = collapseFlatMap(transactions);
-        System.out.println("CollapseFlatMap:"+res);
+        System.out.println("CollapseFlatMap:" + res);
+
+
+        /**
+         * Compress  map
+         * Получение из List<Map<Integer, Integer>>, Map<Integer, Integer>, где значения, с одинаковыми ключами суммируются
+         */
+
+        Map<Integer, Integer> nodeInstance1 = Maps.newHashMap();
+        nodeInstance1.put(1, 10);
+        nodeInstance1.put(2, 33);
+        nodeInstance1.put(3, 12);
+        nodeInstance1.put(4, 9);
+
+        Map<Integer, Integer> nodeInstance2 = Maps.newHashMap();
+        nodeInstance2.put(1, 5);
+        nodeInstance2.put(2, 7);
+        nodeInstance2.put(3, 7);
+
+        Map<Integer, Integer> nodeInstance3 = Maps.newHashMap();
+        nodeInstance3.put(1, 22);
+        nodeInstance3.put(2, 13);
+        nodeInstance3.put(3, 10);
+
+        Map<Integer, Integer> nodeInstance4 = Maps.newHashMap();
+        nodeInstance4.put(1, 5);
+        nodeInstance4.put(2, 3);
+        nodeInstance4.put(3, 1);
+
+        List<Map<Integer, Integer>> nodes = Lists.newArrayList(nodeInstance1, nodeInstance2, nodeInstance3, nodeInstance4);
+        Map<Integer, Integer> nodesResult = collapseFlatMapWithSumValue(nodes);
+        System.out.println("CollapseFlatMapWithSumValue: " + nodesResult);
 
     }
 
@@ -353,6 +383,12 @@ public class StreamExample {
                         Map.Entry::getValue,
                         (l1, l2) -> Stream.concat(l1.stream(), l2.stream()).collect(Collectors.toList())));
         return result;
+    }
+
+    public static Map<Integer, Integer> collapseFlatMapWithSumValue(List<Map<Integer, Integer>> nodes) {
+        return nodes.stream().flatMap(map -> map.entrySet().stream())
+                .collect(Collectors.toMap(Map.Entry::getKey,
+                        Map.Entry::getValue, Integer::sum));
     }
 
 }
