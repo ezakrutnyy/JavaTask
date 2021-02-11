@@ -9,6 +9,7 @@ public class ExceptionDemo {
         try {
             lastError();
         } catch (RuntimeException e) {
+            System.err.println("Метод mai "+e.getMessage());
             System.err.println("Метод mai "+e.getCause());
         }
 

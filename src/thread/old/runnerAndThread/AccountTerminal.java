@@ -1,4 +1,4 @@
-package thread.runnerAndThread;
+package thread.old.runnerAndThread;
 
 import com.google.common.collect.Lists;
 
@@ -52,9 +52,11 @@ class AccountOperationThread implements Runnable {
     public void run() {
 
         Iterator<AccountOperation> iterator = operations.iterator();
+        synchronized (account) {
         while (iterator.hasNext()) {
+
             AccountOperation operation = iterator.next();
-            synchronized (account) {
+
                 if (account.getAmount().compareTo(BigDecimal.ZERO) > 0) {
                     System.out.println(Thread.currentThread().getName());
                     System.out.println(account.getAmount());

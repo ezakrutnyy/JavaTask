@@ -9,7 +9,7 @@ public class HeroThree {
         hero.setPower(980);
         System.out.println("Hero: " + hero + " hash: "+hero.hashCode());
 
-        HeroThree heroCopy = hero.getInstancse();
+        HeroThree heroCopy = hero.getInstance();
         System.out.println("Hero: " + heroCopy + " hash: "+heroCopy.hashCode());
     }
 
@@ -17,7 +17,7 @@ public class HeroThree {
 
     }
 
-    public HeroThree getInstancse() {
+    public HeroThree getInstance() {
         HeroThree hero = new HeroThree();
         hero.setName(this.name);
         hero.setSkill(this.skill);

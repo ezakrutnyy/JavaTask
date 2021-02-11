@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class OptionalDemo {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         /**
          * [1] ofNullable() Дает возможность вернуть методу  getStr = null ссылку
          * */
@@ -17,14 +17,14 @@ public class OptionalDemo {
          * */
         Optional<String> strForDefaultOpt = getStr();
         String strForDefault = strForDefaultOpt.orElse("default");
-        System.out.println("orElse() - "+strForDefault);
+        System.out.println("orElse() - " + strForDefault);
 
         /**
          * [3] orElseGet() Возвращает значение по умолчанию для null указателя,
          * с применением лямбда функции
          * */
-        List<String> listOpt = getListOpt().orElseGet(()-> Lists.newArrayList());
-        System.out.println("orElseGet() - "+listOpt);
+        List<String> listOpt = getListOpt().orElseGet(() -> Lists.newArrayList());
+        System.out.println("orElseGet() - " + listOpt);
 
         /**
          * orElseThrow() Возвращает значение по умолчанию для null указателя,
@@ -33,7 +33,7 @@ public class OptionalDemo {
         try {
             String strException = getStr().orElseThrow(RuntimeException::new);
         } catch (Exception ex) {
-            System.out.println("orElseThrow() - "+ex);
+            System.out.println("orElseThrow() - " + ex);
         }
 
         /**
@@ -47,8 +47,8 @@ public class OptionalDemo {
          * */
         List<String> collect = Lists.newArrayList("aaa");
         Optional<String> optL = Optional.of("bbb");
-        optL.ifPresent(value->collect.add(value));
-        System.out.println("ifPresent() - "+collect);
+        optL.ifPresent(value -> collect.add(value));
+        System.out.println("ifPresent() - " + collect);
 
         /**
          * [6] ifPresentOrElse еслп нет знаечния в if, применяем метод для else
@@ -59,15 +59,16 @@ public class OptionalDemo {
          * [7] map(), результат операции как ifPresent, но не теряет возвращаемый результат
          * */
         List<String> res = Lists.newArrayList("aaa");
-        Optional<Boolean> isRes = optL.map(v-> res.add(v));
-        System.out.println("map() - "+isRes);
+        Optional<Boolean> isRes = optL.map(v -> res.add(v));
+        System.out.println("map() - " + isRes);
 
 
         /**
          * [8] flatMap() нужен для извлечения из одного Optional, другого, вложенного в него
          * */
-        Optional<Double> optFlatMap = Optional.of(16.0).flatMap(OptionalDemo::inverse).flatMap(OptionalDemo::sqrt);
-        System.out.println(optFlatMap.orElse(new Double(666.00)));
+        Optional<Double> optFlatMap = Optional.of(16.0)
+                .flatMap(OptionalDemo::inverse).flatMap(OptionalDemo::sqrt);
+        System.out.println(optFlatMap.orElse(666.00));
 
     }
 
@@ -81,13 +82,12 @@ public class OptionalDemo {
     }
 
     public static Optional<Double> inverse(Double x) {
-        return x == 0 ? Optional.empty() : Optional.of(1/x);
+        return x == 0 ? Optional.empty() : Optional.of(1 / x);
     }
 
     public static Optional<Double> sqrt(Double x) {
-        return x< 0 ? Optional.empty() : Optional.of(Math.sqrt(x));
+        return x < 0 ? Optional.empty() : Optional.of(Math.sqrt(x));
     }
-
 
 
 }

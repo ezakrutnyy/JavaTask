@@ -1,4 +1,4 @@
-package thread;
+package thread.old;
 
 import java.util.Timer;
 import java.util.TimerTask;

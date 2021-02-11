@@ -1,4 +1,4 @@
-package thread;
+package thread.pool;
 
 import java.util.concurrent.*;
 
@@ -13,10 +13,11 @@ public class DeamonTread implements  Runnable{
         }
         System.out.println("All Daemon started");
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("exit");
     }
 
     @Override
@@ -24,7 +25,7 @@ public class DeamonTread implements  Runnable{
         while(true) {
             try {
                 Thread.sleep(100);
-                System.out.println(Thread.currentThread() + "" +this);
+                System.out.println(Thread.currentThread() + "" + Thread.currentThread().getName());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

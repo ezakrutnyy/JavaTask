@@ -1,4 +1,4 @@
-package thread;
+package thread.old;
 
 /**
  * Created by Евгений on 09.12.2017.

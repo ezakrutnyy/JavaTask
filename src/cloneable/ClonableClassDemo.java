@@ -70,7 +70,7 @@ class SberBank implements Cloneable{
     }
 
     public SberBank clone () throws CloneNotSupportedException {
-        // с шлубоким копированием
+        // с глубоким копированием
         SberBank sb =  (SberBank) super.clone();
         sb.setPakUvisas(Lists.newArrayList(sb.getPakUvisas()));
         return sb;

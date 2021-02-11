@@ -1,4 +1,4 @@
-package collections.sort;
+package collections.comparator;
 
 import java.util.Date;
 

@@ -106,14 +106,13 @@ public class StreamExample {
         System.out.println("flatMap()");
         Collection<String> collection = Arrays.asList("1,2,0", "4,5");
         String[] number = collection.stream()
-                .flatMap(p -> Arrays.asList(p.split(",")).stream())
+                .flatMap(p -> Arrays.stream(p.split(",")))
                 .toArray(String[]::new);
-
         System.out.println(Arrays.toString(number));
 
         System.out.println("flatMapToInt()");
         int sum = collection.stream()
-                .flatMapToInt(p -> Arrays.asList(p.split(",")).stream()
+                .flatMapToInt(p -> Arrays.stream(p.split(","))
                         .mapToInt(Integer::parseInt)).sum();
         System.out.println(sum);
 
@@ -187,18 +186,18 @@ public class StreamExample {
 
         Optional<Integer> reduceSumm = employees.stream()
                 .map(Employee::getOld)
-                .reduce((o1, o2) -> o1 + o2);
+                .reduce(Integer::sum);
         System.out.println("reduceSum old: " + reduceSumm.orElse(0));
 
 
         Integer reduceSummInteger = employees.stream()
                 .map(Employee::getOld)
-                .reduce(0, (o1, o2) -> o1 + o2);
+                .reduce(0, Integer::sum);
         System.out.println("reduceSum old or 0: " + reduceSummInteger);
 
         int totalcount = employees.stream()
                 .map(Employee::getOld)
-                .reduce(0, (cnt, o1) -> cnt += o1);
+                .reduce(0, Integer::sum);
         System.out.println("totalcount: " + totalcount);
 
 
@@ -270,7 +269,7 @@ public class StreamExample {
          * - average()
          */
         Map<String, Double> mapAverage =
-                 employees.stream()
+                employees.stream()
                         .collect(Collectors.groupingBy(Employee::getCity, Collectors.averagingInt(Employee::getOld)));
         System.out.println("mapAverage: " + mapAverage);
 
@@ -390,6 +389,7 @@ public class StreamExample {
                 .collect(Collectors.toMap(Map.Entry::getKey,
                         Map.Entry::getValue, Integer::sum));
     }
+
 
 }
 

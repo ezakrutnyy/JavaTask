@@ -25,7 +25,7 @@ public class ArrayListToArray {
         list.add("Orange");
         list.add("Apple");
         list.add("Banana");
-        String[] arrStr = list.toArray(new String[list.size()]);
+        String[] arrStr = list.toArray(new String[0]);
         System.out.println(Arrays.toString(arrStr));
     }
 }

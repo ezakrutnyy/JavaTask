@@ -1,4 +1,4 @@
-package collections.sort;
+package collections.comparator;
 
 import com.google.common.collect.Lists;
 

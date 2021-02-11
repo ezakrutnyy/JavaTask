@@ -98,7 +98,7 @@ public class StrBrowseMethods {
 
         System.out.println("--------------------------------contentEquals()");
         System.out.println(str.contentEquals("milk"));
-        System.out.println(str.contentEquals("milk"));
+        System.out.println(str.contentEquals("MILK"));
 
         System.out.println("--------------------------------valueOf()");
         float f = 12.12F;

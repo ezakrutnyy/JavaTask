@@ -63,7 +63,7 @@ public class OrderingDemo {
 //        comparators.add(new ComparatorCity());
 //
 //        Ordering multiOrder = Ordering.compound(comparators);
-//        Collections.sort(numbers, multiOrder);
+//        Collections.comparator(numbers, multiOrder);
 //        System.out.println(numbers);
     }
 }

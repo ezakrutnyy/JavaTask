@@ -1,38 +1,36 @@
-package thread.runnerAndThread;
+package thread.old;
 
 import java.util.Date;
 
 /**
  * Created by Евгений on 09.12.2017.
  */
-public class ThreadRunnableDemo {
+public class GreetingThreadDemo {
     public static void main(String[] args) {
-        Runnable r1 = new SimpleThread("Hello, World!");
-        Runnable r2 = new SimpleThread("Bye!");
+
+        GreetingThread r1 = new GreetingThread("Hello, World!");
+        GreetingThread r2 = new GreetingThread("Hi, World!");
 
         Thread t1 = new Thread(r1);
         Thread t2 = new Thread(r2);
 
-
-        System.out.println(t1.isAlive());
-
         t1.start();
         t2.start();
 
-        System.out.println(t1.isAlive());
-
         System.out.println("Threads started!");
     }
+
 }
 
-class SimpleThread implements Runnable {
 
-    private static final int REPETITIONS = 5;
+class GreetingThread extends Thread {
+
+    private static final int REPETITIONS = 10;
     private static final int DELAY = 1000;
 
     private String greeting;
 
-    public SimpleThread(String aGreeting) {
+    public GreetingThread(String aGreeting) {
         greeting = aGreeting;
     }
 
