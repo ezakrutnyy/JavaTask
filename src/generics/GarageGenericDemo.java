@@ -2,11 +2,9 @@ package generics;
 
 import com.google.common.collect.Lists;
 
-import java.io.*;
+import java.io.IOException;
 import java.util.*;
 import java.util.function.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class GarageGenericDemo {
 
@@ -147,7 +145,7 @@ class DynamicSizedGarage<T extends Vehicle> {
         }
     }
 
-    public <U> List<U> map(Function<? super T,? extends U> function) {
+    public <U> List<U> map(Function<? super T, ? extends U> function) {
         List<U> result = Lists.newArrayList();
         for (T vehicle : vehicles) {
             result.add(function.apply(vehicle));
@@ -198,6 +196,7 @@ class FixedSizedGarage<T extends Vehicle> {
     }
 
 }
+
 class Garage<T extends Vehicle, U extends Vehicle> {
 
     private T vehicle1;

@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 public class DeamonTread implements  Runnable{
     public static void main(String[] args) {
         ExecutorService executor = Executors.newCachedThreadPool(new MyThreadFactory());
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 4; i++) {
             executor.execute(new DeamonTread());
         }
         System.out.println("All Daemon started");
@@ -24,7 +24,7 @@ public class DeamonTread implements  Runnable{
     public void run() {
         while(true) {
             try {
-                Thread.sleep(100);
+                Thread.sleep(1000);
                 System.out.println(Thread.currentThread() + "" + Thread.currentThread().getName());
             } catch (InterruptedException e) {
                 e.printStackTrace();

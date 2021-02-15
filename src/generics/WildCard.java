@@ -15,7 +15,10 @@ public class WildCard {
         consume(dogs);
 
 
-        List<Spaniel> spaniels = Lists.newArrayList(new Spaniel("jina","russia"));
+        consume(Lists.newArrayList(new Object()));
+
+
+        List<Spaniel> spaniels = Lists.newArrayList(new Spaniel("jina", "russia"));
 
         copyAnimal(dogs, spaniels);
         System.out.println(dogs);
@@ -33,11 +36,11 @@ public class WildCard {
     }
 
     /*
-     * ? extends B, ограничение сверху, служит только как источник данных
+     * ? extends B, ограничение снизу, служит только как потребитель данных
      * */
     static void consume(List<? super Dog> dogs) {
         System.out.println("*************consume*************");
-        dogs.add(new Spaniel("sss","sss"));
+        dogs.add(new Spaniel("sss", "sss"));
         System.out.println(dogs);
     }
 
@@ -62,7 +65,7 @@ class Animal {
     }
 }
 
-class Dog extends Animal{
+class Dog extends Animal {
     public Dog(String passport) {
         this.passport = passport;
     }
@@ -86,7 +89,7 @@ class Dog extends Animal{
     }
 }
 
-class Spaniel extends Dog{
+class Spaniel extends Dog {
     String country;
 
     public Spaniel(String passport, String country) {

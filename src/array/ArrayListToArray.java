@@ -10,17 +10,6 @@ import java.util.List;
  */
 public class ArrayListToArray {
     public static void main(String[] args) {
-        Integer a = null;
-
-        int b = 10;
-
-        if (a == b) {
-            System.out.println("aaaa");
-        } else {
-            System.out.println("vvv");
-        }
-
-
         List<String> list = new ArrayList<String>();
         list.add("Orange");
         list.add("Apple");

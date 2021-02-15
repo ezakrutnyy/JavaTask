@@ -9,14 +9,14 @@ public class TypeClass {
 
     public static void main(String[] args) {
 
-        Phone phone = new Phone("iphone8",new BigDecimal(33000), "4g");
-        Phone phone2 = new Phone("iphoneXr",new BigDecimal(80000), "5g");
+        Phone phone = new Phone("iphone8", new BigDecimal(33000), "4g");
+        Phone phone2 = new Phone("iphoneXr", new BigDecimal(80000), "5g");
 
-        Camera camera = new Camera("canon",new BigDecimal(32000),10 );
+        Camera camera = new Camera("canon", new BigDecimal(32000), 10);
 
 
-        Container container1 = new Container(phone);
-        Container container2 = new Container(camera);
+        Container<Phone> container1 = new Container<>(phone);
+        Container<Camera> container2 = new Container<>(camera);
 
         List<Container> lst = Lists.newArrayList(container1, container2);
 
@@ -29,7 +29,7 @@ public class TypeClass {
 }
 
 
-abstract class Product<T extends Product> implements Comparable<T>{
+abstract class Product<T extends Product> implements Comparable<T> {
 
     String name;
 
@@ -58,7 +58,7 @@ abstract class Product<T extends Product> implements Comparable<T>{
 
     @Override
     public int compareTo(T p) {
-        int res =  this.price.compareTo(p.price);
+        int res = this.price.compareTo(p.price);
         return res == 0 ? subCompareTo(p) : res;
     }
 
@@ -84,14 +84,14 @@ class Phone extends Product<Phone> {
 
 
     @Override
-    public  int subCompareTo(Phone phone) {
+    public int subCompareTo(Phone phone) {
         return this.typeNetwork.compareTo(phone.typeNetwork);
     }
 
 }
 
 
-class Camera extends Product<Camera>{
+class Camera extends Product<Camera> {
 
     int pixel;
 
