@@ -88,8 +88,8 @@ public class GarageGenericDemo {
         dynamics.forEach(vehicleConsumer);
 
         System.out.println("**********************************");
-        //dynamics.map(carName);
-        dynamics.forEach(vehicleConsumer);
+        List<String> names = dynamics.map(Vehicle::getName);
+        System.out.println("car names: " + names);
 
 
     }

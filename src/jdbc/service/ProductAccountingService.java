@@ -17,16 +17,16 @@ import java.util.Optional;
 
 public class ProductAccountingService {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
         /*  jdbc */
-//        final Connection jdbcConnection = (Connection) JdbcTmConnection.getInstance().connect();
-//        final ProductAccountingDao productAccountingDao = new ProductAccountingJDBCDao(jdbcConnection);
+        final Connection jdbcConnection = (Connection) JdbcTmConnection.getInstance().connect();
+        final ProductAccountingDao productAccountingDao = new ProductAccountingJDBCDao(jdbcConnection);
 
 
         /* hibernate */
-        final Session session = (Session) HibernateTmConnection.getInstance().connect();
-        final ProductAccountingDao productAccountingDao = new ProductAccountingHibernateDao(session);
+//        final Session session = (Session) HibernateTmConnection.getInstance().connect();
+//        final ProductAccountingDao productAccountingDao = new ProductAccountingHibernateDao(session);
 
         ProductAccountingEntity productAccounting1 = new ProductAccountingEntity();
         productAccounting1.setProductAccountingType("DEBIT_AGGREGATION");
@@ -46,7 +46,8 @@ public class ProductAccountingService {
         productAccountingDao.insert(productAccounting1);
         productAccountingDao.insert(productAccounting2);
 
-        session.close();
+        jdbcConnection.close();
+//        session.close();
     }
 
 }

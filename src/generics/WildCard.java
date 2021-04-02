@@ -46,9 +46,7 @@ public class WildCard {
 
     public static <T> void copyAnimal(List<? super T> dest, List<? extends T> src) {
         System.out.println("*************copy*************");
-        for (T sourceElement : src) {
-            dest.add(sourceElement);
-        }
+        dest.addAll(src);
     }
 }
 

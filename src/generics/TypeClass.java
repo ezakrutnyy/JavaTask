@@ -1,9 +1,6 @@
 package generics;
 
-import com.google.common.collect.Lists;
-
 import java.math.BigDecimal;
-import java.util.List;
 
 public class TypeClass {
 
@@ -12,30 +9,24 @@ public class TypeClass {
         Phone phone = new Phone("iphone8", new BigDecimal(33000), "4g");
         Phone phone2 = new Phone("iphoneXr", new BigDecimal(80000), "5g");
 
-        Camera camera = new Camera("canon", new BigDecimal(32000), 10);
-
-
-        Container<Phone> container1 = new Container<>(phone);
-        Container<Camera> container2 = new Container<>(camera);
-
-        List<Container> lst = Lists.newArrayList(container1, container2);
-
-        // container.setItem(new Integer(12)); not compile
-
+        Camera camera1 = new Camera("canon", new BigDecimal(32000), 10);
+        Camera camera2 = new Camera("canon", new BigDecimal(32000), 10);
 
         int res = phone.compareTo(phone2);
+        int res2 = camera1.compareTo(camera2);
         System.out.println(res);
+        System.out.println(res2);
     }
 }
 
 
 abstract class Product<T extends Product> implements Comparable<T> {
 
-    String name;
+    private String name;
 
     BigDecimal price;
 
-    public Product(String name, BigDecimal price) {
+    Product(String name, BigDecimal price) {
         this.name = name;
         this.price = price;
     }
@@ -48,13 +39,6 @@ abstract class Product<T extends Product> implements Comparable<T> {
         this.name = name;
     }
 
-    public BigDecimal getPrice() {
-        return price;
-    }
-
-    public void setPrice(BigDecimal price) {
-        this.price = price;
-    }
 
     @Override
     public int compareTo(T p) {
@@ -67,21 +51,12 @@ abstract class Product<T extends Product> implements Comparable<T> {
 
 class Phone extends Product<Phone> {
 
-    public Phone(String name, BigDecimal price, String typeNetwork) {
+    Phone(String name, BigDecimal price, String typeNetwork) {
         super(name, price);
         this.typeNetwork = typeNetwork;
     }
 
-    String typeNetwork;
-
-    public String getTypeNetwork() {
-        return typeNetwork;
-    }
-
-    public void setTypeNetwork(String typeNetwork) {
-        this.typeNetwork = typeNetwork;
-    }
-
+    private String typeNetwork;
 
     @Override
     public int subCompareTo(Phone phone) {
@@ -93,17 +68,10 @@ class Phone extends Product<Phone> {
 
 class Camera extends Product<Camera> {
 
-    int pixel;
+    private int pixel;
 
-    public int getPixel() {
-        return pixel;
-    }
 
-    public void setPixel(int pixel) {
-        this.pixel = pixel;
-    }
-
-    public Camera(String name, BigDecimal price, int pixel) {
+    Camera(String name, BigDecimal price, int pixel) {
         super(name, price);
         this.pixel = pixel;
     }
@@ -111,25 +79,6 @@ class Camera extends Product<Camera> {
     @Override
     public int subCompareTo(Camera camera) {
         return this.pixel > camera.pixel ? 1 : -1;
-    }
-
-
-}
-
-
-class Container<T extends Product> {
-    T item;
-
-    public Container(T item) {
-        this.item = item;
-    }
-
-    public T getItem() {
-        return item;
-    }
-
-    public void setItem(T item) {
-        this.item = item;
     }
 
 

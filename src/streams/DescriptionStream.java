@@ -112,9 +112,9 @@ public class DescriptionStream {
      *
      * Краткое описание дополнительных методов у числовых стримов
      *
-     * sum
+     * sumRecursive
      * Возвращает сумму всех чисел
-     * collection.stream().mapToInt((s) -> Integer.parseInt(s)).sum()
+     * collection.stream().mapToInt((s) -> Integer.parseInt(s)).sumRecursive()
      *
      * average
      * Возвращает среднее арифметическое всех чисел

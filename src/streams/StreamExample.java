@@ -122,7 +122,7 @@ public class StreamExample {
         /*
          * Объект IntStream, после применения результатирующей функции, вохвращает примитив int
          * */
-        System.out.println("intStream: sum: " + employees.stream().mapToInt(Employee::getOld).sum());
+        System.out.println("intStream: sumRecursive: " + employees.stream().mapToInt(Employee::getOld).sum());
         System.out.println("intStream: average: " + employees.stream().mapToInt(Employee::getOld).average());
         System.out.println("intStream: max element: " + employees.stream().mapToInt(Employee::getOld).max());
         System.out.println("intStream: min element: " + employees.stream().mapToInt(Employee::getOld).min());

@@ -264,7 +264,7 @@ public class SortTestDemo {
 
         GroupBySorterMulti multiSorted =
                 new GroupBySorterMulti(new SortedByMids(), new SortedByTids(), new SortedByDate());
-        Collections.sort(lists, multiSorted.get());
+        lists.sort(multiSorted.get());
         lists.forEach(System.out::println);
     }
 }
