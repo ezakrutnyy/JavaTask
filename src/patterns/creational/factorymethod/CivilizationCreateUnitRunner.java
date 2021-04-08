@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Евгений on 29.12.2016.
  */
-public class CreateUnitFactoryMethod {
+public class CivilizationCreateUnitRunner {
     public static void main(String[] args) throws Exception {
 
         List<TypeUnit> units = new ArrayList<>();

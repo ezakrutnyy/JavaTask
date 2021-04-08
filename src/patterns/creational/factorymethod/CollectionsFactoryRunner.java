@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by Евгений on 25.12.2016.
  */
-public class CreateCollectionFactoryMethod {
+public class CollectionsFactoryRunner {
     public static void main(String[] args) {
         CollectionMaker maker = CollectionMaker.getMaker();
         maker.createCollection();

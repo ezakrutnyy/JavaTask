@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
-
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -16,11 +15,11 @@ public class IODemo {
 
         /**ЧТЕНИЕ ИЗ ФАЙЛА*/
 
-        Path absolutePath  = Paths.get("C:/Users/zakru/IdeaProjects/JavaTask/src/io/input.txt");
+        Path absolutePath = Paths.get("C:/Users/zakru/IdeaProjects/JavaTask/src/io/input.txt");
 
-        Path relativePathInp  = Paths.get("src/io/input.txt");
-        Path relativePathOut  = Paths.get("src/io/output.txt");
-        Path relativePathForStringOut  = Paths.get("src/io/toFile.txt");
+        Path relativePathInp = Paths.get("src/io/input.txt");
+        Path relativePathOut = Paths.get("src/io/output.txt");
+        Path relativePathForStringOut = Paths.get("src/io/toFile.txt");
 
         System.out.println("*****************Files.newInputStream()*************************************");
 
@@ -93,7 +92,7 @@ public class IODemo {
         /**ЧТЕНИЕ ИЗ ПОТОКА ВВОДА*/
         /* прочитаем поток по - байтово */
         try (BufferedInputStream bufIn = new BufferedInputStream(System.in)) {
-            System.out.println( bufIn.read());
+            System.out.println(bufIn.read());
         }
 
         /* прочитаем поток по - строчно */
