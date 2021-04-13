@@ -5,42 +5,8 @@
     <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/AbstractList.java" description="public E remove(int index) {" line="159" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="+ structural design patterns">
-      <change afterPath="$PROJECT_DIR$/src/jdbc/entity/OfferEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/repository/OfferHibernateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/repository/OfferJdbcDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/repository/OfferJdbcTemplateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/service/OfferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Java_primenenie_shablonov.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/BankomatChainOfResponseRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/LoggerChainOfResponseRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/chainofresponsibily.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatternscard.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/patterns_rus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ProjectAppCompositeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/composite/composite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/flyweight/FlyWeightTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/flyweight/ManyCircleFlyWeightRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/flyweight/flyweight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/flyweight/flyweight.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/structural/flyweight/flyweight_pattern_uml_diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Гранд. Шаблоны проектирования в Java. 2004.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="+ chain Of responsibillity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/DirtyRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/DirtyRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/NonRepeatableRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/NonRepeatableRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/PhantomRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/PhantomRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/ProductAccountingCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/connections/ConnectionTM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/ProductAccountingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/dao/OfferDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCTemplateDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/service/ProductAccountingService.java" beforeDir="false" />
     </list>
     <ignored path="JavaTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +50,20 @@
     <favorites_list name="JavaTask" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/repository/OfferHibernateDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/jdbc/repository/OfferJdbcTemplateDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/service/ProductAccountingService.java" />
         <option value="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/jdbc/repository/OfferHibernateDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/service/OfferService.java" />
         <option value="$PROJECT_DIR$/src/jdbc/entity/OfferEntity.java" />
         <option value="$PROJECT_DIR$/src/patterns/structural/composite/composite.txt" />
@@ -202,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/BankomatChainOfResponseRunner.java" />
         <option value="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/LoggerChainOfReponseRunner.java" />
         <option value="$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/LoggerChainOfResponseRunner.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/repository/OfferHibernateDao.java" />
       </list>
     </option>
   </component>
@@ -248,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,28 +244,19 @@
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="chainofreponsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -937,6 +908,7 @@
       <workItem from="1618089903775" duration="7791000" />
       <workItem from="1618164650043" duration="8373000" />
       <workItem from="1618349495551" duration="1955000" />
+      <workItem from="1618353800983" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
       <created>1500800947832</created>
@@ -1148,7 +1120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617906770461</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="+ chain Of responsibillity">
+      <created>1618353951228</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1618353951228</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1157,7 +1136,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1201117000" />
+    <option name="totallyTimeSpent" value="1201315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1170,8 +1149,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.18154311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.18381241" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" show_stripe_button="false" sideWeight="0.5011287" side_tool="true" weight="0.24962178" />
@@ -1262,7 +1242,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.09.2017 Лекция 2" />
     <MESSAGE value="Collections rename" />
     <MESSAGE value="fixed 01.06.2019" />
     <MESSAGE value="fixed 13.06.2019&#10;add StreamDescription + Streams Example" />
@@ -1287,7 +1266,8 @@
     <MESSAGE value="generics" />
     <MESSAGE value="+ generics" />
     <MESSAGE value="+ structural design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ structural design patterns" />
+    <MESSAGE value="+ chain Of responsibillity" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ chain Of responsibillity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2199,13 +2179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/dao/OfferDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbc/repository/OfferJdbcDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -2271,6 +2244,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/service/OfferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/dao/OfferDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/repository/OfferHibernateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
