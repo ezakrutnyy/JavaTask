@@ -1,9 +1,9 @@
 package jdbc;
 
 import jdbc.connections.JdbcTmConnection;
-import jdbc.dao.ProductAccountingDao;
-import jdbc.entity.ProductAccountingEntity;
-import jdbc.repository.ProductAccountingJDBCDao;
+import jdbc.dao.OfferDao;
+import jdbc.entity.OfferEntity;
+import jdbc.repository.OfferJdbcDao;
 
 import java.math.BigDecimal;
 import java.sql.Connection;
@@ -11,28 +11,23 @@ import java.sql.SQLException;
 
 public class DirtyRead {
     public static void main(String[] args) throws InterruptedException {
-
         try {
-
-            final Connection connection = (Connection) JdbcTmConnection.getInstance().connect();
+            final Connection connection = JdbcTmConnection.getInstance().connect();
             connection.setAutoCommit(false);
-            ProductAccountingDao productAccountingDao = new ProductAccountingJDBCDao(connection);
+            connection.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
+            OfferDao offerDao = new OfferJdbcDao(connection);
 
-            // todo оракл не поддурживает
-            //spring.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
+            OfferEntity offer = offerDao.getByPrimaryKey(10L).orElseThrow(() ->
+                    new RuntimeException("Offer not found!"));
 
+            System.out.println("MainThread offer before update: " + offer);
+            offer.setPrice(new BigDecimal(22_222));
+            offerDao.update(offer);
 
-            ProductAccountingEntity prodAccounting = productAccountingDao.getByPrimaryKey(1L).orElseThrow(() ->
-                    new RuntimeException("ProductAccountingEntity not found!"));
+            // 2 thread
+            new Thread(new FoneThread()).start();
 
-            System.out.println("MainThread prodAccounting before update: " + prodAccounting);
-
-            prodAccounting.setAmount(new BigDecimal(777));
-            productAccountingDao.update(prodAccounting);
-
-            new FoneThread().start();
-
-            Thread.sleep(3000);
+            Thread.sleep(6000);
 
             connection.rollback();
         } catch (SQLException e) {
@@ -41,22 +36,20 @@ public class DirtyRead {
 
     }
 
-
-    static class FoneThread extends Thread {
+    static class FoneThread implements Runnable {
 
         @Override
         public void run() {
             try {
-                final Connection connection = (Connection) JdbcTmConnection.getInstance().connect();
+                final Connection connection = JdbcTmConnection.getInstance().connect();
                 connection.setAutoCommit(false);
-                ProductAccountingDao productAccountingDao = new ProductAccountingJDBCDao(connection);
+                connection.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
+                OfferDao offerDao = new OfferJdbcDao(connection);
 
-                // todo оракл не поддурживает
-                //spring.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
-
-                ProductAccountingEntity prodAccounting = productAccountingDao.getByPrimaryKey(1L).orElseThrow(() ->
-                        new RuntimeException("ProductAccountingEntity not found!"));
-                System.out.println("FoneThread prodAccounting: " + prodAccounting);
+                OfferEntity offer = offerDao.getByPrimaryKey(10L).orElseThrow(() ->
+                        new RuntimeException("Offer not found!"));
+                System.out.println("FoneThread offer: " + offer);
+                connection.commit();
             } catch (Exception ex) {
                 ex.printStackTrace();
             }

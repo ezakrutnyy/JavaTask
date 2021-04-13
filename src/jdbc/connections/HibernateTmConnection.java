@@ -1,31 +1,30 @@
 package jdbc.connections;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class HibernateTmConnection implements ConnectionTM {
+public class HibernateTmConnection {
 
-    private static ConnectionTM factory;
-
-    private static SessionFactory sessionFactory;
+    private static SessionFactory factory;
 
     private HibernateTmConnection() {
-        sessionFactory = new Configuration().configure().buildSessionFactory();
+        factory = new Configuration().configure().buildSessionFactory();
     }
 
-    public static ConnectionTM getInstance() {
+    public static SessionFactory getInstance() {
         if (factory == null) {
             synchronized (HibernateTmConnection.class) {
                 if (factory == null) {
-                    factory = new HibernateTmConnection();
+                    new HibernateTmConnection();
                 }
             }
         }
         return factory;
     }
 
-    @Override
-    public Object connect() {
-        return sessionFactory.openSession();
+    public Session openSession() {
+        return factory.openSession();
     }
+
 }

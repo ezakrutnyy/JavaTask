@@ -1,28 +1,23 @@
 package jdbc.connections;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class JdbcTmConnection implements ConnectionTM {
+public class JdbcTmConnection {
 
-    private static final String URL = "jdbc:oracle:thin:@localhost:1521:ORCL";
+    private static final String URL = "jdbc:postgresql://localhost:5432/bootsuite";
 
-    private static final String LOGIN = "TM_ORACLE";
+    private static final String LOGIN = "zak";
 
-    private static final String PASSWORD = "TM_ORACLE_PASSWORD";
+    private static final String PASSWORD = "zak";
 
-    private static ConnectionTM factory;
+    private static JdbcTmConnection factory;
 
-    private JdbcTmConnection(){
-        try {
-            Class.forName("oracle.jdbc.OracleDriver");
-            System.out.println("Loaded Oracle Driver");
-        } catch (ClassNotFoundException ex) {
-            ex.printStackTrace();
-        }
+    private JdbcTmConnection() {
     }
 
-    public static ConnectionTM getInstance() {
+    public static JdbcTmConnection getInstance() {
         if (factory == null) {
             synchronized (JdbcTmConnection.class) {
                 if (factory == null) {
@@ -33,7 +28,7 @@ public class JdbcTmConnection implements ConnectionTM {
         return factory;
     }
 
-    public Object connect() {
+    public Connection connect() {
         try {
             return DriverManager.getConnection(URL, LOGIN, PASSWORD);
         } catch (SQLException e) {

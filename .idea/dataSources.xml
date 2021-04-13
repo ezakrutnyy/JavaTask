@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="TM_ORACLE@localhost" uuid="d01100d2-0ece-45a0-9499-9bce176cd3df">
-      <driver-ref>oracle</driver-ref>
+    <data-source source="LOCAL" name="bootsuite@localhost" uuid="ebcbf5d1-87bf-417c-a43e-497d060887f1">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@localhost:1521:ORCL</jdbc-url>
-      <driver-properties>
-        <property name="v$session.program" value="DataGrip" />
-      </driver-properties>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/bootsuite</jdbc-url>
     </data-source>
   </component>
 </project>
