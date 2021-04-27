@@ -47,12 +47,11 @@ public class FibbonachiRunner {
         int res = 0;
         int firstElem = 0;
         int secondElem = 1;
-        while (n > 0) {
+        while (n-- > 0) {
             res += firstElem;
             int tmp = firstElem + secondElem;
             firstElem = secondElem;
             secondElem = tmp;
-            n--;
         }
 
         return res;

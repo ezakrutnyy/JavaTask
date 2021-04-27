@@ -44,9 +44,9 @@ class Worker {
     public void produce() throws InterruptedException {
         Random random = new Random();
         while (true) {
-            queue.put(random.nextInt(10));
-        }
+        queue.put(random.nextInt(10));
     }
+}
 
     public void consume() throws InterruptedException {
 
