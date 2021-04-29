@@ -5,17 +5,12 @@
     <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/AbstractList.java" description="public E remove(int index) {" line="159" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="+ command">
-      <change afterPath="$PROJECT_DIR$/src/best_practise/ArrayQueueRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/best_practise/BracketsValidationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/best_practise/InsertSortRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/best_practise/IteratorLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/iterator/IteratorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/iterator/iterator.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/iterator/iterator.txt" afterDir="false" />
+    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="+ new example best practise">
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/momento/SpeedMomentoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/momento/momento.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/visitor/ShapeVisitorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/visitor/visitor.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/best_practise/FibbonachiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/FibbonachiRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java" afterDir="false" />
     </list>
     <ignored path="JavaTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,21 +54,21 @@
     <favorites_list name="JavaTask" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practise/Practise.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/visitor/visitor.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="19" column="115" selection-start-line="19" selection-start-column="115" selection-end-line="19" selection-end-column="115" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/best_practise/BracketsValidationRunner.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/momento/momento.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="42" selection-end-line="15" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -91,9 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>takeLock</find>
-      <find>putLock</find>
-      <find>notFull</find>
       <find>notEmpty</find>
       <find>head</find>
       <find>TimeUnit</find>
@@ -121,6 +113,9 @@
       <find>joining</find>
       <find>summarizingInt</find>
       <find>new T</find>
+      <find>Triangle</find>
+      <find>Math.PI</find>
+      <find>pow</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -145,11 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/structural/bridge/FigureBridgeRunner.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/connections/JdbcTmConnection.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/dao/ProductAccountingDao.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/dao/OfferDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingJDBCDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/repository/OfferJdbcDao.java" />
         <option value="$PROJECT_DIR$/src/jdbc/repository/ProductAccountingHibernateDao.java" />
@@ -196,6 +186,11 @@
         <option value="$PROJECT_DIR$/src/best_practise/SubstringRunner.java" />
         <option value="$PROJECT_DIR$/src/best_practise/BracketsValidationRunner.java" />
         <option value="$PROJECT_DIR$/src/practise/Practise.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/momento/momento.txt" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/momento/SpeedMomentoRunner.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/visitor/VisitorRunner.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/visitor/ShapeVisitorRunner.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/visitor/visitor.txt" />
       </list>
     </option>
   </component>
@@ -242,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,19 +255,30 @@
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="best_practise" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="streams" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="momento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTask" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +289,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BracketsValidationRunner">
+  <component name="RunManager">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -452,20 +458,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayQueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="best_practise.ArrayQueueRunner" />
-      <module name="JavaTask" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="best_practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BracketsValidationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="best_practise.BracketsValidationRunner" />
       <module name="JavaTask" />
@@ -480,14 +472,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <module name="JavaTask" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Practise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practise.Practise" />
       <module name="JavaTask" />
@@ -495,6 +479,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeVisitorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.visitor.ShapeVisitorRunner" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behavioral.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeedMomentoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.momento.SpeedMomentoRunner" />
+      <module name="JavaTask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behavioral.momento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -582,19 +594,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Practise" />
-      <item itemvalue="Application.ArrayQueueRunner" />
       <item itemvalue="Application.SubstringRunner" />
       <item itemvalue="Application.BracketsValidationRunner" />
+      <item itemvalue="Application.SpeedMomentoRunner" />
+      <item itemvalue="Application.ShapeVisitorRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BracketsValidationRunner" />
+        <item itemvalue="Application.ShapeVisitorRunner" />
+        <item itemvalue="Application.SpeedMomentoRunner" />
         <item itemvalue="Application.Practise" />
+        <item itemvalue="Application.BracketsValidationRunner" />
         <item itemvalue="Application.SubstringRunner" />
-        <item itemvalue="Application.ArrayQueueRunner" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -939,7 +951,8 @@
       <workItem from="1619078134380" duration="20689000" />
       <workItem from="1619356424697" duration="21163000" />
       <workItem from="1619422913799" duration="21000" />
-      <workItem from="1619500218209" duration="7279000" />
+      <workItem from="1619500218209" duration="13764000" />
+      <workItem from="1619618832873" duration="10728000" />
     </task>
     <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
       <created>1500800947832</created>
@@ -1172,7 +1185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618784548139</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="+ new example best practise">
+      <created>1619507683297</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1619507683297</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1181,7 +1201,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1287619000" />
+    <option name="totallyTimeSpent" value="1304832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1196,7 +1216,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.19440243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21406959" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" show_stripe_button="false" sideWeight="0.5011287" side_tool="true" weight="0.24962178" />
@@ -1205,7 +1225,7 @@
       <window_info x="624" y="39" width="337" height="614" id="Structure" order="6" sideWeight="0.49887133" weight="0.24432677" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.37315875" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54765505" visible="true" weight="0.36497545" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54765505" weight="0.44353518" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.66187596" weight="0.41734862" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1287,7 +1307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed 01.06.2019" />
     <MESSAGE value="fixed 13.06.2019&#10;add StreamDescription + Streams Example" />
     <MESSAGE value="fixed 17.06.2019&#10;add StreamDescription + Streams Example" />
     <MESSAGE value="fixed 19.06.2019&#10;add StreamDescription + Streams Example" />
@@ -1312,7 +1331,8 @@
     <MESSAGE value="+ structural design patterns" />
     <MESSAGE value="+ chain Of responsibillity" />
     <MESSAGE value="+ command" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ command" />
+    <MESSAGE value="+ new example best practise" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ new example best practise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2127,12 +2147,6 @@
           <properties />
           <option name="timeStamp" value="358" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practise/Practise.java</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="361" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/example/EnumSetExample.java</url>
           <line>4</line>
@@ -2188,113 +2202,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/xml/sax/SaxXmpParserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/iterator/IteratorApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/iterator/iterator.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/iterator/iterator.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/old/EvenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/CacheDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/ImmutableCollectionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/MultiSetAndMultiMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/PredictionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/OrderingDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/RangeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/MoreObjectsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guava/JoinerAndSplitterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/comparator/GroupBySorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/comparator/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
@@ -2480,13 +2387,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo.java" />
     <entry file="file://$PROJECT_DIR$/src/best_practise/QueueRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -2529,17 +2430,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/Practise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/best_practise/BracketsValidationRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="639" column="21" selection-start-line="639" selection-start-column="21" selection-end-line="639" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practise/Practise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/strategy/SortedStrategyRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/state/DeveloperGitCycleStateRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/iterator/iterator.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/structural/decorator/DecoderMessageDecoratorRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="65" column="15" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/structural/bridge/FigureBridgeRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="62" column="1" selection-start-line="39" selection-start-column="21" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/command/UnitBattleCommandRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/chainofreponsibility/BankomatChainOfResponseRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/structural/flyweight/ManyCircleFlyWeightRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/structural/flyweight/FlyWeightTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="722" column="49" selection-start-line="722" selection-start-column="46" selection-end-line="722" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/momento/SpeedMomentoRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/visitor/ShapeVisitorRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/momento/momento.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-end-line="15" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/visitor/visitor.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="115" selection-start-line="19" selection-start-column="115" selection-end-line="19" selection-end-column="115" />
         </state>
       </provider>
     </entry>
