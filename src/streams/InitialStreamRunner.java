@@ -1,13 +1,28 @@
 package streams;
 
+import com.google.common.collect.Lists;
+
 import java.math.BigInteger;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static abstractAndInterfaces.functional.SupplierDemo.generateRandomInteger;
 
-public class CreateStreamExample {
+public class InitialStreamRunner {
+
+    public static List<Employee> employees = Lists.newArrayList(
+            new Employee("Alex", "Moscow", 22),
+            new Employee("Max", "Kursk", 55),
+            new Employee("Tom", "Moscow", 10),
+            new Employee("Carl", "Moscow", 44),
+            new Employee("Sam", "Voronezh", 26),
+            new Employee("Fox", "Yaroslavl", 27),
+            new Employee("Ronald", "Moscow", 19),
+            new Employee("Mike", "Yaroslavl", 23),
+            new Employee("Arche", "Tula", 23)
+    );
 
     public static void main(String[] args) {
 

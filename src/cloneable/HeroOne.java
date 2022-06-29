@@ -45,7 +45,7 @@ public class HeroOne implements Cloneable {
     }
 
     @Override
-    protected HeroOne clone() throws CloneNotSupportedException {
+    public HeroOne clone() throws CloneNotSupportedException {
         return (HeroOne) super.clone();
     }
 

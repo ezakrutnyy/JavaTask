@@ -20,6 +20,9 @@
         </plugins>
     </build>
 
+    <properties>
+        <poi.version>3.17</poi.version>
+    </properties>
 
     <dependencies>
 
@@ -142,19 +145,6 @@
             <version>5.0.8.RELEASE</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.jxls/jxls -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>4.1.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>4.1.2</version>
-        </dependency>
-
         <dependency>
             <groupId>jaxen</groupId>
             <artifactId>jaxen</artifactId>
@@ -173,11 +163,11 @@
             <version>2.8.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.jxls</groupId>
-            <artifactId>jxls-jexcel</artifactId>
-            <version>1.0.9</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.jxls</groupId>-->
+<!--            <artifactId>jxls-jexcel</artifactId>-->
+<!--            <version>1.0.9</version>-->
+<!--        </dependency>-->
 
 <!--        <dependency>-->
 <!--            <groupId>org.docx4j</groupId>-->
@@ -277,37 +267,22 @@
 <!--        </dependency>-->
 
 
-
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>3.16</version>
+            <version>${poi.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.16</version>
-        </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>org.apache.poi</groupId>-->
-<!--            <artifactId>poi-scratchpad</artifactId>-->
-<!--            <version>3.16</version>-->
-<!--        </dependency>-->
-
-
-
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>3.16</version>
+            <version>${poi.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-scratchpad</artifactId>
-            <version>3.16</version>
+            <version>${poi.version}</version>
         </dependency>
 
     </dependencies>

@@ -35,9 +35,9 @@ public class StreamExample {
         System.out.println(" Примеры использования filter, findFirst, findAny, skip, limit и count");
         System.out.println("**************************************************************************");
 
-
-        long length = employees.parallelStream().filter(predicateYar).count();
-        System.out.println("count()" + length);
+//
+//        long length = employees.parallelStream().filter(predicateYar).count();
+//        System.out.println("count()" + length);
 
 
         System.out.println("limit()");
@@ -54,37 +54,37 @@ public class StreamExample {
                 .forEach(printName);
 
 
-        System.out.println("findAny()");
-        String nameAny = employees.stream().filter(predicateNameSrartWithA)
-                .findAny()
-                .map(Employee::getName)
-                .orElse("mister n");
-        System.out.println(nameAny);
+//        System.out.println("findAny()");
+//        String nameAny = employees.stream().filter(predicateNameSrartWithA)
+//                .findAny()
+//                .map(Employee::getName)
+//                .orElse("mister n");
+//        System.out.println(nameAny);
 
-        System.out.println("findFirst()");
-        String nameFirst = employees.stream().filter(predicateNameSrartWithA)
-                .findFirst()
-                .map(Employee::getName)
-                .orElse("mister n");
-        System.out.println(nameFirst);
+//        System.out.println("findFirst()");
+//        String nameFirst = employees.stream().filter(predicateNameSrartWithA)
+//                .findFirst()
+//                .map(Employee::getName)
+//                .orElse("mister n");
+//        System.out.println(nameFirst);
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования Match функций (anyMatch, allMatch, noneMatch)");
         System.out.println("**************************************************************************");
 
-        boolean flag = false;
-
-        System.out.println("anyMatch()");
-        flag = employees.stream().anyMatch(predicateOld);
-        System.out.println(flag);
-
-        System.out.println("allMatch()");
-        flag = employees.stream().allMatch(predicateOld);
-        System.out.println(flag);
-
-        System.out.println("noneMatch()");
-        flag = employees.stream().noneMatch(predicateOld);
-        System.out.println(flag);
+//        boolean flag = false;
+//
+//        System.out.println("anyMatch()");
+//        flag = employees.stream().anyMatch(predicateOld);
+//        System.out.println(flag);
+//
+//        System.out.println("allMatch()");
+//        flag = employees.stream().allMatch(predicateOld);
+//        System.out.println(flag);
+//
+//        System.out.println("noneMatch()");
+//        flag = employees.stream().noneMatch(predicateOld);
+//        System.out.println(flag);
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования Map функций (map, mapToInt, mapToDouble, mapToLong, " +

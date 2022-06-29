@@ -39,7 +39,10 @@ class Elem {
 
     @Override
     public boolean equals(Object o) {
-        return this == o;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Elem elem = (Elem) o;
+        return Objects.equals(st, elem.st);
     }
 
     @Override

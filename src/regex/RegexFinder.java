@@ -13,5 +13,10 @@ public class RegexFinder {
             System.out.println(String.format("Extension %s, start %d, end %d",
                     matcher.group(), matcher.start(), matcher.end()));
         }
+
+        String address = "D1";
+        String letter = address.replaceAll("[^A-Z]","");
+        System.out.println(letter);
+
     }
 }

@@ -12,5 +12,4 @@ public class ComparatorDemo {
 
     public static Comparator<Integer> compMethodEmployeOld = Comparator.reverseOrder();
 
-
 }

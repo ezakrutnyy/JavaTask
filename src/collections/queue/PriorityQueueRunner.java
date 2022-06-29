@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 /**
  * Created by Евгений on 06.05.2018.
  */
-public class PriorityQueueExample {
+public class PriorityQueueRunner {
     public static void main(String[] args) {
 
         PriorityQueue<Integer> queue = new PriorityQueue<Integer>(Collections.reverseOrder());
