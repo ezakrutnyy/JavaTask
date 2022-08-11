@@ -31,9 +31,9 @@ public class ImmutableCollectionDemo {
         );
         System.out.println(immutableLists);
 
-        ImmutableMap<String,String> immutableMap = ImmutableMap.of(
-                "aaa","bbb",
-                "ccc","ddd"
+        ImmutableMap<String, String> immutableMap = ImmutableMap.of(
+                "aaa", "bbb",
+                "ccc", "ddd"
         );
 
         System.out.println(immutableMap);

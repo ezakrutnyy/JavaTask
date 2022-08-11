@@ -2,7 +2,7 @@ package best_practise;
 
 public class FibbonachiRunner {
 
-    // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+    // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144....
 
     public static void main(String[] args) throws Exception {
 

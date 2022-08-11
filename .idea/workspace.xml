@@ -8,10 +8,53 @@
     <bookmark url="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_241/src.zip!/java/util/AbstractList.java" description="public E remove(int index) {" line="159" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="new behavioral patterns - mediator">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="test - commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractAndInterfaces/AbstractInstrumentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractAndInterfaces/AbstractInstrumentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotations/Annotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArrayMainMethodsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/AmountFromStrRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/AmountFromStrRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/ArrayQueueRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/ArrayQueueRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/BorderInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/BorderInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/BracketsValidationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/BracketsValidationRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/CountDublicateElementInMapRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/CountDublicateElementInMapRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/FactorialRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/FactorialRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/FibbonachiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/FibbonachiRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/FindSecondMinElementArrayRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/FindSecondMinElementArrayRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/PalindromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/PalindromeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/QueueRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/QueueRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/SubstringRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/SubstringRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/SumPairRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/SumPairRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best_practise/TreeDeptSizeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practise/TreeDeptSizeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/atomics/AtomicIntegerRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/atomics/AtomicIntegerRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/GenericDemoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericDemoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/CacheDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/CacheDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/ImmutableCollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/ImmutableCollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/JoinerAndSplitterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/JoinerAndSplitterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/MultiSetAndMultiMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/MultiSetAndMultiMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/OrderingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/OrderingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/PredictionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/PredictionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guava/RangeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guava/RangeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/BufferedInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/BufferedInputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/BufferedInputFileWithCharset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/BufferedInputFileWithCharset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/BufferedOutputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/BufferedOutputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DataInputAndOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/DataInputAndOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/IODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/IODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/IOStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/IOStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/toFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/toFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/connections/HibernateTmConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regex/DateRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/regex/DateRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regex/EmailRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/regex/EmailRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regex/IpAddressRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/regex/IpAddressRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regex/RegexCutPartOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/regex/RegexCutPartOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/streams/InitialStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/InitialStreamRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/OptionalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/TerminalStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/TerminalStreamRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,6 +293,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Valeriya/IdeaProjects/JavaTask/src/abstractAndInterfaces",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "74878af217319349e3a121df4cef64c2"
   }
 }]]></component>
@@ -281,7 +330,7 @@
       <recent name="spring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InitialStreamRunner">
+  <component name="RunManager" selected="Application.CacheDemo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -397,13 +446,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datetime.CalendarDemo" />
+    <configuration name="CacheDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guava.CacheDemo" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datetime.*" />
+          <option name="PATTERN" value="guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,13 +460,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibbonachiStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.FibbonachiStream" />
+    <configuration name="CollectionsClassBrowseMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.list.CollectionsClassBrowseMethod" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,13 +474,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.FilterStreamRunner" />
+    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.list.MyArrayList" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -439,13 +488,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitialStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.InitialStreamRunner" />
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.list.MyLinkedList" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -453,13 +502,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerminalStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.TerminalStreamRunner" />
+    <configuration name="StackAndQueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.queue.StackAndQueueRunner" />
       <module name="JavaTask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="collections.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -505,19 +554,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CalendarDemo" />
-      <item itemvalue="Application.FibbonachiStream" />
-      <item itemvalue="Application.InitialStreamRunner" />
-      <item itemvalue="Application.FilterStreamRunner" />
-      <item itemvalue="Application.TerminalStreamRunner" />
+      <item itemvalue="Application.CacheDemo" />
+      <item itemvalue="Application.CollectionsClassBrowseMethod" />
+      <item itemvalue="Application.MyArrayList" />
+      <item itemvalue="Application.MyLinkedList" />
+      <item itemvalue="Application.StackAndQueueRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InitialStreamRunner" />
-        <item itemvalue="Application.FibbonachiStream" />
-        <item itemvalue="Application.CalendarDemo" />
-        <item itemvalue="Application.TerminalStreamRunner" />
-        <item itemvalue="Application.FilterStreamRunner" />
+        <item itemvalue="Application.CacheDemo" />
+        <item itemvalue="Application.StackAndQueueRunner" />
+        <item itemvalue="Application.CollectionsClassBrowseMethod" />
+        <item itemvalue="Application.MyArrayList" />
+        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -934,7 +983,8 @@
       <workItem from="1655802097653" duration="403000" />
       <workItem from="1656421378489" duration="2882000" />
       <workItem from="1656451073713" duration="3585000" />
-      <workItem from="1660211517855" duration="190000" />
+      <workItem from="1660211517855" duration="3278000" />
+      <workItem from="1660254384505" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
       <created>1500800947832</created>
@@ -1195,7 +1245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620738227355</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="test - commit">
+      <created>1660211809587</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1660211809587</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1300,7 +1357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed 23.06.2019&#10;streams and functional Interface final!" />
     <MESSAGE value="jsoup 1.07" />
     <MESSAGE value="add instant time  23.07" />
     <MESSAGE value="add LocalDate   25.07" />
@@ -1325,7 +1381,8 @@
     <MESSAGE value="new behavioral patterns, momento + visitor" />
     <MESSAGE value="new behavioral patterns - observer" />
     <MESSAGE value="new behavioral patterns - mediator" />
-    <option name="LAST_COMMIT_MESSAGE" value="new behavioral patterns - mediator" />
+    <MESSAGE value="test - commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test - commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1357,7 +1414,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/annotations/Annotations.java</url>
-          <line>15</line>
+          <line>16</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1481,48 +1538,8 @@
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="154" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guava/CacheDemo.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/guava/MultiSetAndMultiMapDemo.java</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1922,12 +1939,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java</url>
-          <line>90</line>
+          <line>89</line>
           <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/concurrency/produce_consume/SendMessage.java</url>
-          <line>73</line>
+          <line>72</line>
           <option name="timeStamp" value="324" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1957,7 +1974,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/best_practise/BinarySearch.java</url>
-          <line>9</line>
+          <line>8</line>
           <option name="timeStamp" value="348" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

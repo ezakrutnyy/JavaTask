@@ -17,21 +17,23 @@ public class BracketsValidationRunner {
         System.out.println(isValid(bracketsIsValid2));
     }
 
-    static boolean isValid(String brackets) {
+    private static boolean isValid(String brackets) {
         LinkedList<Character> queue = new LinkedList<>();
 
         for (int i = 0; i < brackets.length(); i++) {
-            if (brackets.charAt(i) == '[' || brackets.charAt(i) == '{') {
-                queue.push(brackets.charAt(i));
+
+            char currentBracket = brackets.charAt(i);
+
+            if (currentBracket == '[' || currentBracket == '{') {
+                queue.push(currentBracket);
             }
-            if (brackets.charAt(i) == ']' || brackets.charAt(i) == '}') {
+            if (currentBracket == ']' || currentBracket == '}') {
 
                 if (queue.size() == 0) return false;
 
-                char ch1 = queue.pop();
-                char ch2 = brackets.charAt(i);
-
-                if (ch1 == '[' && ch2 == '}' || ch1 == '{' && ch2 == ']') return false;
+                char openBracket = queue.pop();
+                if (openBracket == '[' && currentBracket == '}' || openBracket == '{' && currentBracket == ']')
+                    return false;
             }
         }
 

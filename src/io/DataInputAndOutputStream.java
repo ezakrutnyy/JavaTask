@@ -1,13 +1,10 @@
 package io;
 
-import com.google.common.base.Charsets;
-import org.apache.commons.lang3.CharSet;
-
 import java.io.*;
 
 public class DataInputAndOutputStream {
 
-    static final String path  = "C:/Users/zakru/IdeaProjects/JavaTask/src/io/output.txt";
+    private static final String path = "src/io/output.txt";
 
     public static void main(String[] args) {
         try (DataOutputStream out = new DataOutputStream(
@@ -23,7 +20,7 @@ public class DataInputAndOutputStream {
             out.writeShort(1200);
             out.writeUTF("yellow");
         } catch (Exception ex) {
-            System.err.println(ex);
+            System.err.println(ex.getMessage());
         }
 
         try (DataInputStream in = new DataInputStream(
@@ -39,7 +36,7 @@ public class DataInputAndOutputStream {
             System.out.println(in.readShort());
             System.out.println(in.readUTF());
         } catch (Exception ex) {
-            System.err.println(ex);
+            System.err.println(ex.getMessage());
         }
 
 

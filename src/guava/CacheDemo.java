@@ -1,6 +1,5 @@
 package guava;
 
-import com.google.common.base.MoreObjects;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
@@ -22,7 +21,7 @@ public class CacheDemo {
                         .expireAfterAccess(1, TimeUnit.MINUTES)
                         .build(new CacheLoader<String, Employee>() {
                             @Override
-                            public Employee load(String empId) throws Exception {
+                            public Employee load(String empId) {
                                 return getFromDataBase(empId);
                             }
                         });
@@ -49,12 +48,12 @@ public class CacheDemo {
         Employee e3 = new Employee("Sg", "President", 3);
 
 
-        Map<String, Employee> database = new HashMap<String,Employee>();
+        Map<String, Employee> database = new HashMap<String, Employee>();
         database.put("1", e1);
         database.put("2", e2);
         database.put("3", e3);
 
-        System.out.printf("Database hit for "+empId);
+        System.out.printf("Database hit for " + empId);
         return database.get(empId);
     }
 }

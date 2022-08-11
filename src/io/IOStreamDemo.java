@@ -8,7 +8,7 @@ public class IOStreamDemo {
 
     public static void main(String[] args) {
 
-        String path  = "C:/Users/zakru/IdeaProjects/JavaTask/src/io/input.txt";
+        String path  = "src/io/input.txt";
 
         int val;
         /* Чтений из файла побайтово вариант 1 */

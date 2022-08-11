@@ -2,7 +2,6 @@ package guava;
 
 import com.google.common.collect.*;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
@@ -30,14 +29,13 @@ public class MultiSetAndMultiMapDemo {
         mupltiMap.put("aaa", "753");
         mupltiMap.put("aaa", "2323");
         List<String> lst = Lists.newArrayList(mupltiMap.values());
-
         System.out.println(lst);
         System.out.println(mupltiMap.get("aaa"));
 
-        BiMap<Integer,String> biMap = HashBiMap.create();
-        biMap.put(101,"aaa");
-        biMap.put(102,"bbb");
-        biMap.put(103,"ccc");
+        BiMap<Integer, String> biMap = HashBiMap.create();
+        biMap.put(101, "aaa");
+        biMap.put(102, "bbb");
+        biMap.put(103, "ccc");
         System.out.println(biMap);
         System.out.println(biMap.inverse());
     }

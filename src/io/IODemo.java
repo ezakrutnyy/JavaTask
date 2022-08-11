@@ -58,7 +58,6 @@ public class IODemo {
 
         /* чтение по строчно из файла с применение Files */
         System.out.println("*****************Files.newBufferedReader(path)*************************************");
-
         try (BufferedReader br = Files.newBufferedReader(relativePathInp)) {
             while (br.ready()) {
                 System.out.println(br.readLine());

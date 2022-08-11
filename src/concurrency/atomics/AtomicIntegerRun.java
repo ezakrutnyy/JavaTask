@@ -17,9 +17,7 @@ public class AtomicIntegerRun {
         AtomicInteger amounter = new AtomicInteger(0);
         ExecutorService executor = Executors.newFixedThreadPool(2);
         IntStream.range(0, 1000)
-                .forEach(i -> executor.submit(() -> {
-                    amounter.accumulateAndGet(i, Integer::sum);
-                }));
+                .forEach(i -> executor.execute(() -> amounter.accumulateAndGet(i, Integer::sum)));
         executor.shutdown();
         executor.awaitTermination(10, TimeUnit.SECONDS);
         System.out.println(amounter.get());

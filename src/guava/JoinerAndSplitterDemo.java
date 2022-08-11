@@ -22,7 +22,6 @@ public class JoinerAndSplitterDemo {
         List<String> outputs = Splitter.on(";").trimResults().omitEmptyStrings().splitToList(str);
         System.out.println(outputs);
 
-
         Map<String,String> mapsInput = Maps.newLinkedHashMap();
         mapsInput.put("Ivanov", "11");
         mapsInput.put("Petrov", "14");

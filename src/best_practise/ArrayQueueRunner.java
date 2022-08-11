@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayQueueRunner {
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         ArrayQueue<Integer> queue = new ArrayQueue<>();
         queue.offer(1);
@@ -64,7 +64,7 @@ class ArrayQueue<T> {
 
     private int size = 0;
 
-    public ArrayQueue() {
+    ArrayQueue() {
         this.value = (T[]) new Object[CAPACITY_MAX];
     }
 
@@ -91,11 +91,8 @@ class ArrayQueue<T> {
         return index + 1 == CAPACITY_MAX ? 0 : ++index;
     }
 
-    public T peek() {
-        return value[headIndex];
-    }
 
-    public T poll() {
+    T poll() {
 
         if (size == 0) return null;
 

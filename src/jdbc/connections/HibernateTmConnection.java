@@ -22,9 +22,4 @@ public class HibernateTmConnection {
         }
         return factory;
     }
-
-    public Session openSession() {
-        return factory.openSession();
-    }
-
 }

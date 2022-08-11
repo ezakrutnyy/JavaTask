@@ -16,17 +16,13 @@ public class AbstractInstrumentDemo {
         for (Instrument i : lst) {
             i.settings();
             i.play();
-            System.out.println("Номер: "+i.printInt());
+            System.out.println("Номер: " + i.printInt());
         }
 
     }
 }
 
-abstract class Instrument  {
-    Instrument() {
-        printInt();
-    }
-
+abstract class Instrument {
     abstract void play();
 
     void settings() {
@@ -36,7 +32,7 @@ abstract class Instrument  {
     abstract int printInt();
 }
 
-class Accordion extends  Instrument{
+class Accordion extends Instrument {
 
     final int i = 0;
 
@@ -56,7 +52,7 @@ class Accordion extends  Instrument{
     }
 }
 
-class Piano extends  Instrument {
+class Piano extends Instrument {
     final int k = 1;
 
     @Override

@@ -9,25 +9,25 @@ import java.util.Objects;
 public class TreeDeptSizeRunner {
 
     public static void main(String[] args) {
-        TreeNode<Integer> root = new TreeNode<>(13);
+        TreeNode<Integer> root = new TreeNode<>(7);
 
-        TreeNode<Integer> parent = new TreeNode<>(7);
-        parent.leftNode = new TreeNode<>(10);
-        parent.rightNode = new TreeNode<>(15);
+        TreeNode<Integer> parent = new TreeNode<>(4);
+        parent.leftNode = new TreeNode<>(1);
+        parent.rightNode = new TreeNode<>(3);
 
-        TreeNode<Integer> parent2 = new TreeNode<>(7);
-        parent2.leftNode = new TreeNode<>(10);
-        parent2.rightNode = new TreeNode<>(15);
+        TreeNode<Integer> parent2 = new TreeNode<>(4);
+        parent2.leftNode = new TreeNode<>(1);
+        parent2.rightNode = new TreeNode<>(3);
 
         root.leftNode = parent;
         root.rightNode = parent2;
 
 
 //        System.out.println("Max dept: " + maxDept(root));
-        System.out.println("Sum three recursive : " + sumThreeRecursive(root));
-        System.out.println("Sum three by Stack (Обход в глубину): " + sumThreeByStack(root));
-        System.out.println("Sum three by Queue (Обход в ширину): " + sumThreeByQueue(root));
-//        System.out.println("IsEquals: " + isEquals(root));
+//          System.out.println("Sum three recursive : " + sumThreeRecursive(root));
+//        System.out.println("Sum three by Stack (Обход в глубину): " + sumThreeByStack(root));
+//        System.out.println("Sum three by Queue (Обход в ширину): " + sumThreeByQueue(root));
+         System.out.println("IsEquals: " + isEquals(root));
 //        System.out.println("IsSymetric: " + isSymetric(root));
 
     }
@@ -88,19 +88,18 @@ public class TreeDeptSizeRunner {
             if (node.leftNode != null) stack.push(node.leftNode);
             if (node.rightNode != null) stack.push(node.rightNode);
         }
-
         return sum;
     }
 
     public static int sumThreeByQueue(TreeNode<Integer> root) {
         int sum = 0;
         MyQueue<TreeNode<Integer>> queue = new MyQueue<>();
-        queue.push(root);
+        queue.offer(root);
         while (queue.peek() != null) {
-            TreeNode<Integer> node = queue.pop();
+            TreeNode<Integer> node = queue.poll();
             sum += node.value;
-            if (node.leftNode != null) queue.push(node.leftNode);
-            if (node.rightNode != null) queue.push(node.rightNode);
+            if (node.leftNode != null) queue.offer(node.leftNode);
+            if (node.rightNode != null) queue.offer(node.rightNode);
         }
 
         return sum;
@@ -116,7 +115,7 @@ class TreeNode<T> {
 
     TreeNode<T> rightNode;
 
-    public TreeNode(T value) {
+    TreeNode(T value) {
         this.value = value;
     }
 }

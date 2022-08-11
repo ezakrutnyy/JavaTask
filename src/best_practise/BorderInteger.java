@@ -10,7 +10,7 @@ public class BorderInteger {
 
     public static void main(String[] args) {
 
-        Integer[] array = new Integer[]{1, 4, 13};
+        Integer[] array = new Integer[]{1, 4, 5, 2, 3, 9, 8, 11, 0};
         Arrays.sort(array);
 
         Border border = new Border();
@@ -18,8 +18,6 @@ public class BorderInteger {
         Integer left = array[0];
 
         Integer right = array[0];
-
-        if (array.length == 1) border.append(left, right);
 
         for (int i = 1; i < array.length; i++) {
             if (array[i] - array[i - 1] > 1) {
@@ -38,22 +36,22 @@ public class BorderInteger {
 
 class Border {
 
-    private StringBuilder builder;
+    final private StringBuilder builder;
 
-    public Border() {
+    Border() {
         this.builder = new StringBuilder();
     }
 
     public void append(Integer left, Integer right) {
 
         if (right == null || left >= right) {
-            builder.append(left + "\n");
+            builder.append(left).append("\n");
         } else {
-            builder.append(left + " - " + right + "\n");
+            builder.append(left).append(" - ").append(right).append("\n");
         }
     }
 
-    public String getResult() {
+    String getResult() {
         return builder.toString();
     }
 }

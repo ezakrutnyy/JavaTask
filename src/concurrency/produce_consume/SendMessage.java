@@ -49,7 +49,6 @@ class Worker {
 }
 
     public void consume() throws InterruptedException {
-
         while (true) {
             System.out.println(queue.take());
             System.out.println("Queue size is " + queue.size());

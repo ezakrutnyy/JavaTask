@@ -11,12 +11,12 @@ import java.util.List;
 public class GenericDemoExample {
     public static void main(String[] args) {
 
-        List<Employee> lst = Lists.newArrayList();
+        List<Object> lst = Lists.newArrayList();
         lst.add(new Employee("aa", "bb", 3));
         lst.add(new Manager("aa", "bb", 3, BigDecimal.ZERO));
         System.out.println(lst);
 
-        Employee[] employes = new Employee[2];
+        Object[] employes = new Object[2];
         employes[0] = new Employee("aa", "bb", 3);
         employes[1] = new Manager("aa", "bb", 3, BigDecimal.ZERO);
         System.out.println(Arrays.toString(employes));
@@ -25,7 +25,7 @@ public class GenericDemoExample {
         /*
          * Создвние Generic класса
          * */
-        MyGeneric<String, Integer> myGen = new MyGeneric<>("aaaa", 123);
+        MyGeneric<String, Integer> myGen = new MyGeneric<>("aaaa", 3);
         myGen.printKey();
 
 
@@ -38,7 +38,7 @@ public class GenericDemoExample {
 }
 
 
-class MyGeneric<K, V> {
+class MyGeneric<K, V extends Number> {
 
     private K key;
     private V value;

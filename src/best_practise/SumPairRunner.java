@@ -6,10 +6,9 @@ import org.apache.commons.lang3.tuple.Pair;
 import java.util.Set;
 
 public class SumPairRunner {
-
     /*
      * в массиве найти любую пару чисел, которые дают в сумме заданный num, за линейное время
-     *  3, 12, 5, 9, 7, 2, 21
+     *  4, 12, 5, 9, 7, 2, 21
      * */
     public static void main(String[] args) {
         Integer[] array = new Integer[]{4, 12, 5, 9, 7, 2, 21};

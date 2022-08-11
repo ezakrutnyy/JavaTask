@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class SubstringRunner {
 
     /*
-     * дана строка aaabbccbabcaabcaaaabcaaaccc
+     * дана строка aabcbbabcbbaaccdbac
      * найти вхождение abc
      * */
     public static void main(String[] args) {
         String input = "aabcbbabcbbaaccdbac";
         String search = "abc";
 
-        char[] searchArray = new char[search.length()];
+        char[] searchArray = search.toCharArray();
         search.getChars(0, search.length(), searchArray, 0);
         for (int i = 0; i < input.length() - search.length() + 1; i++) {
             char[] candidateArray = new char[search.length()];

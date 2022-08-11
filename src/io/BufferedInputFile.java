@@ -2,31 +2,20 @@ package io;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class BufferedInputFile {
 
-    static final String path  = "C:/Users/zakru/IdeaProjects/JavaTask/src/io/input.txt";
-
     public static void main(String[] args) {
         /* [1] Буферизованное чтение из файла */
-        List<String> linkedList = new LinkedList<>();
-        StringBuilder sb = new StringBuilder();
-        String s;
-        try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
-            while((s = reader.readLine()) != null) {
-                linkedList.add(s.toUpperCase());
-                sb.append(s).append("\n");
-            }
+        List<String> result = new LinkedList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/io/input.txt"))) {
+            result.addAll(reader.lines().collect(Collectors.toList()));
         } catch (Exception ex) {
-            System.err.println(ex);
+            System.err.println(ex.getMessage());
         }
-
-        Collections.reverse(linkedList);
-        System.out.println(linkedList);
+        System.out.println(result);
     }
-
-
 }

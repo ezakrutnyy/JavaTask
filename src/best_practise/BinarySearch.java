@@ -5,9 +5,8 @@ public class BinarySearch {
     // -3 2 1 0 -10 5 12
     // -10 -3 0 1 2 5 12
     public static void main(String[] args) {
-
         int[] array = new int[]{-3, 2, 1, 0, -10, 5, 12};
-        BubleSort.bubleSort(array);
+        new Sort(array).bubbleSort();
         int index = binarySearch(1, array, 0, array.length - 1);
         System.out.println(index);
 

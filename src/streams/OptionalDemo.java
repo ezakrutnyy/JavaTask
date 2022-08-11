@@ -23,7 +23,7 @@ public class OptionalDemo {
          * [3] orElseGet() Возвращает значение по умолчанию для null указателя,
          * с применением лямбда функции
          * */
-        List<String> listOpt = getListOpt().orElseGet(() -> Lists.newArrayList());
+        List<String> listOpt = getListOpt().orElseGet(Lists::newArrayList);
         System.out.println("orElseGet() - " + listOpt);
 
         /**
@@ -47,7 +47,7 @@ public class OptionalDemo {
          * */
         List<String> collect = Lists.newArrayList("aaa");
         Optional<String> optL = Optional.of("bbb");
-        optL.ifPresent(value -> collect.add(value));
+        optL.ifPresent(collect::add);
         System.out.println("ifPresent() - " + collect);
 
         /**
@@ -59,7 +59,7 @@ public class OptionalDemo {
          * [7] map(), результат операции как ifPresent, но не теряет возвращаемый результат
          * */
         List<String> res = Lists.newArrayList("aaa");
-        Optional<Boolean> isRes = optL.map(v -> res.add(v));
+        Optional<Boolean> isRes = optL.map(res::add);
         System.out.println("map() - " + isRes);
 
 
@@ -72,20 +72,20 @@ public class OptionalDemo {
 
     }
 
-    public static Optional<String> getStr() {
-        return Optional.ofNullable(null);
+    private static Optional<String> getStr() {
+        return Optional.empty();
     }
 
-    public static Optional<List<String>> getListOpt() {
+    private static Optional<List<String>> getListOpt() {
 
-        return Optional.ofNullable(null);
+        return Optional.empty();
     }
 
-    public static Optional<Double> inverse(Double x) {
+    private static Optional<Double> inverse(Double x) {
         return x == 0 ? Optional.empty() : Optional.of(1 / x);
     }
 
-    public static Optional<Double> sqrt(Double x) {
+    private static Optional<Double> sqrt(Double x) {
         return x < 0 ? Optional.empty() : Optional.of(Math.sqrt(x));
     }
 

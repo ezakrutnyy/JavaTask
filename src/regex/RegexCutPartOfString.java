@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 public class RegexCutPartOfString {
 
     public static void main(String[] args) {
-
         String inp = "RUSSIA (code:RUS)";
         Pattern pattern = Pattern.compile(".+:(.+)\\)");
         Matcher matcher = pattern.matcher(inp);
