@@ -48,6 +48,7 @@ public class InitialStreamRunner {
         Stream<String> stream = builder.add("aaa").add("bbb").add("ccc").build();
         stream.forEach(System.out::println);
 
+
         /**
          * Create Ints streams
          * * */
