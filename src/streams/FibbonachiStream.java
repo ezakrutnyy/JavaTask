@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 public class FibbonachiStream {
 
     public static void main(String[] args) {
-
         Stream.generate(supplierFibbonachi).filter(n -> n % 2 == 0).limit(40)
                 .forEach(System.out::println);
     }

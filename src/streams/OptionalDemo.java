@@ -10,11 +10,17 @@ public class OptionalDemo {
         /**
          * [1] ofNullable() Дает возможность вернуть методу  getStr = null ссылку
          * */
+        System.out.println("-----ofNullable()--------");
+        String s = null;
+        String k = Optional.ofNullable(s).orElse("3");
+        System.out.println("ofNullable value is " + k);
+
         Optional<String> stropt = getStr();
 
         /**
          * [2] orElse() Возвращает значение по умолчанию для null указателя
          * */
+        System.out.println("---------------orElse()------------");
         Optional<String> strForDefaultOpt = getStr();
         String strForDefault = strForDefaultOpt.orElse("default");
         System.out.println("orElse() - " + strForDefault);
@@ -23,13 +29,15 @@ public class OptionalDemo {
          * [3] orElseGet() Возвращает значение по умолчанию для null указателя,
          * с применением лямбда функции
          * */
+        System.out.println("---------------orElseGet()------------");
         List<String> listOpt = getListOpt().orElseGet(Lists::newArrayList);
         System.out.println("orElseGet() - " + listOpt);
 
         /**
-         * orElseThrow() Возвращает значение по умолчанию для null указателя,
+         * [4] orElseThrow() Возвращает значение по умолчанию для null указателя,
          * с выбрасыванием исключения!
          * */
+        System.out.println("---------------orElseThrow()------------");
         try {
             String strException = getStr().orElseThrow(RuntimeException::new);
         } catch (Exception ex) {
@@ -37,39 +45,28 @@ public class OptionalDemo {
         }
 
         /**
-         * [4] Альтернатива or() применяется, если orElseGet не подходит,
-         * тк может отработать с падением
-         * 9 JAVA
+         * [5] Различые применения ifPresent
          * */
-
-        /**
-         * [5] Различнеы применения ifPresent
-         * */
+        System.out.println("---------------ifPresent()------------");
         List<String> collect = Lists.newArrayList("aaa");
         Optional<String> optL = Optional.of("bbb");
         optL.ifPresent(collect::add);
         System.out.println("ifPresent() - " + collect);
 
         /**
-         * [6] ifPresentOrElse еслп нет знаечния в if, применяем метод для else
-         * 9 JAVA
+         * [6] map(), результат операции как ifPresent, но не теряет возвращаемый результат
          * */
-
-        /**
-         * [7] map(), результат операции как ifPresent, но не теряет возвращаемый результат
-         * */
-        List<String> res = Lists.newArrayList("aaa");
-        Optional<Boolean> isRes = optL.map(res::add);
+        System.out.println("---------------map()------------");
+        Optional<String> isRes = optL.map(str -> str + " and map()");
         System.out.println("map() - " + isRes);
 
-
         /**
-         * [8] flatMap() нужен для извлечения из одного Optional, другого, вложенного в него
+         * [7] flatMap() нужен для извлечения из одного Optional, другого, вложенного в него
          * */
+        System.out.println("---------------flatMap()------------");
         Optional<Double> optFlatMap = Optional.of(16.0)
                 .flatMap(OptionalDemo::inverse).flatMap(OptionalDemo::sqrt);
         System.out.println(optFlatMap.orElse(666.00));
-
     }
 
     private static Optional<String> getStr() {

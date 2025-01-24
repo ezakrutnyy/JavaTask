@@ -7,13 +7,12 @@ import static streams.InitialStreamRunner.employees;
 public class SortedStreamRunner {
 
     public static void main(String[] args) {
-
         // sorted by old asc
-        System.out.println("--------------------------");
+        System.out.println("---------Comparator.comparing-----------");
         employees.stream().sorted(Comparator.comparing(Employee::getOld)).forEach(System.out::println);
 
         // sorted by old desc
-        System.out.println("--------------------------");
+        System.out.println("------Comparator.comparing reversed()----------");
         employees.stream().sorted(Comparator.comparing(Employee::getOld).reversed()).forEach(System.out::println);
 
         // sorted by count symbols of employee name and then by old

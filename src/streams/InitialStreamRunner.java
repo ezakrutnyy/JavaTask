@@ -13,7 +13,7 @@ import static abstractAndInterfaces.functional.SupplierDemo.generateRandomIntege
 
 public class InitialStreamRunner {
 
-    static List<Employee> employees = Lists.newArrayList(
+    public static List<Employee> employees = Lists.newArrayList(
             new Employee("Alex", "Moscow", 22),
             new Employee("Max", "Kursk", 55),
             new Employee("Tom", "Moscow", 10),

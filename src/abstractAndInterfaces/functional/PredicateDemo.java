@@ -52,7 +52,7 @@ public class PredicateDemo {
 
     public static Predicate<Employee> predicateOld = emp -> {
         Integer old = emp.getOld();
-        Range range =  Range.closedOpen(0, 18);
+        Range<Integer> range =  Range.closedOpen(0, 18);
         return  range.test(old);
     };
 

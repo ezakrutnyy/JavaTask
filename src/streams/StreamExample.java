@@ -6,17 +6,177 @@ import com.google.common.collect.Maps;
 import org.apache.commons.lang3.RandomUtils;
 
 import java.math.BigDecimal;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.IntSummaryStatistics;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static abstractAndInterfaces.functional.ComparatorDemo.compInterfaceEmployeOld;
 import static abstractAndInterfaces.functional.ConsumerDemo.printName;
 import static abstractAndInterfaces.functional.FunctionDemo.funcTreeChars;
-import static abstractAndInterfaces.functional.PredicateDemo.*;
+import static abstractAndInterfaces.functional.PredicateDemo.predicateNameSrartWithA;
+import static abstractAndInterfaces.functional.PredicateDemo.predicateOld;
+import static abstractAndInterfaces.functional.PredicateDemo.predicateYar;
 
+/**
+ * Java Stream API предлагает два вида методов:
+ * 1. Конвейерные — возвращают другой stream, то есть работают как builder,
+ * 2. Терминальные — возвращают другой объект, такой как коллекция, примитивы, объекты, Optional и т.д.
+ * <p>
+ * *****************************************************************************************************************
+ * Краткое описание конвейерных методов работы со стримами:
+ * <p>
+ * filter
+ * Отфильтровывает записи, возвращает только записи, соответствующие условию
+ * collection.stream().filter(«a1»::equals).count()
+ * <p>
+ * skip
+ * Позволяет пропустить N первых элементов
+ * collection.stream().skip(collection.size() — 1).findFirst().orElse(«1»)
+ * <p>
+ * distinct
+ * Возвращает стрим без дубликатов (для метода equals)
+ * collection.stream().distinct().collect(Collectors.toList())
+ * <p>
+ * map
+ * Преобразует каждый элемент стрима
+ * collection.stream().map((s) -> s + "_1").collect(Collectors.toList())
+ * <p>
+ * peek
+ * Возвращает тот же стрим, но применяет функцию к каждому элементу стрима
+ * collection.stream().map(String::toUpperCase).peek((e) -> System.out.print("," + e)).collect(Collectors.toList())
+ * <p>
+ * limit
+ * Позволяет ограничить выборку определенным количеством первых элементов
+ * collection.stream().limit(2).collect(Collectors.toList())
+ * <p>
+ * sorted
+ * Позволяет сортировать значения либо в натуральном порядке, либо задавая Comparator
+ * collection.stream().sorted().collect(Collectors.toList())
+ * <p>
+ * mapToInt,
+ * mapToDouble,
+ * mapToLong
+ * Аналог map, но возвращает числовой стрим (то есть стрим из числовых примитивов)
+ * collection.stream().mapToInt((s) -> Integer.parseInt(s)).toArray()
+ * <p>
+ * flatMap,
+ * flatMapToInt,
+ * flatMapToDouble,
+ * flatMapToLong
+ * Похоже на map, но может создавать из одного элемента несколько
+ * collection.stream().flatMap((p) -> Arrays.asList(p.split(",")).stream()).toArray(String[]::new)
+ * <p>
+ * <p>
+ * ******************************************************************************************************************
+ * Краткое описание терминальных методов работы со стримами
+ * <p>
+ * findFirst
+ * Возвращает первый элемент из стрима (возвращает Optional)
+ * collection.stream().findFirst().orElse(«1»)
+ * <p>
+ * <p>
+ * findAny
+ * Возвращает любой подходящий элемент из стрима (возвращает Optional)
+ * collection.stream().findAny().orElse(«1»)
+ * <p>
+ * <p>
+ * collect	Представление результатов в виде коллекций и других структур данных
+ * collection.stream().filter((s) -> s.contains(«1»)).collect(Collectors.toList())
+ * <p>
+ * count
+ * Возвращает количество элементов в стриме
+ * collection.stream().filter(«a1»::equals).count()
+ * <p>
+ * anyMatch
+ * Возвращает true, если условие выполняется хотя бы для одного элемента
+ * collection.stream().anyMatch(«a1»::equals)
+ * <p>
+ * noneMatch
+ * Возвращает true, если условие не выполняется ни для одного элемента
+ * collection.stream().noneMatch(«a8»::equals)
+ * <p>
+ * allMatch
+ * Возвращает true, если условие выполняется для всех элементов
+ * collection.stream().allMatch((s) -> s.contains(«1»))
+ * <p>
+ * min
+ * Возвращает минимальный элемент, в качестве условия использует компаратор
+ * collection.stream().min(String::compareTo).get()
+ * <p>
+ * max
+ * Возвращает максимальный элемент, в качестве условия использует компаратор
+ * collection.stream().max(String::compareTo).get()
+ * <p>
+ * forEach
+ * Применяет функцию к каждому объекту стрима, порядок при параллельном выполнении не гарантируется
+ * set.stream().forEach((p) -> p.append("_1"));
+ * <p>
+ * forEachOrdered
+ * Применяет функцию к каждому объекту стрима, сохранение порядка элементов гарантирует
+ * list.stream().forEachOrdered((p) -> p.append("_new"));
+ * <p>
+ * toArray
+ * Возвращает массив значений стрима
+ * collection.stream().map(String::toUpperCase).toArray(String[]::new);
+ * <p>
+ * reduce
+ * Позволяет выполнять агрегатные функции на всей коллекцией и возвращать один результат
+ * collection.stream().reduce((s1, s2) -> s1 + s2).orElse(0)
+ * <p>
+ * ******************************************************************************************************************
+ * <p>
+ * Краткое описание дополнительных методов у числовых стримов
+ * <p>
+ * sumRecursive
+ * Возвращает сумму всех чисел
+ * collection.stream().mapToInt((s) -> Integer.parseInt(s)).sumRecursive()
+ * <p>
+ * average
+ * Возвращает среднее арифметическое всех чисел
+ * collection.stream().mapToInt((s) -> Integer.parseInt(s)).average()
+ * <p>
+ * mapToObj
+ * Преобразует числовой стрим обратно в объектный
+ * intStream.mapToObj((id) -> new Key(id)).toArray()
+ * <p>
+ * ******************************************************************************************************************
+ * <p>
+ * Несколько других полезных методов стримов
+ * isParallel
+ * Узнать является ли стрим параллельным
+ * <p>
+ * <p>
+ * parallel
+ * Вернуть параллельный стрим, если стрим уже параллельный, то может вернуть самого себя
+ * <p>
+ * sequential
+ * Вернуть последовательный стрим, если стрим уже последовательный, то может вернуть самого себя
+ * <p>
+ * <p>
+ * ******************************************************************************************************************
+ * <p>
+ * Давайте рассмотрим статические методы из Collectors:
+ * Метод	Описание
+ * <p>
+ * toList, toCollection, toSet	                                представляют стрим в виде списка, коллекции или множества
+ * toConcurrentMap, toMap	                                    позволяют преобразовать стрим в map
+ * averagingInt, averagingDouble, averagingLong	                возвращают среднее значение
+ * summingInt, summingDouble, summingLong	                    возвращает сумму
+ * summarizingInt, summarizingDouble, summarizingLong	        возвращают SummaryStatistics с разными агрегатными значениями
+ * partitioningBy	                                            разделяет коллекцию на две части по соответствию условию и
+ * возвращает их как Map<Boolean, List>
+ * groupingBy	                                                разделяет коллекцию на несколько частей и возвращает Map<N, List<T>>
+ * mapping	                                                    дополнительные преобразования значений для сложных Collector'ов
+ * <p>
+ * *
+ */
 public class StreamExample {
-
     public static void main(String[] args) {
 
         List<Employee> employees = Lists.newArrayList(
@@ -35,11 +195,6 @@ public class StreamExample {
         System.out.println(" Примеры использования filter, findFirst, findAny, skip, limit и count");
         System.out.println("**************************************************************************");
 
-//
-//        long length = employees.parallelStream().filter(predicateYar).count();
-//        System.out.println("count()" + length);
-
-
         System.out.println("limit()");
         employees.stream()
                 .filter(predicateNameSrartWithA)
@@ -53,42 +208,39 @@ public class StreamExample {
                 .map(funcTreeChars)
                 .forEach(printName);
 
+        System.out.println("findAny()");
+        String nameAny = employees.stream().filter(predicateNameSrartWithA)
+                .findAny()
+                .map(Employee::getName)
+                .orElse("mister n");
+        System.out.println(nameAny);
 
-//        System.out.println("findAny()");
-//        String nameAny = employees.stream().filter(predicateNameSrartWithA)
-//                .findAny()
-//                .map(Employee::getName)
-//                .orElse("mister n");
-//        System.out.println(nameAny);
-
-//        System.out.println("findFirst()");
-//        String nameFirst = employees.stream().filter(predicateNameSrartWithA)
-//                .findFirst()
-//                .map(Employee::getName)
-//                .orElse("mister n");
-//        System.out.println(nameFirst);
+        System.out.println("findFirst()");
+        String nameFirst = employees.stream().filter(predicateNameSrartWithA)
+                .findFirst()
+                .map(Employee::getName)
+                .orElse("mister n");
+        System.out.println(nameFirst);
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования Match функций (anyMatch, allMatch, noneMatch)");
         System.out.println("**************************************************************************");
 
-//        boolean flag = false;
-//
-//        System.out.println("anyMatch()");
-//        flag = employees.stream().anyMatch(predicateOld);
-//        System.out.println(flag);
-//
-//        System.out.println("allMatch()");
-//        flag = employees.stream().allMatch(predicateOld);
-//        System.out.println(flag);
-//
-//        System.out.println("noneMatch()");
-//        flag = employees.stream().noneMatch(predicateOld);
-//        System.out.println(flag);
+        System.out.println("anyMatch()");
+        boolean flag = employees.stream().anyMatch(predicateOld);
+        System.out.println(flag);
+
+        System.out.println("allMatch()");
+        flag = employees.stream().allMatch(predicateOld);
+        System.out.println(flag);
+
+        System.out.println("noneMatch()");
+        flag = employees.stream().noneMatch(predicateOld);
+        System.out.println(flag);
 
         System.out.println("**************************************************************************");
         System.out.println(" Примеры использования Map функций (map, mapToInt, mapToDouble, mapToLong, " +
-                "FlatMap, ,FlatMapToInt)");
+                "flatMap, flatMapToInt)");
         System.out.println("**************************************************************************");
 
         List<List<String>> deepLists = Lists.newArrayList(
@@ -183,22 +335,15 @@ public class StreamExample {
         System.out.println("Примеры использования Reduce функции");
         System.out.println("**************************************************************************");
 
-
-        Optional<Integer> reduceSumm = employees.stream()
+        Optional<Integer> reduceSum = employees.stream()
                 .map(Employee::getOld)
                 .reduce(Integer::sum);
-        System.out.println("reduceSum old: " + reduceSumm.orElse(0));
-
+        System.out.println("reduceSum old: " + reduceSum.orElse(0));
 
         Integer reduceSummInteger = employees.stream()
                 .map(Employee::getOld)
                 .reduce(0, Integer::sum);
         System.out.println("reduceSum old or 0: " + reduceSummInteger);
-
-        int totalcount = employees.stream()
-                .map(Employee::getOld)
-                .reduce(0, Integer::sum);
-        System.out.println("totalcount: " + totalcount);
 
 
         System.out.println("**************************************************************************");
@@ -229,9 +374,8 @@ public class StreamExample {
          * Collectors.summingDouble - отдельный метод для сохранения сумм
          */
         IntSummaryStatistics amounts = employees.stream()
-                .map(Employee::getOld)
-                .filter(amount -> amount > 0)
-                .collect(Collectors.summarizingInt(Integer::new));
+                .filter(employee -> employee.getOld() > 0)
+                .collect(Collectors.summarizingInt(Employee::getOld));
         System.out.println("Collectors.summarizingInt()");
         System.out.println("Sum: " + amounts.getSum());
         System.out.println("Average: " + amounts.getAverage());
@@ -245,7 +389,6 @@ public class StreamExample {
         Map<String, List<Employee>> mapsByGrouping =
                 employees.stream().collect(Collectors.groupingBy(Employee::getCity));
         System.out.println("Collectors.groupingBy() for Elements: " + mapsByGrouping);
-
 
         Map<String, List<String>> mapsByGroupingForCity =
                 employees.stream()
@@ -314,8 +457,8 @@ public class StreamExample {
         Map<Boolean, List<Employee>> mapsByPartitioning =
                 employees.stream()
                         .collect(Collectors.partitioningBy(emp -> emp.getCity().equals("Moscow")));
-        System.out.println("Collectors.partitioningBy() from is Moscow false: " + mapsByPartitioning.get(false));
-        System.out.println("Collectors.partitioningBy() from is Moscow true: " + mapsByPartitioning.get(true));
+        System.out.println("TODO Collectors.partitioningBy() from is Moscow false: " + mapsByPartitioning.get(false));
+        System.out.println("TODO Collectors.partitioningBy() from is Moscow true: " + mapsByPartitioning.get(true));
 
         /**
          * Compress  map
@@ -345,7 +488,7 @@ public class StreamExample {
 
 
         /**
-         * Compress  map
+         * collapseFlatMap  map
          * Получение из List<Map<Integer, Integer>>, Map<Integer, Integer>, где значения, с одинаковыми ключами суммируются
          */
 

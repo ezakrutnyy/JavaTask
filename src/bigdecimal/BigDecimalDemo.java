@@ -1,112 +1,59 @@
 package bigdecimal;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
-import java.math.RoundingMode;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.io.IOException;
 
 /**
  * Created by Евгений on 05.09.2017.
  */
 public class BigDecimalDemo {
+
+    private static final String LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK_SYMBOL = "\u00AB";
+
+    private static final String RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK_SYMBOL = "\u00BB";
+
+    private static final String NO_BRACE_SPACE_SYMBOL = "\u00a0";
+
+    private static final String EN_DASH_SYMBOL = "\u2013";
+
+    private static final String EM_DASH_SYMBOL = "\u2014";
+
     public static void main(String[] args) {
 
-        MathContext mc = new MathContext(10, RoundingMode.HALF_UP);
-        BigDecimal test1 = new BigDecimal("45000.232323");
-        BigDecimal test2 = new BigDecimal("99999.89898");
-
-        BigDecimal res = test1.divide(test2, mc);
-        System.out.println(res);
 
 
+        String srcStr = "«Привет мир—труд–май»";
 
-        BigDecimal b1 = new BigDecimal("1.0000");
-        BigDecimal b2 = BigDecimal.valueOf(1.0000D);
+        String srcStr2 = srcStr
+                .replace(LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK_SYMBOL, "\"")
+                .replace(RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK_SYMBOL, "\"")
+                .replace(NO_BRACE_SPACE_SYMBOL," ")
+                .replace(EN_DASH_SYMBOL,"-")
+                .replace(EM_DASH_SYMBOL,"--");
 
-        System.out.println(b1);
-        System.out.println(b2);
-        System.out.println(b1.add(b2));
+        char[] cs = srcStr.toCharArray();
+        for (int i = 0; i < srcStr.length(); ++i) {
+            int cp866;
+            int unicode;
+            try {
+                byte[] bts = srcStr.substring(i, i + 1).getBytes("cp866");
+                if (bts.length != 1) {
+                    System.out.println("false");
+                }
+                cp866 = bts[0] & 0xff;
+                unicode = srcStr.codePointAt(i);
 
-//        // Представление числа BigDecimal
-//        BigDecimal b = new BigDecimal("200");
-//
-//        System.out.println("Big Decimal: "+b);
-//        System.out.println("Value: "+b.unscaledValue());
-//        System.out.println("Scale: "+b.scale());
-//        System.out.println("Precision: "+b.precision());
-//
-//        b = b.setScale(2);
-//
-//        System.out.println("Big Decimal: "+b);
-//        System.out.println("Value: "+b.unscaledValue());
-//        System.out.println("Scale: "+b.scale());
-//        System.out.println("Precision: "+b.precision());
-//
-//        b = b.setScale(-2);
-//        System.out.println("Big Decimal: "+b);
-//        System.out.println("Value: "+b.unscaledValue());
-//        System.out.println("Scale: "+b.scale());
-//        System.out.println("Precision: "+b.precision());
-//
-//        System.out.println("=========================================");
-//
-//        // Метод equals сравнивает отдельно мантиссу и десятичный порядок, поэтому различные представления одного числа не равны
-//        BigDecimal eq_1 = new BigDecimal("2.00");
-//        BigDecimal eq_2 = new BigDecimal("2.0");
-//        System.out.println("Big decimal eq_1: " + eq_1 + " unscaled value: " + eq_1.unscaledValue() +
-//                " scale: " + eq_1.scale() + " precision: " + eq_1.precision());
-//
-//        System.out.println("Big decimal eq_2: " + eq_2 + " unscaled value: " + eq_2.unscaledValue() +
-//                " scale: " + eq_2.scale() + " precision: " + eq_2.precision());
-//
-//        System.out.println("Are eq_1 and eq_2 equal ? " + eq_1.equals(eq_2));
-//
-//        eq_1 = eq_1.stripTrailingZeros();
-//        System.out.println("Big decimal eq_1: " + eq_1 + " unscaled value: " + eq_1.unscaledValue() +
-//                " scale: " + eq_1.scale() + " precision: " + eq_1.precision());
-//
-//        eq_2 = eq_2.stripTrailingZeros();
-//        System.out.println("Big decimal eq_2: " + eq_2 + " unscaled value: " + eq_2.unscaledValue() +
-//                " scale: " + eq_2.scale() + " precision: " + eq_2.precision());
-//
-//        System.out.println("Are eq_1 and eq_2 equal ? " + eq_1.equals(eq_2));
-//        System.out.println("Equal references? " + (eq_1 == eq_2));
-//
-//        Set<BigDecimal> st = new HashSet<BigDecimal>();
-//        st.add(new BigDecimal("2"));
-//        st.add(new BigDecimal("2.0"));
-//        st.add(new BigDecimal("2.00"));
-//        st.add(new BigDecimal("2.000"));
-//        st.add(new BigDecimal("2.0000"));
-//        System.out.println("st size: "+st.size());
-//        System.out.println("st: "+st);
-//
-//        System.out.println("=========================================");
-//
-//        // Метод сравнения compareTo разные представления одного и того же числа равны
-//        eq_1 = new BigDecimal("2.00");
-//        eq_2 = new BigDecimal("2.0");
-//
-//        System.out.println("Big decimal eq_1: " + eq_1 + " unscaled value: " + eq_1.unscaledValue() +
-//                " scale: " + eq_1.scale() + " precision: " + eq_1.precision());
-//
-//        System.out.println("Big decimal eq_2: " + eq_2 + " unscaled value: " + eq_2.unscaledValue() +
-//                " scale: " + eq_2.scale() + " precision: " + eq_2.precision());
-//
-//        System.out.println("Are eq_1 and eq_2 equal ? " + (eq_1.compareTo(eq_2) == 0));
-//
-//        Set<BigDecimal> treeS = new TreeSet<BigDecimal>();
-//        treeS.add(new BigDecimal("2"));
-//        treeS.add(new BigDecimal("2.0"));
-//        treeS.add(new BigDecimal("2.00"));
-//        treeS.add(new BigDecimal("2.000"));
-//        System.out.println("TreeSet size: " + treeS.size());
-//        System.out.println("TreeSet contents: " + treeS);
+                if (cp866 == 63 && (unicode == 171 || unicode == 187 || unicode == 8211 || unicode == 8212)) {
+                    cs[i] = '"';
+                }
 
+                if (cp866 == 255) {
+                    cs[i] = 'Ж';
+                }
+            } catch (IOException ioe) {
+                System.out.println("false");
+            }
 
-
+        }
+        System.out.println(srcStr2);
     }
 }
