@@ -5,7 +5,6 @@ package abstractAndInterfaces;
  */
 public class InterfaceInstrumentDemo {
     public static void main(String[] args) {
-
         InstrumentInterface[] arr = new InstrumentInterface[]{new Drams(), new Guitar()};
         for (InstrumentInterface obj : arr) {
             obj.settings();
@@ -16,10 +15,9 @@ public class InterfaceInstrumentDemo {
     }
 }
 
-
 interface InstrumentInterface {
-    String CONSTANT = "Константа";
 
+    String CONSTANT = "Константа";
 
     void play();
 

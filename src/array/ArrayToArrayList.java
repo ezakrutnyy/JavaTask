@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by Евгений on 14.06.2017.
@@ -17,6 +18,10 @@ public class ArrayToArrayList {
         System.out.println(list1);
 
         // 2 способ
+        List<String> fruits = Arrays.stream(arr).collect(Collectors.toList());
+        System.out.println(fruits);
+
+        // 3 способ
         List<String> list2 = new ArrayList<>();
         Collections.addAll(list2, arr);
         System.out.println(list2);
