@@ -11,6 +11,7 @@ public class LinkedHashMapDemo {
         linkedHashMap.put("three", "3");
         linkedHashMap.put("four", "4");
         linkedHashMap.put("five", "5");
+        linkedHashMap.get("one");
         System.out.println(linkedHashMap);
     }
 }

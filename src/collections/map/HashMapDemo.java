@@ -20,7 +20,7 @@ public class HashMapDemo {
         /* merge() */
         System.out.println("*******************merge()*****************************");
         map.put("alice", 7);
-        int cnt = map.merge("alice", 1, Integer::sum);
+        int cnt = map.merge("alice", null, Integer::sum);
         System.out.println(cnt);
 
         System.out.println("*******************putIfAbsent()*****************************");

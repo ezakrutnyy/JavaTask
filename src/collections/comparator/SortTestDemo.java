@@ -15,11 +15,11 @@ public class SortTestDemo {
 
     public static void main(String[] args) throws ParseException {
         // sorting  by comparable, support Comparison Chain
-//        System.out.println("************************sortWithComparibleChain()*****************************");
-//        sortWithComparableChain();
-//        System.out.println("*******************************************************************************");
+        System.out.println("************************sortWithComparibleChain()*****************************");
+        sortWithComparableChain();
+        System.out.println("*******************************************************************************");
 //
-//        // sorting  by comparator, support Java 8
+        // sorting  by comparator, support Java 8
 //            System.out.println("************************sortWithJava8()****************************************");
 //            sortWithJava8();
 //            System.out.println("*******************************************************************************");
@@ -33,13 +33,12 @@ public class SortTestDemo {
 //        System.out.println("************************sortByGroupBySorter()**********************************");
 //        sortByGroupBySorter();
 //        System.out.println("*******************************************************************************");
-//
-        // sorting  by list comparators, support  GroupBySorter class
-        System.out.println("************************sortByMultiGroupBySorter()*****************************");
-        sortByMultiGroupBySorter();
-        System.out.println("*******************************************************************************");
-    }
 
+//        // sorting  by list comparators, support  GroupBySorter class
+//        System.out.println("************************sortByMultiGroupBySorter()*****************************");
+//        sortByMultiGroupBySorter();
+//        System.out.println("*******************************************************************************");
+    }
 
 
     private static class SortedByMids222 implements Comparator<Transaction> {
@@ -55,34 +54,34 @@ public class SortTestDemo {
 
     private static void sortWithJava8() throws ParseException {
         List<Transaction> lists = Lists.newArrayList();
-        Transaction trx1 = new Transaction("100","100", dateFormat.parse("01.01.2019"));
+        Transaction trx1 = new Transaction("100", "100", dateFormat.parse("01.01.2019"));
         lists.add(trx1);
 
-        Transaction trx2 = new Transaction("200","200", dateFormat.parse("01.03.2019"));
+        Transaction trx2 = new Transaction("200", "200", dateFormat.parse("01.03.2019"));
         lists.add(trx2);
 
-        Transaction trx3 = new Transaction("300","100", dateFormat.parse("14.01.2019"));
+        Transaction trx3 = new Transaction("300", "100", dateFormat.parse("14.01.2019"));
         lists.add(trx3);
 
-        Transaction trx4 = new Transaction("100","200", dateFormat.parse("01.01.2019"));
+        Transaction trx4 = new Transaction("100", "200", dateFormat.parse("01.01.2019"));
         lists.add(trx4);
 
-        Transaction trx5 = new Transaction("100","330", dateFormat.parse("18.01.2019"));
+        Transaction trx5 = new Transaction("100", "330", dateFormat.parse("18.01.2019"));
         lists.add(trx5);
 
-        Transaction trx6 = new Transaction("100","200", dateFormat.parse("07.01.2019"));
+        Transaction trx6 = new Transaction("100", "200", dateFormat.parse("07.01.2019"));
         lists.add(trx6);
 
-        Transaction trx7 = new Transaction("100","200", dateFormat.parse("01.01.2018"));
+        Transaction trx7 = new Transaction("100", "200", dateFormat.parse("01.01.2018"));
         lists.add(trx7);
 
-        Transaction trx8 = new Transaction("100","210", dateFormat.parse("09.12.2019"));
+        Transaction trx8 = new Transaction("100", "210", dateFormat.parse("09.12.2019"));
         lists.add(trx8);
 
-        Transaction trx9 = new Transaction("200","200", dateFormat.parse("22.02.2019"));
+        Transaction trx9 = new Transaction("200", "200", dateFormat.parse("22.02.2019"));
         lists.add(trx9);
 
-        Transaction trx10 = new Transaction("200","200", dateFormat.parse("20.01.2019"));
+        Transaction trx10 = new Transaction("200", "200", dateFormat.parse("20.01.2019"));
         lists.add(trx10);
 
         Collections.sort(lists, new SortedByMids()
@@ -94,36 +93,36 @@ public class SortTestDemo {
 
     private static void sortWithComparableChain() throws ParseException {
         List<TransactionComparable> lists = Lists.newArrayList();
-        TransactionComparable trx1 = new TransactionComparable("100","100", dateFormat.parse("01.01.2019"));
+        TransactionComparable trx1 = new TransactionComparable("100", "100", dateFormat.parse("01.01.2019"));
         lists.add(trx1);
 
-        TransactionComparable trx2 = new TransactionComparable("200","200", dateFormat.parse("01.03.2019"));
+        TransactionComparable trx2 = new TransactionComparable("200", "200", dateFormat.parse("01.03.2019"));
         lists.add(trx2);
 
-        TransactionComparable trx3 = new TransactionComparable("300","100", dateFormat.parse("14.01.2019"));
+        TransactionComparable trx3 = new TransactionComparable("300", "100", dateFormat.parse("14.01.2019"));
         lists.add(trx3);
 
-        TransactionComparable trx4 = new TransactionComparable("100","200", dateFormat.parse("01.01.2019"));
+        TransactionComparable trx4 = new TransactionComparable("100", "200", dateFormat.parse("01.01.2019"));
         lists.add(trx4);
 
 
-        TransactionComparable trx5 = new TransactionComparable("100","330", dateFormat.parse("18.01.2019"));
+        TransactionComparable trx5 = new TransactionComparable("100", "330", dateFormat.parse("18.01.2019"));
         lists.add(trx5);
 
 
-        TransactionComparable trx6 = new TransactionComparable("100","200", dateFormat.parse("07.01.2019"));
+        TransactionComparable trx6 = new TransactionComparable("100", "200", dateFormat.parse("07.01.2019"));
         lists.add(trx6);
 
-        TransactionComparable trx7 = new TransactionComparable("100","200", dateFormat.parse("01.01.2018"));
+        TransactionComparable trx7 = new TransactionComparable("100", "200", dateFormat.parse("01.01.2018"));
         lists.add(trx7);
 
-        TransactionComparable trx8 = new TransactionComparable("100","210", dateFormat.parse("09.12.2019"));
+        TransactionComparable trx8 = new TransactionComparable("100", "210", dateFormat.parse("09.12.2019"));
         lists.add(trx8);
 
-        TransactionComparable trx9 = new TransactionComparable("200","200", dateFormat.parse("22.02.2019"));
+        TransactionComparable trx9 = new TransactionComparable("200", "200", dateFormat.parse("22.02.2019"));
         lists.add(trx9);
 
-        TransactionComparable trx10 = new TransactionComparable("200","200", dateFormat.parse("20.01.2019"));
+        TransactionComparable trx10 = new TransactionComparable("200", "200", dateFormat.parse("20.01.2019"));
         lists.add(trx10);
 
         Collections.sort(lists);
@@ -156,34 +155,34 @@ public class SortTestDemo {
     private static void sortWithCommonsLang() throws ParseException {
 
         List<Transaction> lists = Lists.newArrayList();
-        Transaction trx1 = new Transaction("100","100", dateFormat.parse("01.01.2019"));
+        Transaction trx1 = new Transaction("100", "100", dateFormat.parse("01.01.2019"));
         lists.add(trx1);
 
-        Transaction trx2 = new Transaction("200","200", dateFormat.parse("01.03.2019"));
+        Transaction trx2 = new Transaction("200", "200", dateFormat.parse("01.03.2019"));
         lists.add(trx2);
 
-        Transaction trx3 = new Transaction("300","100", dateFormat.parse("14.01.2019"));
+        Transaction trx3 = new Transaction("300", "100", dateFormat.parse("14.01.2019"));
         lists.add(trx3);
 
-        Transaction trx4 = new Transaction("100","200", dateFormat.parse("01.01.2019"));
+        Transaction trx4 = new Transaction("100", "200", dateFormat.parse("01.01.2019"));
         lists.add(trx4);
 
-        Transaction trx5 = new Transaction("100","330", dateFormat.parse("18.01.2019"));
+        Transaction trx5 = new Transaction("100", "330", dateFormat.parse("18.01.2019"));
         lists.add(trx5);
 
-        Transaction trx6 = new Transaction("100","200", dateFormat.parse("07.01.2019"));
+        Transaction trx6 = new Transaction("100", "200", dateFormat.parse("07.01.2019"));
         lists.add(trx6);
 
-        Transaction trx7 = new Transaction("100","200", dateFormat.parse("01.01.2018"));
+        Transaction trx7 = new Transaction("100", "200", dateFormat.parse("01.01.2018"));
         lists.add(trx7);
 
-        Transaction trx8 = new Transaction("100","210", dateFormat.parse("09.12.2019"));
+        Transaction trx8 = new Transaction("100", "210", dateFormat.parse("09.12.2019"));
         lists.add(trx8);
 
-        Transaction trx9 = new Transaction("200","200", dateFormat.parse("22.02.2019"));
+        Transaction trx9 = new Transaction("200", "200", dateFormat.parse("22.02.2019"));
         lists.add(trx9);
 
-        Transaction trx10 = new Transaction("200","200", dateFormat.parse("20.01.2019"));
+        Transaction trx10 = new Transaction("200", "200", dateFormat.parse("20.01.2019"));
         lists.add(trx10);
 
         lists.sort((t1, t2) ->
@@ -196,34 +195,34 @@ public class SortTestDemo {
 
     private static void sortByGroupBySorter() throws ParseException {
         List<Transaction> lists = Lists.newArrayList();
-        Transaction trx1 = new Transaction("100","100", dateFormat.parse("01.01.2019"));
+        Transaction trx1 = new Transaction("100", "100", dateFormat.parse("01.01.2019"));
         lists.add(trx1);
 
-        Transaction trx2 = new Transaction("200","200", dateFormat.parse("01.03.2019"));
+        Transaction trx2 = new Transaction("200", "200", dateFormat.parse("01.03.2019"));
         lists.add(trx2);
 
-        Transaction trx3 = new Transaction("300","100", dateFormat.parse("14.01.2019"));
+        Transaction trx3 = new Transaction("300", "100", dateFormat.parse("14.01.2019"));
         lists.add(trx3);
 
-        Transaction trx4 = new Transaction("100","200", dateFormat.parse("01.01.2019"));
+        Transaction trx4 = new Transaction("100", "200", dateFormat.parse("01.01.2019"));
         lists.add(trx4);
 
-        Transaction trx5 = new Transaction("100","330", dateFormat.parse("18.01.2019"));
+        Transaction trx5 = new Transaction("100", "330", dateFormat.parse("18.01.2019"));
         lists.add(trx5);
 
-        Transaction trx6 = new Transaction("100","200", dateFormat.parse("07.01.2019"));
+        Transaction trx6 = new Transaction("100", "200", dateFormat.parse("07.01.2019"));
         lists.add(trx6);
 
-        Transaction trx7 = new Transaction("100","200", dateFormat.parse("01.01.2018"));
+        Transaction trx7 = new Transaction("100", "200", dateFormat.parse("01.01.2018"));
         lists.add(trx7);
 
-        Transaction trx8 = new Transaction("100","210", dateFormat.parse("09.12.2019"));
+        Transaction trx8 = new Transaction("100", "210", dateFormat.parse("09.12.2019"));
         lists.add(trx8);
 
-        Transaction trx9 = new Transaction("200","200", dateFormat.parse("22.02.2019"));
+        Transaction trx9 = new Transaction("200", "200", dateFormat.parse("22.02.2019"));
         lists.add(trx9);
 
-        Transaction trx10 = new Transaction("200","200", dateFormat.parse("20.01.2019"));
+        Transaction trx10 = new Transaction("200", "200", dateFormat.parse("20.01.2019"));
         lists.add(trx10);
 
         Collections.sort(lists, new GroupBySorter(new SortedByMids(), new SortedByTids(), new SortedByDate()));
@@ -232,34 +231,34 @@ public class SortTestDemo {
 
     private static void sortByMultiGroupBySorter() throws ParseException {
         List<Transaction> lists = Lists.newArrayList();
-        Transaction trx1 = new Transaction("100","100", dateFormat.parse("01.01.2019"));
+        Transaction trx1 = new Transaction("100", "100", dateFormat.parse("01.01.2019"));
         lists.add(trx1);
 
-        Transaction trx2 = new Transaction("200","200", dateFormat.parse("01.03.2019"));
+        Transaction trx2 = new Transaction("200", "200", dateFormat.parse("01.03.2019"));
         lists.add(trx2);
 
-        Transaction trx3 = new Transaction("300","100", dateFormat.parse("14.01.2019"));
+        Transaction trx3 = new Transaction("300", "100", dateFormat.parse("14.01.2019"));
         lists.add(trx3);
 
-        Transaction trx4 = new Transaction("100","200", dateFormat.parse("01.01.2019"));
+        Transaction trx4 = new Transaction("100", "200", dateFormat.parse("01.01.2019"));
         lists.add(trx4);
 
-        Transaction trx5 = new Transaction("100","330", dateFormat.parse("18.01.2019"));
+        Transaction trx5 = new Transaction("100", "330", dateFormat.parse("18.01.2019"));
         lists.add(trx5);
 
-        Transaction trx6 = new Transaction("100","200", dateFormat.parse("07.01.2019"));
+        Transaction trx6 = new Transaction("100", "200", dateFormat.parse("07.01.2019"));
         lists.add(trx6);
 
-        Transaction trx7 = new Transaction("100","200", dateFormat.parse("01.01.2018"));
+        Transaction trx7 = new Transaction("100", "200", dateFormat.parse("01.01.2018"));
         lists.add(trx7);
 
-        Transaction trx8 = new Transaction("100","210", dateFormat.parse("09.12.2019"));
+        Transaction trx8 = new Transaction("100", "210", dateFormat.parse("09.12.2019"));
         lists.add(trx8);
 
-        Transaction trx9 = new Transaction("200","200", dateFormat.parse("22.02.2019"));
+        Transaction trx9 = new Transaction("200", "200", dateFormat.parse("22.02.2019"));
         lists.add(trx9);
 
-        Transaction trx10 = new Transaction("200","200", dateFormat.parse("20.01.2019"));
+        Transaction trx10 = new Transaction("200", "200", dateFormat.parse("20.01.2019"));
         lists.add(trx10);
 
         GroupBySorterMulti multiSorted =

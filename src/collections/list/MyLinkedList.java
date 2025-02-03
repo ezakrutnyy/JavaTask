@@ -11,11 +11,11 @@ public class MyLinkedList<E> {
     private int size;
 
     public static void main(String[] args) {
-        MyLinkedList<String> list = new MyLinkedList();
+        MyLinkedList<String> list = new MyLinkedList<>();
         list.add("My");
         list.add("name");
         list.add("is");
-        list.add("Jenya");
+        list.add("Frodo");
         list.remove(3);
         list.add("Diego");
         list.remove(0);
@@ -48,11 +48,10 @@ public class MyLinkedList<E> {
             temp = temp.next;
             idx++;
         }
-
         throw new IndexOutOfBoundsException("This index not contains!");
     }
 
-    public boolean remove(int index) {
+    public void remove(int index) {
         if (index > size - 1 || index < 0) throw new IndexOutOfBoundsException("This index not contains!");
 
         if (index == 0) {
@@ -67,12 +66,11 @@ public class MyLinkedList<E> {
             if (idx == index - 1) {
                 temp.next = temp.next.next;
                 size--;
-                return true;
+                return;
             }
             temp = temp.next;
             idx++;
         }
-        return false;
     }
 
     public String toString() {
