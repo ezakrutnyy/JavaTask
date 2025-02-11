@@ -1,17 +1,13 @@
 package best_practise;
 
 public class AmountFromStrRunning {
-
     public static void main(String[] args) {
-        final String input = "1026";
-        int number = Integer.valueOf(input);
-
-        int res = 0;
-        while (number > 0) {
-            res += number % 10;
-            number /= 10;
+        int input = Integer.parseInt("1589");
+        int sum = 0;
+        while (input > 0) {
+            sum += input % 10;
+            input /= 10;
         }
-        System.out.println(res);
-
+        System.out.println(sum);
     }
 }
