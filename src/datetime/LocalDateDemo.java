@@ -23,13 +23,14 @@ public class LocalDateDemo {
         LocalDate localDate = LocalDate.now();
         System.out.println("CurrentDate: " + localDate);
 
-        System.out.println(
-                localDate.getMonth().getDisplayName(TextStyle.FULL_STANDALONE, new Locale("ru")) + localDate.getYear());
+        System.out.println(localDate.getMonth()
+                .getDisplayName(TextStyle.FULL_STANDALONE,
+                        new Locale("ru")) + " " + localDate.getYear());
 
         LocalDate birthDay = LocalDate.of(1988, 7, 9);
         System.out.println("BirthDay: " + birthDay);
 
-        System.out.println("********************AddDays and MinusDays***************************");
+        System.out.println("********************Add days and minus days***************************");
 
         LocalDate birthDayPlus = birthDay.plusDays(10).plusMonths(3).plusYears(12);
         System.out.println("Plus BirthDay: " + birthDayPlus);
@@ -43,7 +44,7 @@ public class LocalDateDemo {
          * withDayOfYear
          * withMonth()
          * */
-        LocalDate birthDayChange = birthDay.withYear(1988).withMonth(7).withDayOfMonth(9);
+        LocalDate birthDayChange = LocalDate.now().withYear(1988).withMonth(7).withDayOfMonth(9);
         System.out.println("Change Birth Day: " + birthDayChange);
 
         System.out.println("********************Diff dates***************************");
@@ -55,9 +56,6 @@ public class LocalDateDemo {
         System.out.println("Period diff months: " + period.getMonths());
         System.out.println("Period diff years: " + period.getYears());
 
-        System.out.println("********************datesUntil()***************************");
-        /* TODO работает для JAVA 9 */
-        //Stream<LocalDate> dates = birthDay.datesUntil(birthDayChange);
         System.out.println("********************Gets params local Date***************************");
         System.out.println("DayOfMonth: " + birthDay.getDayOfMonth());
         System.out.println("DayOfYear: " + birthDay.getDayOfYear());
@@ -93,7 +91,6 @@ public class LocalDateDemo {
             } while (date.getDayOfWeek().getValue() > 5);
             return date;
         });
-
         System.out.println("BACK TO WORK: " + birthDay.with(NEXT_WORKDAY));
 
         System.out.println("********************Diff dates***************************");
@@ -104,9 +101,11 @@ public class LocalDateDemo {
         }
 
         System.out.println("******************** Convert Date To LocalDate ***************************");
-        // Convert Date To LocalDate
         LocalDate convertLocalDate = convertDateToLocalDate(new Date());
         System.out.println(convertLocalDate);
+        System.out.println("******************** Convert LocalDate To Date ***************************");
+        Date convertDate = convertLocalDateToDate(convertLocalDate);
+        System.out.println(convertDate);
     }
 
     public static LocalDate convertDateToLocalDate(Date date) {
@@ -118,5 +117,4 @@ public class LocalDateDemo {
         Preconditions.checkNotNull(localDate, "Specified date is null!");
         return Date.from(localDate.atStartOfDay().atZone(ZoneId.systemDefault()).toInstant());
     }
-
 }

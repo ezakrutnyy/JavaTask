@@ -13,7 +13,7 @@ public class DeamonTread implements  Runnable{
         }
         System.out.println("All Daemon started");
         try {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

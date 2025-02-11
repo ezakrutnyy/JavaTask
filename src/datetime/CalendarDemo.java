@@ -11,12 +11,10 @@ import java.util.GregorianCalendar;
  */
 public class CalendarDemo {
     public static void main(String[] args) throws InterruptedException {
-
         // Получение времени через currentTimeMillis
         DateFormat format = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss z");
         long currentTime = System.currentTimeMillis();
         System.out.println(format.format(currentTime));
-
 
         //Логирование времени
         long startTime = System.currentTimeMillis();
