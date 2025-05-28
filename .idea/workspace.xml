@@ -8,7 +8,91 @@
     <bookmark url="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_241/src.zip!/java/util/AbstractList.java" description="public E remove(int index) {" line="159" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="refactoring july 2022" />
+    <list default="true" id="759a37a8-28c3-4cbf-a23b-0cac8f1fbb60" name="Default" comment="refactoring july 2022">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/084.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/0fcf0e5033a6cb7e3f7c8eea77456a25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/150302fb0fb0663cd0b062f44cc47570.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/16640038942(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/16640038942(2).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/16640038942.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/1a8bc34aac62dfeecaaabdc893f07e18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/235e78056de706ac720424b016a7413b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/2715e90b8f3dbfd38880d8cee7321598.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/2f6c4cc794de81e0f2b7e8c8fb161d93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/382b888b92547f05c0674cc9da38f90b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/39fdaaa55875da821903ab6584cfdc36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/3fed6dfd74969f4aa6a09bca6e3ad456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/47e1ad1b924794607013ab7e9d1dafdc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/63349df3724da93cb78fde1eaf20440b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/65212d998fb4939d9787bd9c726d2acb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/6a687cb2b7d73a05a60952053a24fffe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/6cf5640ca63fd94a051eb67c83ff0277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/6d1861346e1f71f5997a65174eb849e9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/726102ae4aa7dc19d7ecac3d5360d352.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/74b31be989779e0d2ccba5c2c515f326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/76ea8bf592e056c2352c19fac3839642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/79eabc7a3fc6286e8d9a937c68d019a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/82e24044359615ff1bd1688996052384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/8347b95a065dc08fd73f85f3d2e6a321.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/872aa34858b562e9e9ffecfc6f9ede46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/89d1a1d07e42ff03ff61ecd7434c62e7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/910eb18568b93a1a768dc0eae22b6e5d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/96fe67d55c1e565c9ff139688f79e723.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/I41RBaYofzMY9qaLV4KfCLROvYDAXGOZf1v7-AU9EXrMwrF8CK0Wzlsw9trfawt3NmVAgKsxMBtFW5X8Mr0V3jtrEtpBpFUs_5Dlxi6LHk1C2rCZIh4f7thwXn3dRmedkgXyFhVrismwyM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/MLtEEZ_izBIVmIMeCumVSp52vgG_ytHx-sGVzuZvTV2ZA2CqVoJeKewOklecjsWsofzqWRXvKqc_wpr2zERlPrBfBUOs4vu9gWL9fV602-KTFQOqI4y86d3aSvp5V16Tmyv_LAi-ALABB8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/PDsWJ9Ty3v00q8p_3B0RLgESUeQljxkFktfGMyuoF4xx2gcCnkD8Qml1LEsAI-Au0sE2Z1rrrVWLFqZl8bvVq2XN09P2Iv3ZEQZfbVtQuz55C6wyL1j1EKVzABwNNTiRZYKoM8tSzTUZnR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/Vbxa7yoLrVtkm5c0ALYLZpt3UTt_qaX-Xf2X2YqmR_4n7egkPGEg8asTgcVTNJPZHCwtkCDjACD98GyIvumRaFowMpE3q4_WUy6lYBP2FLHXyzsggSotwKOzgZJBpST3qMTIpllSvJ6Ayg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/a5db34d354ad80c390399031e423681d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/ace83bca837fb4ab28ae8b817b49c511.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/admin.2d85f8c5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/admin.51e7530b.js.Без названия" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/app.2d437755.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/app.9d978772.js.Без названия" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/b90d774d2a6f4e27626ea3083133c1d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/babd015c98d44d2723a050351b49fc37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/bddd1bf35bf4485854e801a9b752c309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/cf9059a11c89b9676305980c9065f050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/chunk-vendors.04465f7c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/chunk-vendors.2fa29ba9.js.Без названия" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/context.js.Без названия" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/dark-v1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/db263b7f69dd074fa5d757732dad4bbf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/db8ed8df6d79823d92530689cc9fb949.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/df23af7a8b4501107c8aca417f728a4e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/edc984a252a63ac992962ebf73e6a55e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/f26e21a05edb8aeb40f43e8ec2c38845.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/light-v1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/main(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/pwacompat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/saved_resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/saved_resource(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/saved_resource(2)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/habr/Выполнение запланированных заданий в Spring Boot _ Хабр_files/tag.js.Без названия" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,6 +264,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
@@ -209,7 +298,9 @@
     <option name="height" value="688" />
   </component>
   <component name="ProjectId" id="1u4TdPoBQmtx2k97ZSBVjmqOQlj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -241,20 +332,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valeriya/IdeaProjects/JavaTask/src/abstractAndInterfaces&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;74878af217319349e3a121df4cef64c2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/Valeriya/IdeaProjects/JavaTask/src/abstractAndInterfaces",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools",
+    "spring.configuration.checksum": "e1dc1e6b683b5a5539ba300a47588b9d"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="patterns.behavioral.state" />
@@ -283,7 +377,7 @@
       <recent name="practise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CacheDemo">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -399,13 +493,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CacheDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guava.CacheDemo" />
-      <module name="JavaTask" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="best_practise.BubbleSort" />
+      <module name="javatask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guava.*" />
+          <option name="PATTERN" value="best_practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,13 +507,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsClassBrowseMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.list.CollectionsClassBrowseMethod" />
-      <module name="JavaTask" />
+    <configuration name="Practise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="best_practise.Practise" />
+      <module name="javatask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.list.*" />
+          <option name="PATTERN" value="best_practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -427,27 +521,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.list.MyArrayList" />
-      <module name="JavaTask" />
+    <configuration name="QueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="best_practise.QueueRunner" />
+      <module name="javatask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.list.MyLinkedList" />
-      <module name="JavaTask" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.list.*" />
+          <option name="PATTERN" value="best_practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,7 +537,7 @@
     </configuration>
     <configuration name="StackAndQueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.queue.StackAndQueueRunner" />
-      <module name="JavaTask" />
+      <module name="javatask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -465,6 +545,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="javatask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -507,19 +595,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CacheDemo" />
-      <item itemvalue="Application.CollectionsClassBrowseMethod" />
-      <item itemvalue="Application.MyArrayList" />
-      <item itemvalue="Application.MyLinkedList" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.QueueRunner" />
+      <item itemvalue="Application.Practise" />
       <item itemvalue="Application.StackAndQueueRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CacheDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Practise" />
+        <item itemvalue="Application.QueueRunner" />
         <item itemvalue="Application.StackAndQueueRunner" />
-        <item itemvalue="Application.CollectionsClassBrowseMethod" />
-        <item itemvalue="Application.MyArrayList" />
-        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -938,6 +1026,26 @@
       <workItem from="1656451073713" duration="3585000" />
       <workItem from="1660211517855" duration="3278000" />
       <workItem from="1660254384505" duration="531000" />
+      <workItem from="1738951065539" duration="372000" />
+      <workItem from="1738951459219" duration="219000" />
+      <workItem from="1738951689629" duration="104000" />
+      <workItem from="1738951801286" duration="3531000" />
+      <workItem from="1738955396128" duration="668000" />
+      <workItem from="1739257582477" duration="674000" />
+      <workItem from="1739261394894" duration="7160000" />
+      <workItem from="1739268824136" duration="780000" />
+      <workItem from="1739269719277" duration="3177000" />
+      <workItem from="1739284437660" duration="4077000" />
+      <workItem from="1739871005447" duration="815000" />
+      <workItem from="1739876922081" duration="234000" />
+      <workItem from="1742404416770" duration="153000" />
+      <workItem from="1742466095590" duration="2111000" />
+      <workItem from="1744104050368" duration="1073000" />
+      <workItem from="1744710263172" duration="2033000" />
+      <workItem from="1746545492247" duration="207000" />
+      <workItem from="1747736166180" duration="550000" />
+      <workItem from="1747747543179" duration="276000" />
+      <workItem from="1748413646822" duration="2938000" />
     </task>
     <task id="LOCAL-00001" summary="213233 23.07.2017 - внутренние уклассы">
       <created>1500800947832</created>
@@ -1212,7 +1320,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660254784681</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix LocalDate and LocalDateTime">
+      <created>1739267159031</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1739267159031</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Exception packet refactoring">
+      <created>1739269900872</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1739269900872</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Practise update">
+      <created>1739287890527</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1739287890527</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1317,9 +1446,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add instant time  23.07" />
-    <MESSAGE value="add LocalDate   25.07" />
-    <MESSAGE value="tika and json" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="jkh project" />
     <MESSAGE value="jkh project step 2" />
     <MESSAGE value="other cases sorted collections" />
@@ -1342,7 +1469,10 @@
     <MESSAGE value="new behavioral patterns - mediator" />
     <MESSAGE value="test - commit" />
     <MESSAGE value="refactoring july 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring july 2022" />
+    <MESSAGE value="Fix LocalDate and LocalDateTime" />
+    <MESSAGE value="Exception packet refactoring" />
+    <MESSAGE value="Practise update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practise update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1928,11 +2058,6 @@
           <option name="timeStamp" value="337" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/best_practise/AmountFromStrRunning.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="342" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/best_practise/BinarySearch.java</url>
           <line>8</line>
           <option name="timeStamp" value="348" />
@@ -1977,6 +2102,11 @@
           <line>50</line>
           <option name="timeStamp" value="360" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datetime/LocalDateDemo.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/example/EnumSetExample.java</url>
           <line>4</line>
@@ -2002,16 +2132,8 @@
     </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="JavaTask" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="JavaTask" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-    </PATH>
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
